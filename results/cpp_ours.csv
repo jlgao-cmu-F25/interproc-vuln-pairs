@@ -1,0 +1,13 @@
+model,context,N,TP,accuracy,F1
+Claude Haiku 4.5,CO,18,18,1.0,1.0
+Claude Haiku 4.5,CC,6,6,1.0,1.0
+Claude Haiku 4.5,CK,5,5,1.0,1.0
+Gemini 3 Flash,CO,17,17,1.0,1.0
+Gemini 3 Flash,CC,4,4,1.0,1.0
+Gemini 3 Flash,CK,2,1,0.5,0.6667
+GPT-5 Mini,CO,17,17,1.0,1.0
+GPT-5 Mini,CC,6,5,0.8333,0.9091
+GPT-5 Mini,CK,5,3,0.6,0.75
+GPT-4.1 Mini,CO,18,16,0.8889,0.9412
+GPT-4.1 Mini,CC,6,4,0.6667,0.8
+GPT-4.1 Mini,CK,5,4,0.8,0.8889

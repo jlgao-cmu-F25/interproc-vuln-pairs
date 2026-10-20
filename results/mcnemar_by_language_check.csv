@@ -1,0 +1,37 @@
+language,model,comparison,n,p,sig,issue
+C,Gemini 3 Flash,CO-CC,129,0.0736,False,match
+C,Gemini 3 Flash,CO-CK,116,0.2482,False,match
+C,Gemini 3 Flash,CC-CK,53,1.0,False,alpha_corrected: shipped 0.025 vs ours 0.05
+C,GPT-4.1 Mini,CO-CC,204,0.0,True,match
+C,GPT-4.1 Mini,CO-CK,189,0.8638,False,match
+C,GPT-4.1 Mini,CC-CK,112,0.0,True,match
+C,GPT-5 Mini,CO-CC,190,0.2386,False,match
+C,GPT-5 Mini,CO-CK,181,0.0041,True,match
+C,GPT-5 Mini,CC-CK,105,0.3017,False,match
+C,Claude Haiku 4.5,CO-CC,204,0.3711,False,match
+C,Claude Haiku 4.5,CO-CK,189,0.7518,False,match
+C,Claude Haiku 4.5,CC-CK,112,1.0,False,alpha_corrected: shipped 0.05 vs ours 0.025
+C++,Gemini 3 Flash,CO-CC,4,1.0,False,alpha_corrected: shipped 0.005556 vs ours 0.008333
+C++,Gemini 3 Flash,CO-CK,2,1.0,False,alpha_corrected: shipped 0.00625 vs ours 0.01
+C++,Gemini 3 Flash,CC-CK,1,1.0,False,alpha_corrected: shipped 0.007143 vs ours 0.0125
+C++,GPT-4.1 Mini,CO-CC,6,1.0,False,alpha_corrected: shipped 0.008333 vs ours 0.05
+C++,GPT-4.1 Mini,CO-CK,5,0.4795,False,alpha_corrected: shipped 0.004167 vs ours 0.004545
+C++,GPT-4.1 Mini,CC-CK,2,0.4795,False,alpha_corrected: shipped 0.004545 vs ours 0.005
+C++,GPT-5 Mini,CO-CC,5,1.0,False,alpha_corrected: shipped 0.01 vs ours 0.01667
+C++,GPT-5 Mini,CO-CK,5,0.4795,False,alpha_corrected: shipped 0.005 vs ours 0.004167
+C++,GPT-5 Mini,CC-CK,2,1.0,False,alpha_corrected: shipped 0.0125 vs ours 0.025
+C++,Claude Haiku 4.5,CO-CC,6,1.0,False,alpha_corrected: shipped 0.01667 vs ours 0.005556
+C++,Claude Haiku 4.5,CO-CK,5,1.0,False,alpha_corrected: shipped 0.025 vs ours 0.00625
+C++,Claude Haiku 4.5,CC-CK,2,1.0,False,alpha_corrected: shipped 0.05 vs ours 0.007143
+Python,Gemini 3 Flash,CO-CC,24,0.4795,False,alpha_corrected: shipped 0.005 vs ours 0.00625
+Python,Gemini 3 Flash,CO-CK,22,0.4795,False,alpha_corrected: shipped 0.005556 vs ours 0.007143
+Python,Gemini 3 Flash,CC-CK,14,1.0,False,alpha_corrected: shipped 0.01 vs ours 0.0125
+Python,GPT-4.1 Mini,CO-CC,27,0.4795,False,alpha_corrected: shipped 0.00625 vs ours 0.008333
+Python,GPT-4.1 Mini,CO-CK,27,1.0,False,alpha_corrected: shipped 0.0125 vs ours 0.025
+Python,GPT-4.1 Mini,CC-CK,15,1.0,False,alpha_corrected: shipped 0.01667 vs ours 0.05
+Python,GPT-5 Mini,CO-CC,27,0.1306,False,match
+Python,GPT-5 Mini,CO-CK,27,0.1336,False,match
+Python,GPT-5 Mini,CC-CK,15,1.0,False,alpha_corrected: shipped 0.025 vs ours 0.01667
+Python,Claude Haiku 4.5,CO-CC,27,0.4795,False,alpha_corrected: shipped 0.007143 vs ours 0.005
+Python,Claude Haiku 4.5,CO-CK,27,0.4795,False,alpha_corrected: shipped 0.008333 vs ours 0.005556
+Python,Claude Haiku 4.5,CC-CK,15,1.0,False,alpha_corrected: shipped 0.05 vs ours 0.01

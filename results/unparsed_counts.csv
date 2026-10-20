@@ -1,0 +1,13 @@
+model,context,none,no_prompt,unparsed
+Claude Haiku 4.5,CO,0,0,0
+Claude Haiku 4.5,CC,214,214,0
+Claude Haiku 4.5,CK,230,230,0
+Gemini 3 Flash,CO,43,0,43
+Gemini 3 Flash,CC,281,214,67
+Gemini 3 Flash,CK,302,230,72
+GPT-5 Mini,CO,9,0,9
+GPT-5 Mini,CC,221,214,7
+GPT-5 Mini,CK,234,230,4
+GPT-4.1 Mini,CO,0,0,0
+GPT-4.1 Mini,CC,214,214,0
+GPT-4.1 Mini,CK,230,230,0

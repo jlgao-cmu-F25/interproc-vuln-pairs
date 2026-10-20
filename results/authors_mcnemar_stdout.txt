@@ -1,0 +1,386 @@
+Carregando resultados dos modelos...
+  ✓ Gemini 3.0 Flash: 451 CVEs
+  ✓ GPT-4.1 Mini: 451 CVEs
+  ✓ GPT-5 Mini: 451 CVEs
+  ✓ Claude Haiku 4.5: 451 CVEs
+
+Nível de significância: α = 0.05
+Correção: Holm-Bonferroni
+Ground truth: todos os CVEs são vulneráveis (label = 1)
+
+================================================================================
+TESTE DE McNEMAR - ANÁLISE ESTATÍSTICA
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+Modelo: Gemini 3.0 Flash
+────────────────────────────────────────────────────────────────────────────────
+
+CO vs CC:
+  Tamanho amostral: n = 157
+
+  Configuração 1 (code):
+    Acurácia:  1.0000
+    Precisão:  1.0000
+    Recall:    1.0000
+    F1-Score:  1.0000
+
+  Configuração 2 (code_callees):
+    Acurácia:  0.9554
+    Precisão:  1.0000
+    Recall:    0.9554
+    F1-Score:  0.9772
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 150
+    Apenas Config1:       b = 7
+    Apenas Config2:       c = 0
+    Ambos incorretos:     d = 0
+
+  Teste de McNemar:
+    χ² = 5.1429
+    p = 0.0233
+    φ = 0.2112 (medium)
+    → Config 1 (code) é melhor
+
+CO vs CK:
+  Tamanho amostral: n = 140
+
+  Configuração 1 (code):
+    Acurácia:  0.9929
+    Precisão:  1.0000
+    Recall:    0.9929
+    F1-Score:  0.9964
+
+  Configuração 2 (code_callers):
+    Acurácia:  0.9643
+    Precisão:  1.0000
+    Recall:    0.9643
+    F1-Score:  0.9818
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 134
+    Apenas Config1:       b = 5
+    Apenas Config2:       c = 1
+    Ambos incorretos:     d = 0
+
+  Teste de McNemar:
+    χ² = 1.5000
+    p = 0.2207
+    φ = 0.1380 (medium)
+    → Config 1 (code) é melhor
+
+CC vs CK:
+  Tamanho amostral: n = 68
+
+  Configuração 1 (code_callees):
+    Acurácia:  0.9559
+    Precisão:  1.0000
+    Recall:    0.9559
+    F1-Score:  0.9774
+
+  Configuração 2 (code_callers):
+    Acurácia:  0.9265
+    Precisão:  1.0000
+    Recall:    0.9265
+    F1-Score:  0.9618
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 63
+    Apenas Config1:       b = 2
+    Apenas Config2:       c = 0
+    Ambos incorretos:     d = 3
+
+  Teste de McNemar:
+    χ² = 0.5000
+    p = 0.4795
+    φ = 0.1715 (medium)
+    → Config 1 (code_callees) é melhor
+
+────────────────────────────────────────────────────────────────────────────────
+Modelo: GPT-4.1 Mini
+────────────────────────────────────────────────────────────────────────────────
+
+CO vs CC:
+  Tamanho amostral: n = 237
+
+  Configuração 1 (code):
+    Acurácia:  0.7384
+    Precisão:  1.0000
+    Recall:    0.7384
+    F1-Score:  0.8495
+
+  Configuração 2 (code_callees):
+    Acurácia:  0.5401
+    Precisão:  1.0000
+    Recall:    0.5401
+    F1-Score:  0.7014
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 123
+    Apenas Config1:       b = 52
+    Apenas Config2:       c = 5
+    Ambos incorretos:     d = 57
+
+  Teste de McNemar:
+    χ² = 37.1228
+    p < 0.001
+    φ = 0.4044 (large)
+    → Config 1 (code) é melhor
+
+CO vs CK:
+  Tamanho amostral: n = 221
+
+  Configuração 1 (code):
+    Acurácia:  0.7059
+    Precisão:  1.0000
+    Recall:    0.7059
+    F1-Score:  0.8276
+
+  Configuração 2 (code_callers):
+    Acurácia:  0.6923
+    Precisão:  1.0000
+    Recall:    0.6923
+    F1-Score:  0.8182
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 135
+    Apenas Config1:       b = 21
+    Apenas Config2:       c = 18
+    Ambos incorretos:     d = 47
+
+  Teste de McNemar:
+    χ² = 0.1026
+    p = 0.7488
+    φ = 0.0323 (small)
+    → Config 1 (code) é melhor
+
+CC vs CK:
+  Tamanho amostral: n = 129
+
+  Configuração 1 (code_callees):
+    Acurácia:  0.4651
+    Precisão:  1.0000
+    Recall:    0.4651
+    F1-Score:  0.6349
+
+  Configuração 2 (code_callers):
+    Acurácia:  0.6822
+    Precisão:  1.0000
+    Recall:    0.6822
+    F1-Score:  0.8111
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 58
+    Apenas Config1:       b = 2
+    Apenas Config2:       c = 30
+    Ambos incorretos:     d = 39
+
+  Teste de McNemar:
+    χ² = 22.7812
+    p < 0.001
+    φ = -0.4358 (large)
+    → Config 2 (code_callers) é melhor
+
+────────────────────────────────────────────────────────────────────────────────
+Modelo: GPT-5 Mini
+────────────────────────────────────────────────────────────────────────────────
+
+CO vs CC:
+  Tamanho amostral: n = 222
+
+  Configuração 1 (code):
+    Acurácia:  0.8964
+    Precisão:  1.0000
+    Recall:    0.8964
+    F1-Score:  0.9454
+
+  Configuração 2 (code_callees):
+    Acurácia:  0.8423
+    Precisão:  1.0000
+    Recall:    0.8423
+    F1-Score:  0.9144
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 180
+    Apenas Config1:       b = 19
+    Apenas Config2:       c = 7
+    Ambos incorretos:     d = 16
+
+  Teste de McNemar:
+    χ² = 4.6538
+    p = 0.0310
+    φ = 0.1579 (medium)
+    → Config 1 (code) é melhor
+
+CO vs CK:
+  Tamanho amostral: n = 213
+
+  Configuração 1 (code):
+    Acurácia:  0.8779
+    Precisão:  1.0000
+    Recall:    0.8779
+    F1-Score:  0.9350
+
+  Configuração 2 (code_callers):
+    Acurácia:  0.7700
+    Precisão:  1.0000
+    Recall:    0.7700
+    F1-Score:  0.8700
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 157
+    Apenas Config1:       b = 30
+    Apenas Config2:       c = 7
+    Ambos incorretos:     d = 19
+
+  Teste de McNemar:
+    χ² = 13.0811
+    p < 0.001
+    φ = 0.2591 (medium)
+    → Config 1 (code) é melhor
+
+CC vs CK:
+  Tamanho amostral: n = 122
+
+  Configuração 1 (code_callees):
+    Acurácia:  0.8361
+    Precisão:  1.0000
+    Recall:    0.8361
+    F1-Score:  0.9107
+
+  Configuração 2 (code_callers):
+    Acurácia:  0.7787
+    Precisão:  1.0000
+    Recall:    0.7787
+    F1-Score:  0.8756
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 89
+    Apenas Config1:       b = 13
+    Apenas Config2:       c = 6
+    Ambos incorretos:     d = 14
+
+  Teste de McNemar:
+    χ² = 1.8947
+    p = 0.1687
+    φ = 0.1454 (medium)
+    → Config 1 (code_callees) é melhor
+
+────────────────────────────────────────────────────────────────────────────────
+Modelo: Claude Haiku 4.5
+────────────────────────────────────────────────────────────────────────────────
+
+CO vs CC:
+  Tamanho amostral: n = 237
+
+  Configuração 1 (code):
+    Acurácia:  0.9916
+    Precisão:  1.0000
+    Recall:    0.9916
+    F1-Score:  0.9958
+
+  Configuração 2 (code_callees):
+    Acurácia:  0.9789
+    Precisão:  1.0000
+    Recall:    0.9789
+    F1-Score:  0.9893
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 230
+    Apenas Config1:       b = 5
+    Apenas Config2:       c = 2
+    Ambos incorretos:     d = 0
+
+  Teste de McNemar:
+    χ² = 0.5714
+    p = 0.4497
+    φ = 0.0737 (small)
+    → Config 1 (code) é melhor
+
+CO vs CK:
+  Tamanho amostral: n = 221
+
+  Configuração 1 (code):
+    Acurácia:  0.9683
+    Precisão:  1.0000
+    Recall:    0.9683
+    F1-Score:  0.9839
+
+  Configuração 2 (code_callers):
+    Acurácia:  0.9774
+    Precisão:  1.0000
+    Recall:    0.9774
+    F1-Score:  0.9886
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 209
+    Apenas Config1:       b = 5
+    Apenas Config2:       c = 7
+    Ambos incorretos:     d = 0
+
+  Teste de McNemar:
+    χ² = 0.0833
+    p = 0.7728
+    φ = -0.0388 (small)
+    → Config 2 (code_callers) é melhor
+
+CC vs CK:
+  Tamanho amostral: n = 129
+
+  Configuração 1 (code_callees):
+    Acurácia:  0.9690
+    Precisão:  1.0000
+    Recall:    0.9690
+    F1-Score:  0.9843
+
+  Configuração 2 (code_callers):
+    Acurácia:  0.9767
+    Precisão:  1.0000
+    Recall:    0.9767
+    F1-Score:  0.9882
+
+  Tabela de Contingência 2×2:
+    Ambos corretos:       a = 123
+    Apenas Config1:       b = 2
+    Apenas Config2:       c = 3
+    Ambos incorretos:     d = 1
+
+  Teste de McNemar:
+    χ² = 0.0000
+    p = 1.0000
+    φ = -0.0394 (small)
+    → Config 2 (code_callers) é melhor
+
+================================================================================
+CORREÇÃO DE HOLM-BONFERRONI
+================================================================================
+
+Gemini 3.0 Flash - CO vs CC:
+  p = 0.0233, α_corrigido = 0.0056   Não significativo
+Gemini 3.0 Flash - CO vs CK:
+  p = 0.2207, α_corrigido = 0.0083   Não significativo
+Gemini 3.0 Flash - CC vs CK:
+  p = 0.4795, α_corrigido = 0.0125   Não significativo
+GPT-4.1 Mini - CO vs CC:
+  p = 0.0000, α_corrigido = 0.0042 ✓ SIGNIFICATIVO
+GPT-4.1 Mini - CO vs CK:
+  p = 0.7488, α_corrigido = 0.0167   Não significativo
+GPT-4.1 Mini - CC vs CK:
+  p = 0.0000, α_corrigido = 0.0045 ✓ SIGNIFICATIVO
+GPT-5 Mini - CO vs CC:
+  p = 0.0310, α_corrigido = 0.0063   Não significativo
+GPT-5 Mini - CO vs CK:
+  p = 0.0003, α_corrigido = 0.0050 ✓ SIGNIFICATIVO
+GPT-5 Mini - CC vs CK:
+  p = 0.1687, α_corrigido = 0.0071   Não significativo
+Claude Haiku 4.5 - CO vs CC:
+  p = 0.4497, α_corrigido = 0.0100   Não significativo
+Claude Haiku 4.5 - CO vs CK:
+  p = 0.7728, α_corrigido = 0.0250   Não significativo
+Claude Haiku 4.5 - CC vs CK:
+  p = 1.0000, α_corrigido = 0.0500   Não significativo
+
+================================================================================
+Resultados salvos em: C:\Users\justu\source\repos\interproc-vuln-pairs\results\authors_mcnemar_report.md
+================================================================================
