@@ -1,0 +1,558 @@
+{
+  "audit": {
+    "rows": 1436,
+    "pairs_across_contexts": 718,
+    "unparsed": 0,
+    "calls_including_history": 1544,
+    "cost_with_25pct_margin_usd": 4.7897680000000005,
+    "reference_token_cost_before_margin_usd": 3.8318144000000003,
+    "unresolved_requests": 0,
+    "pilot_400_token_final_rows": 24,
+    "all_checks_passed": true
+  },
+  "quality": {
+    "expected_prompt_keys": 1436,
+    "prompt_sha256_matches": 1436,
+    "vulnerable_prompts_identical_to_authors": 718,
+    "fixed_incomplete_cves": [
+      {
+        "cve": "CVE-2017-5850",
+        "fixed_code_missing_count": 1,
+        "target_function_count": 6
+      },
+      {
+        "cve": "CVE-2020-5208",
+        "fixed_code_missing_count": 1,
+        "target_function_count": 2
+      }
+    ],
+    "manual_spotcheck": "30 pairs prepared; all remain unreviewed",
+    "pilot_final_rows_by_context": {
+      "CO": 18,
+      "CC": 1,
+      "CK": 5
+    },
+    "local_fixed_prompt_hash_mismatches": [
+      "CVE-2016-5104|CC|fixed",
+      "CVE-2016-5104|CO|fixed",
+      "CVE-2016-5357|CO|fixed",
+      "CVE-2016-5356|CC|fixed",
+      "CVE-2016-5357|CK|fixed",
+      "CVE-2016-5357|CC|fixed",
+      "CVE-2016-5356|CO|fixed",
+      "CVE-2016-5356|CK|fixed"
+    ],
+    "duplicate_raw_record_resolution": [
+      {
+        "cve": "CVE-2015-3151",
+        "candidate_files": [
+          "CVE-2015-3151.json",
+          "CVE-2015-3151_2.json"
+        ],
+        "matching_files": [
+          "CVE-2015-3151_2.json"
+        ],
+        "chosen_file": "CVE-2015-3151_2.json"
+      },
+      {
+        "cve": "CVE-2015-3315",
+        "candidate_files": [
+          "CVE-2015-3315.json",
+          "CVE-2015-3315_2.json"
+        ],
+        "matching_files": [
+          "CVE-2015-3315_2.json"
+        ],
+        "chosen_file": "CVE-2015-3315_2.json"
+      },
+      {
+        "cve": "CVE-2016-5104",
+        "candidate_files": [
+          "CVE-2016-5104.json",
+          "CVE-2016-5104_2.json"
+        ],
+        "matching_files": [
+          "CVE-2016-5104.json"
+        ],
+        "chosen_file": "CVE-2016-5104.json"
+      },
+      {
+        "cve": "CVE-2016-5355",
+        "candidate_files": [
+          "CVE-2016-5355.json",
+          "CVE-2016-5355_2.json"
+        ],
+        "matching_files": [
+          "CVE-2016-5355_2.json"
+        ],
+        "chosen_file": "CVE-2016-5355_2.json"
+      },
+      {
+        "cve": "CVE-2016-5356",
+        "candidate_files": [
+          "CVE-2016-5356.json",
+          "CVE-2016-5356_2.json"
+        ],
+        "matching_files": [
+          "CVE-2016-5356.json"
+        ],
+        "chosen_file": "CVE-2016-5356.json"
+      },
+      {
+        "cve": "CVE-2016-5357",
+        "candidate_files": [
+          "CVE-2016-5357.json",
+          "CVE-2016-5357_2.json"
+        ],
+        "matching_files": [
+          "CVE-2016-5357.json"
+        ],
+        "chosen_file": "CVE-2016-5357.json"
+      },
+      {
+        "cve": "CVE-2017-11399",
+        "candidate_files": [
+          "CVE-2017-11399.json",
+          "CVE-2017-11399_2.json"
+        ],
+        "matching_files": [
+          "CVE-2017-11399.json",
+          "CVE-2017-11399_2.json"
+        ],
+        "chosen_file": "CVE-2017-11399.json"
+      },
+      {
+        "cve": "CVE-2021-30145",
+        "candidate_files": [
+          "CVE-2021-30145.json",
+          "CVE-2021-30145_2.json"
+        ],
+        "matching_files": [
+          "CVE-2021-30145.json",
+          "CVE-2021-30145_2.json"
+        ],
+        "chosen_file": "CVE-2021-30145.json"
+      },
+      {
+        "cve": "CVE-2023-24805",
+        "candidate_files": [
+          "CVE-2023-24805.json",
+          "CVE-2023-24805_2.json"
+        ],
+        "matching_files": [
+          "CVE-2023-24805.json",
+          "CVE-2023-24805_2.json"
+        ],
+        "chosen_file": "CVE-2023-24805.json"
+      }
+    ],
+    "pilot_pair_exclusion_sensitivity": [
+      {
+        "context": "CO",
+        "pairs": 331,
+        "TP": 216,
+        "FN": 115,
+        "FP": 185,
+        "TN": 146,
+        "recall": 0.6525679758308157,
+        "precision": 0.5386533665835411,
+        "fpr": 0.5589123867069486,
+        "F1_balanced": 0.5901639344262295,
+        "accuracy_balanced": 0.5468277945619335,
+        "pair_correct_rate": 0.18731117824773413,
+        "P-C": 62,
+        "P-V": 154,
+        "P-B": 84,
+        "P-R": 31
+      },
+      {
+        "context": "CC",
+        "pairs": 195,
+        "TP": 100,
+        "FN": 95,
+        "FP": 88,
+        "TN": 107,
+        "recall": 0.5128205128205128,
+        "precision": 0.5319148936170213,
+        "fpr": 0.4512820512820513,
+        "F1_balanced": 0.5221932114882507,
+        "accuracy_balanced": 0.5307692307692308,
+        "pair_correct_rate": 0.13846153846153847,
+        "P-C": 27,
+        "P-V": 73,
+        "P-B": 80,
+        "P-R": 15
+      },
+      {
+        "context": "CK",
+        "pairs": 174,
+        "TP": 103,
+        "FN": 71,
+        "FP": 79,
+        "TN": 95,
+        "recall": 0.5919540229885057,
+        "precision": 0.5659340659340659,
+        "fpr": 0.4540229885057471,
+        "F1_balanced": 0.5786516853932584,
+        "accuracy_balanced": 0.5689655172413793,
+        "pair_correct_rate": 0.1896551724137931,
+        "P-C": 33,
+        "P-V": 70,
+        "P-B": 62,
+        "P-R": 9
+      }
+    ],
+    "strict_protocol_context_tests": [
+      {
+        "metric": "vulnerable_recall",
+        "comparison": "CO-CC",
+        "N": 191,
+        "first_only": 31,
+        "second_only": 14,
+        "p_exact": 0.016094360031274846,
+        "first_rate": 0.6020942408376964,
+        "second_rate": 0.5130890052356021,
+        "p_holm": 0.04828308009382454,
+        "significant_005": true
+      },
+      {
+        "metric": "vulnerable_recall",
+        "comparison": "CO-CK",
+        "N": 171,
+        "first_only": 22,
+        "second_only": 24,
+        "p_exact": 0.8829959121223965,
+        "first_rate": 0.5789473684210527,
+        "second_rate": 0.5906432748538012,
+        "p_holm": 0.8829959121223965,
+        "significant_005": false
+      },
+      {
+        "metric": "vulnerable_recall",
+        "comparison": "CC-CK",
+        "N": 106,
+        "first_only": 7,
+        "second_only": 17,
+        "p_exact": 0.06391465663909912,
+        "first_rate": 0.4528301886792453,
+        "second_rate": 0.5471698113207547,
+        "p_holm": 0.12782931327819824,
+        "significant_005": false
+      },
+      {
+        "metric": "pair_correct",
+        "comparison": "CO-CC",
+        "N": 191,
+        "first_only": 23,
+        "second_only": 15,
+        "p_exact": 0.2558750795433298,
+        "first_rate": 0.18324607329842932,
+        "second_rate": 0.14136125654450263,
+        "p_holm": 0.7676252386299893,
+        "significant_005": false
+      },
+      {
+        "metric": "pair_correct",
+        "comparison": "CO-CK",
+        "N": 171,
+        "first_only": 15,
+        "second_only": 21,
+        "p_exact": 0.40503224614076316,
+        "first_rate": 0.15789473684210525,
+        "second_rate": 0.19298245614035087,
+        "p_holm": 0.8100644922815263,
+        "significant_005": false
+      },
+      {
+        "metric": "pair_correct",
+        "comparison": "CC-CK",
+        "N": 106,
+        "first_only": 8,
+        "second_only": 12,
+        "p_exact": 0.5034446716308594,
+        "first_rate": 0.11320754716981132,
+        "second_rate": 0.1509433962264151,
+        "p_holm": 0.8100644922815263,
+        "significant_005": false
+      }
+    ],
+    "fixed_incomplete_exclusion_sensitivity": [
+      {
+        "context": "CO",
+        "pairs": 341,
+        "TP": 224,
+        "FN": 117,
+        "FP": 189,
+        "TN": 152,
+        "recall": 0.656891495601173,
+        "precision": 0.5423728813559322,
+        "fpr": 0.5542521994134897,
+        "F1_balanced": 0.5941644562334217,
+        "accuracy_balanced": 0.5513196480938416,
+        "pair_correct_rate": 0.1906158357771261,
+        "P-C": 65,
+        "P-V": 159,
+        "P-B": 87,
+        "P-R": 30
+      },
+      {
+        "context": "CC",
+        "pairs": 194,
+        "TP": 99,
+        "FN": 95,
+        "FP": 88,
+        "TN": 106,
+        "recall": 0.5103092783505154,
+        "precision": 0.5294117647058824,
+        "fpr": 0.4536082474226804,
+        "F1_balanced": 0.5196850393700787,
+        "accuracy_balanced": 0.5283505154639175,
+        "pair_correct_rate": 0.13402061855670103,
+        "P-C": 26,
+        "P-V": 73,
+        "P-B": 80,
+        "P-R": 15
+      },
+      {
+        "context": "CK",
+        "pairs": 177,
+        "TP": 104,
+        "FN": 73,
+        "FP": 80,
+        "TN": 97,
+        "recall": 0.5875706214689266,
+        "precision": 0.5652173913043478,
+        "fpr": 0.4519774011299435,
+        "F1_balanced": 0.5761772853185596,
+        "accuracy_balanced": 0.5677966101694916,
+        "pair_correct_rate": 0.1807909604519774,
+        "P-C": 32,
+        "P-V": 72,
+        "P-B": 65,
+        "P-R": 8
+      }
+    ]
+  },
+  "context_metrics": [
+    {
+      "context": "CO",
+      "pairs": 343,
+      "TP": 225,
+      "FN": 118,
+      "FP": 191,
+      "TN": 152,
+      "recall": 0.6559766763848397,
+      "precision": 0.5408653846153846,
+      "fpr": 0.5568513119533528,
+      "F1_balanced": 0.5928853754940712,
+      "accuracy_balanced": 0.5495626822157434,
+      "pair_correct_rate": 0.18950437317784258,
+      "P-C": 65,
+      "P-V": 160,
+      "P-B": 87,
+      "P-R": 31
+    },
+    {
+      "context": "CC",
+      "pairs": 196,
+      "TP": 101,
+      "FN": 95,
+      "FP": 89,
+      "TN": 107,
+      "recall": 0.5153061224489796,
+      "precision": 0.531578947368421,
+      "fpr": 0.45408163265306123,
+      "F1_balanced": 0.5233160621761658,
+      "accuracy_balanced": 0.5306122448979592,
+      "pair_correct_rate": 0.1377551020408163,
+      "P-C": 27,
+      "P-V": 74,
+      "P-B": 80,
+      "P-R": 15
+    },
+    {
+      "context": "CK",
+      "pairs": 179,
+      "TP": 105,
+      "FN": 74,
+      "FP": 81,
+      "TN": 98,
+      "recall": 0.5865921787709497,
+      "precision": 0.5645161290322581,
+      "fpr": 0.45251396648044695,
+      "F1_balanced": 0.5753424657534246,
+      "accuracy_balanced": 0.5670391061452514,
+      "pair_correct_rate": 0.18435754189944134,
+      "P-C": 33,
+      "P-V": 72,
+      "P-B": 65,
+      "P-R": 9
+    }
+  ],
+  "matched_comparison": [
+    {
+      "context": "CO",
+      "paper_C_N": 356,
+      "paper_C_recall": 0.7556,
+      "matched_C_N": 343,
+      "paper_matched_recall": 0.760932944606414,
+      "ours_vulnerable_recall": 0.6559766763848397,
+      "delta_pp_matched": -10.495626822157435,
+      "label_agreement": 0.7784256559766763
+    },
+    {
+      "context": "CC",
+      "paper_C_N": 204,
+      "paper_C_recall": 0.5098,
+      "matched_C_N": 196,
+      "paper_matched_recall": 0.5153061224489796,
+      "ours_vulnerable_recall": 0.5153061224489796,
+      "delta_pp_matched": 0.0,
+      "label_agreement": 0.8673469387755102
+    },
+    {
+      "context": "CK",
+      "paper_C_N": 189,
+      "paper_C_recall": 0.6878,
+      "matched_C_N": 179,
+      "paper_matched_recall": 0.6871508379888268,
+      "ours_vulnerable_recall": 0.5865921787709497,
+      "delta_pp_matched": -10.05586592178771,
+      "label_agreement": 0.8212290502793296
+    }
+  ],
+  "matched_tests": [
+    {
+      "comparison": "shipped-vs-current CO",
+      "N": 343,
+      "first_only": 56,
+      "second_only": 20,
+      "p_exact": 4.36893220622444e-05,
+      "first_rate": 0.760932944606414,
+      "second_rate": 0.6559766763848397,
+      "p_holm": 0.0001310679661867332,
+      "significant_005": true
+    },
+    {
+      "comparison": "shipped-vs-current CC",
+      "N": 196,
+      "first_only": 13,
+      "second_only": 13,
+      "p_exact": 1.0,
+      "first_rate": 0.5153061224489796,
+      "second_rate": 0.5153061224489796,
+      "p_holm": 1.0,
+      "significant_005": false
+    },
+    {
+      "comparison": "shipped-vs-current CK",
+      "N": 179,
+      "first_only": 25,
+      "second_only": 7,
+      "p_exact": 0.0021024015732109547,
+      "first_rate": 0.6871508379888268,
+      "second_rate": 0.5865921787709497,
+      "p_holm": 0.004204803146421909,
+      "significant_005": true
+    }
+  ],
+  "context_tests": [
+    {
+      "metric": "vulnerable_recall",
+      "comparison": "CO-CC",
+      "N": 196,
+      "first_only": 32,
+      "second_only": 14,
+      "p_exact": 0.011351591436778108,
+      "first_rate": 0.6071428571428571,
+      "second_rate": 0.5153061224489796,
+      "p_holm": 0.034054774310334324,
+      "significant_005": true
+    },
+    {
+      "metric": "vulnerable_recall",
+      "comparison": "CO-CK",
+      "N": 179,
+      "first_only": 24,
+      "second_only": 24,
+      "p_exact": 1.0,
+      "first_rate": 0.5865921787709497,
+      "second_rate": 0.5865921787709497,
+      "p_holm": 1.0,
+      "significant_005": false
+    },
+    {
+      "metric": "vulnerable_recall",
+      "comparison": "CC-CK",
+      "N": 107,
+      "first_only": 7,
+      "second_only": 17,
+      "p_exact": 0.06391465663909912,
+      "first_rate": 0.45794392523364486,
+      "second_rate": 0.5514018691588785,
+      "p_holm": 0.12782931327819824,
+      "significant_005": false
+    },
+    {
+      "metric": "pair_correct",
+      "comparison": "CO-CC",
+      "N": 196,
+      "first_only": 24,
+      "second_only": 15,
+      "p_exact": 0.19959086691960692,
+      "first_rate": 0.1836734693877551,
+      "second_rate": 0.1377551020408163,
+      "p_holm": 0.5987726007588208,
+      "significant_005": false
+    },
+    {
+      "metric": "pair_correct",
+      "comparison": "CO-CK",
+      "N": 179,
+      "first_only": 17,
+      "second_only": 21,
+      "p_exact": 0.6271025701571489,
+      "first_rate": 0.16201117318435754,
+      "second_rate": 0.18435754189944134,
+      "p_holm": 1.0,
+      "significant_005": false
+    },
+    {
+      "metric": "pair_correct",
+      "comparison": "CC-CK",
+      "N": 107,
+      "first_only": 8,
+      "second_only": 12,
+      "p_exact": 0.5034446716308594,
+      "first_rate": 0.11214953271028037,
+      "second_rate": 0.14953271028037382,
+      "p_holm": 1.0,
+      "significant_005": false
+    }
+  ],
+  "provenance": {
+    "paper": "https://arxiv.org/html/2604.08417v1",
+    "commit": "46796d168daf865331b1ca15d763d2e6746bf5a5",
+    "upstream": "https://github.com/kevinwsbr/sw-vuln/tree/46796d168daf865331b1ca15d763d2e6746bf5a5",
+    "completed_utc": "2026-10-20T10:40:13.740270+00:00",
+    "source_notebook": "https://colab.research.google.com/drive/1LSpFai-QVSNe5ceGlM2ALT5mK1HdlWgh",
+    "upstream_output_sha256": {
+      "cve_languages.json": "abc4d9074bb9e83eade01dda59a64d3e7a95701913c4a47011ee316b372f3591",
+      "evaluation_results.json": "7cfcf2a13ad7d4b175b793cfba3385f225f24b48a2c9c6b8251a73a634ab9a05",
+      "gemini_3_0_flash.json": "f4667bb265e80a1d3aad4388cbb5b43f18c6c5bd12a2b8db35407cf819f55371",
+      "gpt_4_1_mini.json": "ee7f8dba1ca98199309c202f0485b84f043bad778e3b6c8899e0c6f7b6e41e1d",
+      "gpt_5_mini.json": "530b8838b97533ce45c0cc3fdf8606b03756bb47d12ad6da036d8c9b9b65166f",
+      "haiku_4_5.json": "535cd64d42edbe942727fba7b95e96ab44073b883b126f22648c3d42df7d4e96",
+      "mcnemar_by_language.json": "7a22e535e9e0c471d4b6dc73d7d778ee991a4c77123f62277de7c31d8e7cb8be",
+      "token_estimation_report.json": "0d00f02fbd71c9977964b20a01c0b76102aeb2b26ccae9056350ecf5bb849a91"
+    },
+    "result_file_sha256": {
+      "paired_eval_predictions.csv": "a217a8e812381f907c80573a23a2ed223e074a8222e5513e395951e0dabeb218",
+      "paired_eval_raw.json": "fd5e2fbdc5451d62e4f3e91337377f818040b1ccb3f867e09414d607363fb38a",
+      "paired_eval_requests.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "paired_eval_summary.json": "723a5127098786acaa634e2804ba9048c0691c430133bbda036374fcf70bb507"
+    },
+    "note": "Original shipped outputs reproduce published tables; paired labels are new inference. Initial 263 rows were migrated into Colab, not recomputed there. 24 final labels retain parsed 400-token pilot attempts; 1412 final labels use 4096."
+  },
+  "validation": "Share with caveats; calculations checked, fixed-label manual review incomplete."
+}

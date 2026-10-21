@@ -63,15 +63,19 @@ def estimate_cost(cves):
     return tin, tout, (tin * PRICE_IN + tout * PRICE_OUT) / 1e6
 
 
-def get_api_key():
-    key = os.environ.get("OPENAI_API_KEY")
-    if key:
-        return key
+def get_setting(name, default=None):
+    value = os.environ.get(name)
+    if value:
+        return value
     try:  # Colab secrets panel
         from google.colab import userdata
-        return userdata.get("OPENAI_API_KEY")
+        return userdata.get(name) or default
     except Exception:
-        return None
+        return default
+
+
+def get_api_key():
+    return get_setting("OPENAI_API_KEY")
 
 
 def load_cache():
@@ -84,7 +88,9 @@ def run(cves):
     key = get_api_key()
     if not key:
         raise SystemExit("No OPENAI_API_KEY (env var or Colab secret). Use --dry-run or --report instead.")
-    client = openai.OpenAI(api_key=key)
+    base_url = get_setting("OPENAI_BASE_URL")
+    model = get_setting("OPENAI_MODEL", MODEL)
+    client = openai.OpenAI(api_key=key, base_url=base_url)
     cache = load_cache()
     calls, spent = 0, sum(r["cost_usd"] for r in cache.values())
     RESULTS_DIR.mkdir(exist_ok=True)
@@ -99,9 +105,9 @@ def run(cves):
                 raise SystemExit(f"Stopped at hard cap: {calls} calls, ${spent:.3f}")
             for backoff in (1, 4, 16, None):
                 try:
-                    resp = client.chat.completions.create(
-                        model=MODEL, temperature=TEMPERATURE, max_tokens=MAX_TOKENS,
-                        messages=[{"role": "user", "content": prompt_for(cve)}],
+                    resp = client.responses.create(
+                        model=model, temperature=TEMPERATURE, max_output_tokens=MAX_TOKENS,
+                        input=prompt_for(cve),
                     )
                     break
                 except (openai.RateLimitError, openai.APIConnectionError, openai.InternalServerError):
@@ -109,11 +115,11 @@ def run(cves):
                         raise
                     time.sleep(backoff)
             calls += 1
-            text = resp.choices[0].message.content or ""
-            cost = (resp.usage.prompt_tokens * PRICE_IN + resp.usage.completion_tokens * PRICE_OUT) / 1e6
+            text = getattr(resp, "output_text", "") or ""
+            cost = (resp.usage.input_tokens * PRICE_IN + resp.usage.output_tokens * PRICE_OUT) / 1e6
             spent += cost
-            attempts.append(dict(text=text, prompt_tokens=resp.usage.prompt_tokens,
-                                 completion_tokens=resp.usage.completion_tokens, model=resp.model))
+            attempts.append(dict(text=text, prompt_tokens=resp.usage.input_tokens,
+                                 completion_tokens=resp.usage.output_tokens, model=resp.model))
             label = parse_response(text)["classification"]
             if label is not None:
                 break
@@ -151,7 +157,7 @@ def report(cves):
     disc = flips_to_1 + flips_to_0
     p = binomtest(flips_to_1, disc, 0.5).pvalue if disc else 1.0
     summary = dict(
-        model=MODEL, served_models=sorted({a["model"] for c in cves for a in cache[c]["attempts"]}),
+        model=get_setting("OPENAI_MODEL", MODEL), served_models=sorted({a["model"] for c in cves for a in cache[c]["attempts"]}),
         n=n, seed=SEED, shipped_accuracy=round(shipped_acc, 4), live_accuracy=round(live_acc, 4),
         delta=round(live_acc - shipped_acc, 4), label_agreement=round(agree, 4),
         shipped0_live1=flips_to_1, shipped1_live0=flips_to_0, exact_mcnemar_p=round(p, 4),

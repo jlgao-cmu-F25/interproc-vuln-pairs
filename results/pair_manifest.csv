@@ -1,0 +1,430 @@
+﻿cve,language,changed_function_count,target_function_count,fixed_contexts_available,changed_functions,fixed_code_missing_count
+CVE-2009-5147,C,2,3,CO,rb_dlhandle_initialize | rb_dlhandle_sym,0
+CVE-2010-3844,C,1,1,"CO,CC",gtkui_icmp_redir,0
+CVE-2011-0990,C,1,1,CO,ves_icall_System_Array_FastCopy,0
+CVE-2011-1078,C,1,1,"CO,CK",sco_sock_getsockopt_old,0
+CVE-2011-1180,C,1,1,"CO,CC,CK",iriap_getvaluebyclass_indication,0
+CVE-2011-2517,C,2,2,"CO,CC",nl80211_trigger_scan | nl80211_start_sched_scan,0
+CVE-2011-2909,C,1,1,"CO,CK",do_devinfo_ioctl,0
+CVE-2011-3209,C,1,1,"CO,CC",unnamed_function,0
+CVE-2011-4081,C,2,2,"CO,CC",ghash_update | ghash_final,0
+CVE-2011-4087,C,1,1,"CO,CK",br_parse_ip_options,0
+CVE-2011-4594,C,1,1,"CO,CC,CK",__sys_sendmsg,0
+CVE-2011-4914,C,5,6,"CO,CC",rose_route_frame | rose_write_internal | rose_parse_national | rose_parse_ccitt | rose_parse_facilities,0
+CVE-2012-0957,C,1,1,CO,override_release,0
+CVE-2012-2121,C,1,2,"CO,CC,CK",kvm_iommu_unmap_memslots,0
+CVE-2012-3364,C,4,4,"CO,CK",unnamed_function | unnamed_function | unnamed_function | nci_extract_activation_params_iso_dep,0
+CVE-2012-3400,C,1,2,"CO,CC,CK",udf_load_logicalvol,0
+CVE-2012-3430,C,1,1,"CO,CC",rds_recvmsg,0
+CVE-2012-4530,C,2,2,CO,load_misc_binary | load_script,0
+CVE-2012-5532,C,1,1,"CO,CC",main,0
+CVE-2012-6542,C,1,1,CO,llc_ui_getname,0
+CVE-2013-0216,C,4,5,"CO,CC,CK",netbk_count_requests | xen_netbk_get_extras | netbk_set_skb_gso | xen_netbk_tx_build_gops,0
+CVE-2013-0349,C,1,1,"CO,CK",hidp_setup_hid,0
+CVE-2013-1929,C,1,1,"CO,CK",tg3_read_vpd,0
+CVE-2013-2546,C,3,3,"CO,CK",crypto_report_cipher | crypto_report_comp | crypto_report_one,0
+CVE-2013-2547,C,3,3,"CO,CK",crypto_report_cipher | crypto_report_comp | crypto_report_one,0
+CVE-2013-2548,C,3,3,"CO,CK",crypto_report_cipher | crypto_report_comp | crypto_report_one,0
+CVE-2013-4263,C,1,1,CO,filter_frame,0
+CVE-2013-4350,C,2,3,"CO,CC",sctp_v6_xmit | sctp_v6_get_dst,0
+CVE-2013-4512,C,1,1,CO,exitcode_proc_write,0
+CVE-2013-4588,C,2,2,"CO,CC",do_ip_vs_set_ctl | do_ip_vs_get_ctl,0
+CVE-2013-6401,C,3,3,"CO,CC,CK",read_conf | use_conf | use_env,0
+CVE-2013-6412,C,1,1,"CO,CC",transform_save,0
+CVE-2013-7018,C,2,2,"CO,CC,CK",get_cox | decode_cblk,0
+CVE-2013-7263,C,1,1,CO,pn_recvmsg,0
+CVE-2013-7265,C,1,1,CO,udp_recvmsg,0
+CVE-2013-7281,C,4,4,CO,raw_recvmsg | udp_recvmsg | l2tp_ip_recvmsg | pn_recvmsg,0
+CVE-2014-0063,C,6,6,"CO,CC,CK",PGTYPESdate_from_asc | DecodeNumberField | DecodeTime | ParseDateTime | unnamed_function | PGTYPEStimestamp_from_asc,0
+CVE-2014-0064,C,3,4,"CO,CK",bit_in | varbit_in | unnamed_function,0
+CVE-2014-0207,C,1,1,"CO,CK",cdf_read_short_sector,0
+CVE-2014-0238,C,1,1,"CO,CC,CK",cdf_read_property_info,0
+CVE-2014-1690,C,1,2,CO,help,0
+CVE-2014-2270,C,1,1,"CO,CC,CK",mget,0
+CVE-2014-2669,C,3,4,"CO,CK",bit_in | varbit_in | unnamed_function,0
+CVE-2014-3185,C,1,1,CO,command_port_read_callback,0
+CVE-2014-3478,C,1,1,"CO,CC,CK",mconvert,0
+CVE-2014-3538,C,5,5,"CO,CC,CK",mprint | mconvert | mcopy | mget | magiccheck,0
+CVE-2014-3587,C,1,1,"CO,CC,CK",cdf_read_property_info,0
+CVE-2014-3980,C,2,2,"CO,CC",_fep_open_control_socket | unnamed_function,0
+CVE-2014-4978,C,1,1,"CO,CC",rs_filter_graph,0
+CVE-2014-6395,C,1,1,"CO,CC",unnamed_function,0
+CVE-2014-6396,C,1,1,"CO,CC",unnamed_function,0
+CVE-2014-6410,C,1,2,"CO,CC,CK",__udf_read_inode,0
+CVE-2014-8176,C,1,1,"CO,CK",dtls1_clear_queues,0
+CVE-2014-8884,C,1,1,CO,ttusbdecfe_dvbs_diseqc_send_master_cmd,0
+CVE-2014-9420,C,1,2,"CO,CK",rock_continue,0
+CVE-2014-9630,C,1,1,CO,rtp_packetize_xiph_config,0
+CVE-2014-9652,C,1,1,"CO,CC,CK",mconvert,0
+CVE-2014-9710,C,1,2,"CO,CK",do_setxattr,0
+CVE-2014-9731,C,4,6,"CO,CC,CK",udf_pc_to_char | udf_symlink_filler | udf_get_filename | udf_translate_to_linux,0
+CVE-2015-10088,C,1,1,CO,http_connect,0
+CVE-2015-1191,C,1,1,"CO,CC,CK",process,0
+CVE-2015-1331,C,1,1,CO,unnamed_function,0
+CVE-2015-1789,C,1,1,CO,X509_cmp_time,0
+CVE-2015-1792,C,3,3,"CO,CC,CK",cms_copy_content | do_free_upto | CMS_verify,0
+CVE-2015-2696,C,2,2,CO,krb5_gss_inquire_sec_context_by_oid | krb5_gss_set_sec_context_option,0
+CVE-2015-2831,C,1,1,CO,unnamed_function,0
+CVE-2015-3150,C,27,29,"CO,CK",exist_file_dir | parse_time_file | create_symlink_lockfile | unnamed_function | dd_lock | dd_unlock | unnamed_function | dd_exist | dd_close | unnamed_function | unnamed_function | dd_reset_ownership | dd_sanitize_mode_and_owner | delete_file_dir | dd_delete | dd_chown | unnamed_function | save_binary_file | unnamed_function | unnamed_function | dd_save_text | dd_save_binary | dd_get_item_size | dd_delete_item | unnamed_function | dd_get_next_file | dd_rename,0
+CVE-2015-3151,C,6,6,"CO,CC,CK",dd_exist | unnamed_function | dd_save_text | dd_save_binary | dd_get_item_size | dd_delete_item,0
+CVE-2015-3212,C,4,6,"CO,CC,CK",sctp_close | sctp_setsockopt_auto_asconf | sctp_init_sock | sctp_sock_migrate,0
+CVE-2015-3315,C,2,3,"CO,CC,CK",dump_fd_info | main,0
+CVE-2015-6031,C,1,1,CO,IGDstartelt,0
+CVE-2015-6520,C,2,3,CO,unnamed_function | unnamed_function,0
+CVE-2015-7513,C,2,2,"CO,CK",kvm_vm_ioctl_set_pit | kvm_vm_ioctl_set_pit2,0
+CVE-2015-7550,C,1,1,CO,keyctl_read_key,0
+CVE-2015-7885,C,1,1,CO,dgnc_mgmt_ioctl,0
+CVE-2015-8950,C,2,2,CO,unnamed_function | unnamed_function,0
+CVE-2015-8955,C,2,3,"CO,CC,CK",validate_event | validate_group,0
+CVE-2015-8970,C,4,5,"CO,CK",unnamed_function | skcipher_release | skcipher_setkey | skcipher_accept_parent,0
+CVE-2015-9542,C,1,1,"CO,CC,CK",add_password,0
+CVE-2016-0546,C,5,5,"CO,CC,CK",usage | check_options | process_options | print_arrays_for | efind,0
+CVE-2016-10011,C,1,1,"CO,CK",sshkey_load_file,0
+CVE-2016-10050,C,1,1,CO,unnamed_function,0
+CVE-2016-10088,C,1,1,"CO,CC",sg_write,0
+CVE-2016-10154,C,1,2,"CO,CC,CK",smbhash,0
+CVE-2016-10156,C,1,1,"CO,CK",touch_file,0
+CVE-2016-10190,C,9,9,"CO,CC,CK",http_open | parse_content_range | process_line | http_read_header | http_connect | http_buf_read | http_read_stream | store_icy | http_seek_internal,0
+CVE-2016-10191,C,1,1,"CO,CC,CK",rtmp_packet_read_one_chunk,0
+CVE-2016-10195,C,1,1,"CO,CK",name_parse,0
+CVE-2016-10197,C,1,1,CO,unnamed_function,0
+CVE-2016-1246,C,1,1,"CO,CC",dbd_bind_ph,0
+CVE-2016-1541,C,1,1,"CO,CC,CK",zip_read_mac_metadata,0
+CVE-2016-2180,C,1,1,CO,TS_OBJ_print_bio,0
+CVE-2016-2385,C,1,1,CO,encode_msg,0
+CVE-2016-2847,C,4,5,"CO,CC,CK",unnamed_function | free_pipe_info | pipe_set_size | pipe_fcntl,0
+CVE-2016-3178,C,1,1,"CO,CC,CK",processRequest,0
+CVE-2016-3179,C,1,1,"CO,CC,CK",processRequest,0
+CVE-2016-3698,C,3,4,"CO,CC,CK",myrecvfrom6 | ndp_sock_open | ndp_sock_recv,0
+CVE-2016-3841,C,9,9,"CO,CC,CK",unnamed_function | unnamed_function | unnamed_function | unnamed_function | inet6_csk_xmit | unnamed_function | do_ipv6_setsockopt | do_ipv6_getsockopt | unnamed_function,0
+CVE-2016-4478,C,1,2,"CO,CK",xmlrpc_char_encode,0
+CVE-2016-4580,C,1,1,"CO,CC",x25_negotiate_facilities,0
+CVE-2016-5094,C,14,14,"CO,CC,CK",get_next_char | determine_charset | unimap_bsearch | map_from_unicode | unicode_cp_is_allowed | process_numeric_entity | traverse_for_entities | determine_entity_table | unnamed_function | find_entity_for_char | unnamed_function | php_html_entities | write_s3row_data | unnamed_function,0
+CVE-2016-5104,C,2,2,"CO,CC",socket_create | socket_accept,0
+CVE-2016-5116,C,2,2,CO,gdCtxPrintf | gdImageXbmCtx,0
+CVE-2016-5243,C,1,1,"CO,CC",tipc_nl_compat_link_dump,0
+CVE-2016-5355,C,1,1,"CO,CC,CK",parse_toshiba_packet,0
+CVE-2016-5356,C,4,4,"CO,CC,CK",cosine_read | cosine_seek_read | parse_cosine_rec_hdr | parse_cosine_hex_dump,0
+CVE-2016-5357,C,4,4,"CO,CC,CK",netscreen_read | netscreen_seek_read | parse_netscreen_rec_hdr | parse_netscreen_hex_dump,0
+CVE-2016-5841,C,12,15,"CO,CC,CK",unnamed_function | unnamed_function | ReadProfileShort | ReadProfileLong | SyncExifProfile | ReadPropertyMSBLong | ReadPropertyMSBShort | ReadPropertySignedLong | ReadPropertyUnsignedLong | ReadPropertySignedShort | ReadPropertyUnsignedShort | GetEXIFProperty,0
+CVE-2016-5842,C,12,15,"CO,CC,CK",unnamed_function | unnamed_function | ReadProfileShort | ReadProfileLong | SyncExifProfile | ReadPropertyMSBLong | ReadPropertyMSBShort | ReadPropertySignedLong | ReadPropertyUnsignedLong | ReadPropertySignedShort | ReadPropertyUnsignedShort | GetEXIFProperty,0
+CVE-2016-6136,C,2,4,"CO,CK",audit_log_single_execve_arg | audit_log_execve_info,0
+CVE-2016-6271,C,2,2,"CO,CC",bzrtp_packetParser | test_parser,0
+CVE-2016-6663,C,1,1,"CO,CC",my_redel,0
+CVE-2016-6911,C,1,2,"CO,CC,CK",dynamicGetbuf,0
+CVE-2016-7144,C,1,1,CO,unnamed_function,0
+CVE-2016-7414,C,2,2,"CO,CC",phar_verify_signature | phar_parse_zipfile,0
+CVE-2016-7425,C,1,1,"CO,CC,CK",arcmsr_iop_message_xfer,0
+CVE-2016-7798,C,6,7,"CO,CK",ossl_cipher_initialize | ossl_cipher_init | ossl_cipher_pkcs5_keyivgen | ossl_cipher_update | ossl_cipher_set_key | Init_ossl_cipher,0
+CVE-2016-7912,C,1,1,CO,ffs_user_copy_worker,0
+CVE-2016-8649,C,4,4,"CO,CC",lsm_set_label_at | unnamed_function | lxc_attach | attach_child_main,0
+CVE-2016-8658,C,1,1,"CO,CC",brcmf_cfg80211_start_ap,0
+CVE-2016-9756,C,2,4,"CO,CC",em_jmp_far | em_ret_far,0
+CVE-2017-10911,C,1,1,"CO,CK",make_response,0
+CVE-2017-11399,C,1,1,"CO,CC",ape_decode_frame,0
+CVE-2017-11664,C,1,2,"CO,CC",_WM_SetupMidiEvent,0
+CVE-2017-12146,C,2,2,CO,driver_override_store | driver_override_show,0
+CVE-2017-12894,C,3,4,CO,unnamed_function | unnamed_function | unnamed_function,0
+CVE-2017-12902,C,2,3,CO,unnamed_function | zephyr_print,0
+CVE-2017-12987,C,1,1,"CO,CK",parse_elements,0
+CVE-2017-13001,C,1,1,"CO,CK",nfs_printfh,0
+CVE-2017-13008,C,1,1,"CO,CK",parse_elements,0
+CVE-2017-13011,C,1,1,CO,unnamed_function,0
+CVE-2017-13035,C,1,1,CO,unnamed_function,0
+CVE-2017-13043,C,1,1,"CO,CC,CK",decode_multicast_vpn,0
+CVE-2017-13053,C,1,1,"CO,CK",decode_rt_routing_info,0
+CVE-2017-13083,C,2,2,CO,unnamed_function | ValidateSignature,0
+CVE-2017-14106,C,1,1,"CO,CC",tcp_disconnect,0
+CVE-2017-14604,C,5,8,"CO,CC,CK",copy_move_file | mark_trusted_task_done | mark_desktop_file_trusted | mark_trusted_task_thread_func | nautilus_file_mark_desktop_file_trusted,0
+CVE-2017-14767,C,1,1,"CO,CC",sdp_parse_fmtp_config_h264,0
+CVE-2017-15265,C,1,2,CO,unnamed_function,0
+CVE-2017-15924,C,2,3,"CO,CK",build_config | unnamed_function,0
+CVE-2017-17862,C,3,5,"CO,CC",do_check | adjust_insn_aux_data | bpf_check,0
+CVE-2017-18922,C,3,7,"CO,CC,CK",webSocketsHandshake | webSocketsDecodeHybi | webSocketsHasDataInBuffer,0
+CVE-2017-2630,C,1,1,"CO,CK",drop_sync,0
+CVE-2017-3733,C,8,8,"CO,CC,CK",ssl3_write_bytes | do_ssl3_write | ssl3_get_record | tls1_enc | tls1_mac | unnamed_function | ssl_scan_clienthello_tlsext | ssl_scan_serverhello_tlsext,0
+CVE-2017-5545,C,1,1,"CO,CC",main,0
+CVE-2017-5847,C,1,1,"CO,CC,CK",gst_asf_demux_process_ext_content_desc,0
+CVE-2017-5850,C,2,6,"CO,CC,CK",server_partial_file_request | unnamed_function,1
+CVE-2017-5940,C,5,5,"CO,CK",skel | store_xauthority | store_asoundrc | copy_xauthority | copy_asoundrc,0
+CVE-2017-6308,C,6,7,CO,alloc_limit_failure | alloc_limit_assert | unnamed_function | unnamed_function | unnamed_function | unnamed_function,0
+CVE-2017-6802,C,1,1,"CO,CC",unnamed_function,0
+CVE-2017-7272,C,1,2,CO,unnamed_function,0
+CVE-2017-7418,C,1,2,"CO,CK",get_default_root,0
+CVE-2017-7501,C,3,4,"CO,CC,CK",expandRegular | fsmMkfile | rpmPackageFilesInstall,0
+CVE-2017-7875,C,1,1,CO,unnamed_function,0
+CVE-2017-8062,C,6,8,"CO,CC",su3000_i2c_transfer | su3000_power_ctrl | su3000_frontend_attach | t220_frontend_attach | m88rs2000_frontend_attach | tt_s2_4600_frontend_attach,0
+CVE-2017-8073,C,1,1,CO,unnamed_function,0
+CVE-2017-8807,C,1,1,"CO,CC",vbf_stp_error,0
+CVE-2017-9075,C,1,1,"CO,CC",unnamed_function,0
+CVE-2017-9144,C,1,1,CO,unnamed_function,0
+CVE-2018-10887,C,1,1,"CO,CC",git_delta_apply,0
+CVE-2018-11593,C,1,3,"CO,CK",jslTokenAsString,0
+CVE-2018-13094,C,1,1,"CO,CC",xfs_attr_shortform_to_leaf,0
+CVE-2018-14354,C,1,1,CO,imap_subscribe,0
+CVE-2018-14357,C,1,1,"CO,CC,CK",cmd_parse_lsub,0
+CVE-2018-14360,C,1,1,"CO,CC,CK",nntp_add_group,0
+CVE-2018-14362,C,4,4,"CO,CC,CK",msg_cache_check | pop_fetch_headers | pop_fetch_message | pop_sync_mailbox,0
+CVE-2018-14363,C,4,4,"CO,CC,CK",msg_cache_check | pop_fetch_headers | pop_fetch_message | pop_sync_mailbox,0
+CVE-2018-15501,C,1,1,"CO,CK",ng_pkt,0
+CVE-2018-16276,C,1,2,CO,yurex_read,0
+CVE-2018-16435,C,1,1,"CO,CC,CK",AllocateDataSet,0
+CVE-2018-16839,C,1,1,CO,Curl_auth_create_plain_message,0
+CVE-2018-17407,C,1,1,"CO,CC,CK",t1_check_unusual_charstring,0
+CVE-2018-19044,C,7,10,"CO,CC,CK",parse_cmdline | vrrp_print_json | vrrp_tfile_end_handler | vrrp_print_data | vrrp_print_stats | open_log_file | fifo_open,0
+CVE-2018-20457,C,1,1,"CO,CC",armass_assemble,0
+CVE-2018-20459,C,1,1,"CO,CC",armass_assemble,0
+CVE-2018-5729,C,1,2,"CO,CC",krb5_ldap_put_principal,0
+CVE-2018-5730,C,1,2,"CO,CC",krb5_ldap_put_principal,0
+CVE-2018-6198,C,1,1,"CO,CC",init_rc,0
+CVE-2018-6560,C,4,5,"CO,CC",flatpak_proxy_client_finalize | flatpak_proxy_client_init | find_auth_end | side_in_cb,0
+CVE-2018-7186,C,9,9,"CO,CC,CK",main | unnamed_function | gplotAddPlot | gplotMakeOutput | gplotGenCommandFile | unnamed_function | unnamed_function | unnamed_function | unnamed_function,0
+CVE-2018-7247,C,1,1,"CO,CC,CK",pixHtmlViewer,0
+CVE-2018-7648,C,1,1,CO,main,0
+CVE-2018-8784,C,2,3,"CO,CC,CK",zgfx_GetBits | zgfx_decompress_segment,0
+CVE-2018-8786,C,1,1,"CO,CC",unnamed_function,0
+CVE-2018-8788,C,4,5,"CO,CC,CK",nsc_decode | nsc_rle_decode | nsc_rle_decompress_data | nsc_profiler_print,0
+CVE-2018-9336,C,1,2,"CO,CC,CK",GetStartupData,0
+CVE-2019-1010208,C,1,1,"CO,CC,CK",ProcessMainDeviceControlIrp,0
+CVE-2019-1010283,C,1,1,"CO,CC",data_on_connection,0
+CVE-2019-1010294,C,1,1,CO,unnamed_function,0
+CVE-2019-1010319,C,1,1,CO,ParseWave64HeaderConfig,0
+CVE-2019-11222,C,1,1,CO,gf_bin128_parse,0
+CVE-2019-11411,C,2,2,"CO,CK",Np_toString | numtostr,0
+CVE-2019-11413,C,5,5,"CO,CC,CK",unnamed_function | Sp_match | Sp_search | Sp_replace_regexp | Sp_split_regexp,0
+CVE-2019-12730,C,1,1,"CO,CC",aa_read_header,0
+CVE-2019-12973,C,1,2,"CO,CK",bmp_read_rle8_data,0
+CVE-2019-14323,C,1,1,"CO,CC",ssdp_recv,0
+CVE-2019-14763,C,2,3,"CO,CC,CK",dwc3_gadget_giveback | __dwc3_gadget_kick_transfer,0
+CVE-2019-14814,C,3,3,"CO,CK",mwifiex_update_vs_ie | mwifiex_set_uap_rates | mwifiex_set_wmm_params,0
+CVE-2019-14815,C,3,3,"CO,CK",mwifiex_update_vs_ie | mwifiex_set_uap_rates | mwifiex_set_wmm_params,0
+CVE-2019-14816,C,3,3,"CO,CK",mwifiex_update_vs_ie | mwifiex_set_uap_rates | mwifiex_set_wmm_params,0
+CVE-2019-15090,C,4,4,CO,qedi_dbg_err | qedi_dbg_warn | qedi_dbg_notice | qedi_dbg_info,0
+CVE-2019-15146,C,7,11,CO,unnamed_function | SavePayload | OpenMP4Source | GetPayloadTime | OpenMP4SourceUDTA | GetGPMFSampleRate | GetGPMFSampleRateAndTimes,0
+CVE-2019-15147,C,7,11,CO,unnamed_function | SavePayload | OpenMP4Source | GetPayloadTime | OpenMP4SourceUDTA | GetGPMFSampleRate | GetGPMFSampleRateAndTimes,0
+CVE-2019-15148,C,7,11,CO,unnamed_function | SavePayload | OpenMP4Source | GetPayloadTime | OpenMP4SourceUDTA | GetGPMFSampleRate | GetGPMFSampleRateAndTimes,0
+CVE-2019-15161,C,1,1,"CO,CK",daemon_msg_findallif_req,0
+CVE-2019-15162,C,1,1,"CO,CK",daemon_AuthUserPwd,0
+CVE-2019-15163,C,1,1,"CO,CK",daemon_AuthUserPwd,0
+CVE-2019-16058,C,1,1,"CO,CC,CK",key_verify,0
+CVE-2019-18224,C,1,1,"CO,CC",idn2_to_ascii_4i,0
+CVE-2019-18276,C,1,1,CO,unquoted_glob_pattern_p,0
+CVE-2019-18672,C,7,7,"CO,CC",recovery_abort | recovery_cipher_init | next_character | recovery_character | recovery_delete_character | recovery_cipher_finalize | recovery_cipher_abort,0
+CVE-2019-18808,C,1,1,"CO,CC,CK",ccp_run_sha_cmd,0
+CVE-2019-19333,C,2,3,"CO,CC",make_canonical | unnamed_function,0
+CVE-2019-19334,C,1,1,"CO,CK",make_canonical,0
+CVE-2019-19638,C,1,1,CO,load_pnm,0
+CVE-2019-20839,C,1,1,CO,ConnectClientToUnixSock,0
+CVE-2019-25104,C,2,2,"CO,CC",AICast_ScriptLoad | AICast_ScriptParse,0
+CVE-2019-3817,C,2,2,"CO,CC",comps_mrtree_unite | comps_objmrtree_unite,0
+CVE-2019-7149,C,1,1,"CO,CC",print_debug_line_section,0
+CVE-2019-9718,C,1,2,"CO,CC",ff_htmlmarkup_to_ass,0
+CVE-2020-10001,C,1,1,"CO,CC,CK",ippReadIO,0
+CVE-2020-11042,C,1,1,"CO,CK",update_read_icon_info,0
+CVE-2020-11087,C,1,1,"CO,CC",ntlm_read_AuthenticateMessage,0
+CVE-2020-11939,C,1,1,"CO,CK",concat_hash_string,0
+CVE-2020-12135,C,27,39,"CO,CC,CK",bson_append_bcon_with_state | bson_buffer_size | bson_iterator_next | bson_iterator_int | bson_append | bson_ensure_space | bson_finish | bson_append_estart | bson_append_string_base | bson_append_string_n | bson_append_symbol_n | bson_append_code_n | bson_append_code_w_scope_n | bson_append_binary | bson_append_regex | bson_append_element | bson_append_finish_object | unnamed_function | unnamed_function | __mongo_set_error | unnamed_function | unnamed_function | mongo_insert_batch | mongo_cursor_get_more | mongo_run_command | mongo_pass_digest | mongo_cmd_authenticate,0
+CVE-2020-12653,C,1,1,"CO,CK",mwifiex_cmd_append_vsie_tlv,0
+CVE-2020-12654,C,1,1,"CO,CC",mwifiex_ret_wmm_get_status,0
+CVE-2020-13114,C,1,2,"CO,CK",exif_mnote_data_canon_load,0
+CVE-2020-13396,C,1,2,"CO,CC",ntlm_read_ChallengeMessage,0
+CVE-2020-13398,C,1,1,"CO,CC,CK",crypto_rsa_common,0
+CVE-2020-13904,C,1,1,"CO,CC,CK",parse_playlist,0
+CVE-2020-14396,C,1,1,"CO,CC",unnamed_function,0
+CVE-2020-15173,C,5,5,"CO,CC",l2tp_packet_print | unnamed_function | decode_avp | l2tp_recv | l2tp_packet_send,0
+CVE-2020-20276,C,1,1,"CO,CC",handle_PORT,0
+CVE-2020-20277,C,1,1,CO,unnamed_function,0
+CVE-2020-20739,C,1,1,CO,im_vips2dz,0
+CVE-2020-21050,C,1,1,"CO,CC,CK",gif_process_raster,0
+CVE-2020-23930,C,1,1,"CO,CK",nhmldump_send_header,0
+CVE-2020-25690,C,3,3,"CO,CC,CK",SFDGetSpiros | SFD_GetFontMetaData | unnamed_function,0
+CVE-2020-26572,C,1,1,CO,tcos_decipher,0
+CVE-2020-27678,C,1,1,"CO,CK",parse_user_name,0
+CVE-2020-27777,C,1,3,"CO,CC",rtas_initialize,0
+CVE-2020-27780,C,1,2,"CO,CC",_unix_blankpasswd,0
+CVE-2020-28374,C,4,7,"CO,CK",target_xcopy_locate_se_dev_e4_iter | target_xcopy_locate_se_dev_e4 | target_xcopy_parse_target_descriptors | xcopy_pt_undepend_remotedev,0
+CVE-2020-29361,C,5,5,"CO,CC,CK",move_next_session | p11_kit_iter_next | proxy_list_slots | bucket_insert | bucket_push,0
+CVE-2020-36158,C,1,1,"CO,CC",mwifiex_cmd_802_11_ad_hoc_start,0
+CVE-2020-5204,C,1,1,"CO,CC",handle_PORT,0
+CVE-2020-5208,C,1,2,"CO,CC,CK",read_fru_area,1
+CVE-2020-5221,C,1,1,CO,unnamed_function,0
+CVE-2020-7042,C,1,1,"CO,CK",ssl_verify_cert,0
+CVE-2020-7043,C,1,1,"CO,CK",ssl_verify_cert,0
+CVE-2020-7247,C,1,2,"CO,CK",smtp_mailaddr,0
+CVE-2020-9365,C,1,1,CO,pure_strcmp,0
+CVE-2020-9433,C,1,2,"CO,CC",luaopen_x509,0
+CVE-2021-20197,C,1,1,"CO,CK",write_archive,0
+CVE-2021-20240,C,1,1,"CO,CC",unnamed_function,0
+CVE-2021-20266,C,2,3,"CO,CC,CK",hdrblobRead | hdrblobInit,0
+CVE-2021-20294,C,1,1,"CO,CC,CK",print_dynamic_symbol,0
+CVE-2021-27138,C,2,3,"CO,CC,CK",fit_image_verify_sig | fit_config_verify_required_sigs,0
+CVE-2021-30014,C,4,4,"CO,CC,CK",gf_media_vvc_read_vps_bs_internal | gf_media_vvc_read_sps_bs_internal | gf_media_vvc_read_pps_bs_internal | vvc_parse_picture_header,0
+CVE-2021-30020,C,4,4,"CO,CC,CK",gf_media_vvc_read_vps_bs_internal | gf_media_vvc_read_sps_bs_internal | gf_media_vvc_read_pps_bs_internal | vvc_parse_picture_header,0
+CVE-2021-30022,C,4,4,"CO,CC,CK",gf_media_vvc_read_vps_bs_internal | gf_media_vvc_read_sps_bs_internal | gf_media_vvc_read_pps_bs_internal | vvc_parse_picture_header,0
+CVE-2021-30145,C,1,1,"CO,CC",unnamed_function,0
+CVE-2021-32672,C,2,2,"CO,CC,CK",unnamed_function | ldbRepl,0
+CVE-2021-32845,C,1,1,CO,pci_vtrnd_notify,0
+CVE-2021-3515,C,2,2,"CO,CK",dump_structure | restore_structure,0
+CVE-2021-3517,C,1,1,"CO,CC",unnamed_function,0
+CVE-2021-35525,C,1,1,"CO,CC",main,0
+CVE-2021-3565,C,1,1,"CO,CC,CK",key_import,0
+CVE-2021-38383,C,1,1,"CO,CC",net_bind,0
+CVE-2021-3995,C,1,1,"CO,CK",is_fuse_usermount,0
+CVE-2021-40818,C,1,1,"CO,CC",unnamed_function,0
+CVE-2021-43267,C,1,1,"CO,CK",tipc_crypto_key_rcv,0
+CVE-2021-43814,C,2,2,"CO,CK",init_die | unnamed_function,0
+CVE-2021-43860,C,4,5,"CO,CC,CK",flatpak_transaction_add_ref | unnamed_function | resolve_op_from_commit | try_resolve_op_from_metadata,0
+CVE-2021-44512,C,1,2,"CO,CC",main,0
+CVE-2021-46225,C,2,2,"CO,CC",GmfOpenMesh | ScaKwdTab,0
+CVE-2022-0545,C,2,2,CO,IMB_flipy | IMB_flipx,0
+CVE-2022-0546,C,2,2,"CO,CC",unnamed_function | unnamed_function,0
+CVE-2022-0699,C,1,1,CO,unnamed_function,0
+CVE-2022-1714,C,2,2,CO,msp430_op | set_reg_profile,0
+CVE-2022-1987,C,1,3,"CO,CC,CK",mobi_parse_index_entry,0
+CVE-2022-23537,C,1,2,"CO,CC,CK",pj_stun_msg_decode,0
+CVE-2022-24754,C,3,3,"CO,CC,CK",pjsip_auth_create_digest | pjsip_auth_create_digestSHA256 | respond_digest,0
+CVE-2022-25643,C,1,1,CO,main,0
+CVE-2022-26490,C,1,1,CO,st21nfca_connectivity_event_received,0
+CVE-2022-2652,C,1,1,"CO,CC,CK",v4l2_loopback_add,0
+CVE-2022-27240,C,1,1,"CO,CK",check_assertion,0
+CVE-2022-29242,C,1,1,"CO,CC,CK",pkey_GOST_ECcp_encrypt,0
+CVE-2022-29859,C,8,9,"CO,CC,CK",add_offer_options | dhcps_initialize_message | dhcps_send_offer | dhcps_send_ack | dhcps_handle_state_machine_change | dhcps_receive_udp_packet_handler | dhcps_init | dhcps_deinit,0
+CVE-2022-29967,C,2,2,CO,callback_static_file_uncompressed | callback_static_compressed_inmemory_website,0
+CVE-2022-30767,C,1,1,"CO,CK",nfs_lookup_reply,0
+CVE-2022-32200,C,1,2,"CO,CC,CK",_dwarf_internal_get_pubnames_like_data,0
+CVE-2022-34299,C,2,2,"CO,CC,CK",find_sig8_target_as_global_offset | dwarf_global_formref_b,0
+CVE-2022-36021,C,1,2,"CO,CK",stringmatchlen,0
+CVE-2022-36039,C,2,3,"CO,CC",unnamed_function | unnamed_function,0
+CVE-2022-37032,C,6,7,"CO,CC",bgp_capability_vty_out | bgp_capability_mp | bgp_capability_orf | bgp_capability_parse | bgp_auth_parse | bgp_open_option_parse,0
+CVE-2022-3786,C,3,3,"CO,CC",ossl_punycode_decode | ossl_a2ulabel | ossl_a2ucompare,0
+CVE-2022-39316,C,1,1,"CO,CC,CK",zgfx_decompress_segment,0
+CVE-2022-39347,C,6,7,"CO,CC,CK",drive_file_fix_path | unnamed_function | drive_file_remove_dir | unnamed_function | drive_file_set_information | drive_file_query_directory,0
+CVE-2022-4254,C,3,4,"CO,CC",sss_filter_sanitize_ex | sss_filter_sanitize | unnamed_function,0
+CVE-2022-4398,C,1,1,"CO,CC",print_hint_tree,0
+CVE-2022-4415,C,8,11,"CO,CC,CK",parse_config | fix_acl | fix_xattr | fix_permissions | save_external_coredump | submit_coredump | save_context | gather_pid_metadata,0
+CVE-2022-47021,C,2,2,"CO,CC,CK",op_get_data | op_open1,0
+CVE-2022-4744,C,3,8,"CO,CC,CK",tun_net_init | tun_free_netdev | tun_set_iff,0
+CVE-2022-47518,C,1,1,"CO,CK",wilc_wfi_cfg_parse_ch_attr,0
+CVE-2022-47520,C,1,1,CO,unnamed_function,0
+CVE-2022-47942,C,4,4,"CO,CC",set_ntacl_dacl | build_sec_desc | smb_inherit_dacl | smb_check_perm_dacl,0
+CVE-2022-4843,C,2,2,CO,r_io_bank_read_at | r_io_bank_read_from_submap_at,0
+CVE-2023-0266,C,2,2,"CO,CC,CK",snd_ctl_elem_read | snd_ctl_elem_read_user,0
+CVE-2023-0302,C,5,5,"CO,CC,CK",unnamed_function | add_sdb_addrline | unnamed_function | unnamed_function | cmd_meta_comment,0
+CVE-2023-1513,C,1,2,"CO,CC,CK",kvm_vcpu_ioctl_x86_get_debugregs,0
+CVE-2023-1655,C,1,1,"CO,CC",pcmreframe_process,0
+CVE-2023-1668,C,2,2,"CO,CC,CK",compose_dec_ttl | do_xlate_actions,0
+CVE-2023-1672,C,1,1,"CO,CK",create_new_keys,0
+CVE-2023-1801,C,3,4,"CO,CK",ahcp_time_print | arista_print_date_hms_time | zep_print_ts,0
+CVE-2023-22745,C,2,2,"CO,CC",unnamed_function | unnamed_function,0
+CVE-2023-24805,C,2,2,"CO,CK",call_backend | sigterm_handler,0
+CVE-2023-25566,C,1,1,"CO,CC,CK",parse_user_name,0
+CVE-2023-25584,C,2,2,"CO,CK",parse_module | unnamed_function,0
+CVE-2023-25588,C,1,1,"CO,CC",bfd_mach_o_get_synthetic_symtab,0
+CVE-2023-2602,C,1,1,"CO,CC",__wrap_pthread_create,0
+CVE-2023-2603,C,1,1,CO,unnamed_function,0
+CVE-2023-27590,C,1,2,"CO,CK",unnamed_function,0
+CVE-2023-28101,C,1,1,"CO,CK",print_perm_line,0
+CVE-2023-28486,C,5,7,"CO,CC,CK",unnamed_function | main | match_expr | list_session | find_sessions,0
+CVE-2023-28487,C,5,7,"CO,CC,CK",unnamed_function | main | match_expr | list_session | find_sessions,0
+CVE-2023-29323,C,1,1,"CO,CK",ascii_load_sockaddr,0
+CVE-2023-30775,C,23,23,"CO,CC,CK",readContigTilesIntoBuffer | readSeparateTilesIntoBuffer | writeBufferToSeparateStrips | writeBufferToContigTiles | writeBufferToSeparateTiles | process_command_opts | main | extractContigSamples32bits | extractContigSamplesShifted32bits | readContigStripsIntoBuffer | combineSeparateSamples32bits | combineSeparateTileSamples32bits | readSeparateStripsIntoBuffer | loadImage | writeSingleSection | createImageSection | processCropSelections | createCroppedImage | writeCroppedImage | rotateContigSamples32bits | rotateImage | reverseSamples32bits | mirrorImage,0
+CVE-2023-31147,C,3,5,"CO,CC,CK",ares_init_options | randomize_key | init_id_key,0
+CVE-2023-3247,C,1,1,"CO,CC",make_http_soap_request,0
+CVE-2023-3326,C,2,2,"CO,CC",pam_sm_authenticate | verify_krb_v5_tgt,0
+CVE-2023-34095,C,2,2,"CO,CC",unnamed_function | parse_commands,0
+CVE-2023-34475,C,1,1,"CO,CK",ReplaceXmpValue,0
+CVE-2023-3523,C,1,1,"CO,CC",vobsub_read_idx,0
+CVE-2023-36326,C,4,5,CO,cp_sokaka_key | ep2_map_from_field | ep2_map_dst | ep2_map,0
+CVE-2023-3824,C,1,1,CO,phar_dir_read,0
+CVE-2023-38408,C,2,2,"CO,CC,CK",process_add_identity | main,0
+CVE-2023-45145,C,3,4,"CO,CC,CK",anetListen | _anetTcpServer | anetUnixServer,0
+CVE-2023-4535,C,1,1,"CO,CK",myeid_enc_dec_sym,0
+CVE-2023-49208,C,1,1,"CO,CC",unnamed_function,0
+CVE-2023-5521,C,1,1,CO,check_v2_signature,0
+CVE-2023-5686,C,1,1,"CO,CC,CK",java_print_opcode,0
+CVE-2015-10065,C++,1,1,CO,init_result,0
+CVE-2015-1521,C++,3,3,CO,DNP3_Base::ProcessData | DNP3_Base::AddToBuffer | DNP3_Base::ParseAppLayer,0
+CVE-2015-1522,C++,3,3,CO,DNP3_Base::ProcessData | DNP3_Base::AddToBuffer | DNP3_Base::ParseAppLayer,0
+CVE-2016-5426,C++,2,3,"CO,CK",chopOff | chopOffDotted,0
+CVE-2016-5427,C++,2,3,"CO,CK",chopOff | chopOffDotted,0
+CVE-2017-14639,C++,1,1,CO,AP4_VisualSampleEntry::ReadFields,0
+CVE-2017-14643,C++,1,1,CO,AP4_StszAtom::AP4_StszAtom,0
+CVE-2017-18184,C++,5,5,"CO,CC,CK",compute_O_value | compute_U_value_R2 | compute_U_value_R3 | check_owner_password_V4 | QPDF::initializeEncryption,0
+CVE-2018-1002209,C++,3,3,CO,JlCompress::extractDir | TestJlCompress::extractDir_data | TestJlCompress::extractDir,0
+CVE-2018-17293,C++,1,1,"CO,CK",run,0
+CVE-2019-13228,C++,1,1,"CO,CC",main,0
+CVE-2019-13229,C++,1,1,"CO,CC",main,0
+CVE-2020-15180,C++,1,2,"CO,CC",wsrep_sst_donate_cb,0
+CVE-2021-32142,C++,2,2,CO,unnamed_function | unnamed_function,0
+CVE-2021-46389,C++,4,4,CO,KakaduImage::getRegion | OpenJPEGImage::getRegion | TileManager::crop | TileManager::getRegion,0
+CVE-2022-45866,C++,1,3,"CO,CC,CK",decompress_directory,0
+CVE-2022-48579,C++,2,3,"CO,CC",ExtractUnixLink30 | ExtractUnixLink50,0
+CVE-2023-43887,C++,1,2,CO,decoder_context::read_pps_NAL,0
+CVE-2011-3211,Python,3,4,"CO,CK",process_delta | __init__ | __init__,0
+CVE-2011-4596,Python,1,1,CO,__init__,0
+CVE-2012-3366,Python,2,2,CO,async_run | __init__,0
+CVE-2012-4406,Python,1,1,"CO,CC",__init__,0
+CVE-2013-0342,Python,1,2,"CO,CC,CK",__init__,0
+CVE-2013-10009,Python,1,1,CO,__init__,0
+CVE-2013-4249,Python,1,1,"CO,CC,CK",__init__,0
+CVE-2014-1858,Python,1,1,"CO,CC,CK",run_compile,0
+CVE-2014-1859,Python,1,1,"CO,CC,CK",run_compile,0
+CVE-2015-10026,Python,2,2,CO,dbLookup | main,0
+CVE-2015-10060,Python,1,1,"CO,CC,CK",get,0
+CVE-2015-6938,Python,1,1,CO,__init__,0
+CVE-2016-4989,Python,1,1,"CO,CK",__init__,0
+CVE-2016-9909,Python,1,1,CO,__init__,0
+CVE-2016-9910,Python,1,1,CO,__init__,0
+CVE-2017-16667,Python,1,1,CO,__init__,0
+CVE-2017-7481,Python,1,1,"CO,CK",__init__,0
+CVE-2018-20332,Python,1,2,CO,render,0
+CVE-2018-25056,Python,1,1,CO,render_description,0
+CVE-2018-25088,Python,2,4,"CO,CK",check_db_or_user_exists | create_postgres_db,0
+CVE-2018-7889,Python,1,1,"CO,CC,CK",__init__,0
+CVE-2019-10800,Python,1,1,"CO,CC",main,0
+CVE-2019-19010,Python,1,1,CO,base,0
+CVE-2020-27544,Python,1,1,CO,__init__,0
+CVE-2020-6817,Python,1,1,"CO,CC",__init__,0
+CVE-2020-7212,Python,1,3,"CO,CK",parse_url,0
+CVE-2021-21332,Python,1,2,CO,__init__,0
+CVE-2021-21377,Python,2,4,"CO,CK",get | _load_template,0
+CVE-2021-21386,Python,1,1,CO,__init__,0
+CVE-2021-29433,Python,1,2,"CO,CK",is_valid_client_secret,0
+CVE-2021-32837,Python,1,1,"CO,CK",__init__,0
+CVE-2021-3429,Python,2,2,"CO,CC,CK",multi_log | redirect_output,0
+CVE-2021-3733,Python,1,1,"CO,CK",__init__,0
+CVE-2021-37705,Python,1,3,CO,parse_jwt_token,0
+CVE-2021-41078,Python,7,9,"CO,CC",env_var_constructor | setup_yaml_parser | main | main | main | parse_config_option | test_environment_vars_in_config,0
+CVE-2021-41115,Python,1,2,CO,filter_pattern_validator,0
+CVE-2021-41127,Python,2,3,"CO,CC,CK",unpack_model | persist,0
+CVE-2021-41281,Python,1,2,CO,__init__,0
+CVE-2021-4315,Python,1,1,CO,insert_mode,0
+CVE-2022-0645,Python,1,1,CO,authorize_and_redirect,0
+CVE-2022-0718,Python,1,3,"CO,CC",mask_password,0
+CVE-2022-1813,Python,1,1,CO,get_cms_details,0
+CVE-2022-2054,Python,4,4,"CO,CC,CK",main | checkCachingSuccess | fromXML | isAlwaysEnabled,0
+CVE-2022-24303,Python,7,7,CO,get_command | get_command | get_command_ex | get_command_ex | get_command_ex | get_command_ex | get_command_ex,0
+CVE-2022-29216,Python,3,5,"CO,CC,CK",preprocess_input_exprs_arg_string | load_inputs_from_input_arg_string | add_run_subparser,0
+CVE-2022-31605,Python,1,2,"CO,CC",main,0
+CVE-2022-3326,Python,1,1,"CO,CK",__init__,0
+CVE-2022-3362,Python,1,1,CO,get_user,0
+CVE-2022-34265,Python,2,2,"CO,CC,CK",__init__ | __init__,0
+CVE-2022-3607,Python,4,4,CO,_unpack_uploaded_zipfile | _unpack_uploaded_tarball | _validate_archive_name | unnamed_function,0
+CVE-2022-41905,Python,1,1,CO,__init__,0
+CVE-2022-45907,Python,1,2,"CO,CC,CK",parse_type_line,0
+CVE-2022-46151,Python,2,2,CO,__init__ | get_okta_urls,0
+CVE-2022-4860,Python,1,1,"CO,CC",upload_user_data,0
+CVE-2023-22475,Python,5,6,"CO,CC,CK",getChild | getChild | getChild | getChild | getChild,0
+CVE-2023-25754,Python,1,1,CO,__init__,0
+CVE-2023-26043,Python,1,1,"CO,CC",get_capabilities,0
+CVE-2023-28836,Python,1,1,CO,check_action_permitted,0
+CVE-2023-36826,Python,2,3,CO,get_legacy_release_bundles | __init__,0
+CVE-2023-3765,Python,1,1,CO,__init__,0
+CVE-2023-39523,Python,1,1,"CO,CC",run_command,0
+CVE-2023-4033,Python,1,1,CO,__init__,0
+CVE-2023-40581,Python,1,1,"CO,CC,CK",__init__,0
+CVE-2023-45158,Python,1,1,"CO,CC,CK",__init__,0
+CVE-2023-47114,Python,1,1,"CO,CC",__init__,0
+CVE-2023-47128,Python,4,4,"CO,CK",__init__ | __init__ | __init__ | __init__,0
+CVE-2023-47627,Python,5,6,CO,__init__ | __init__ | parse_message | parse_message | __init__,0
+CVE-2023-48224,Python,1,2,CO,generate_id_verification_code,0

@@ -1,5 +1,6 @@
 numpy>=1.26
 pandas>=2.0
 scipy>=1.11
-openai>=1.40
+openai>=1.66.2
+tiktoken>=0.8
 pytest>=8.0

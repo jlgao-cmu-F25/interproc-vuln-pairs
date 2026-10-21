@@ -1,0 +1,32 @@
+{
+  "source_commit": "46796d168daf865331b1ca15d763d2e6746bf5a5",
+  "seed": 795,
+  "cve_pairs": 429,
+  "changed_function_pairs": 916,
+  "pairs_by_language": {
+    "C": 343,
+    "C++": 18,
+    "Python": 68
+  },
+  "context_availability_by_language": {
+    "C": {
+      "CO": 343,
+      "CC": 196,
+      "CK": 179
+    },
+    "C++": {
+      "CO": 18,
+      "CC": 6,
+      "CK": 5
+    },
+    "Python": {
+      "CO": 68,
+      "CC": 25,
+      "CK": 26
+    }
+  },
+  "function_spotcheck_rows": 30,
+  "function_spotcheck_status": "unreviewed",
+  "prompt_directory": "third_party/sw-vuln/data/paired_prompts",
+  "note": "Counts are computed from changed vulnerable_functions in the pinned raw_cves files."
+}

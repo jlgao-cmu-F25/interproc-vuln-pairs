@@ -2,5 +2,17 @@ third_party/
 __pycache__/
 *.pyc
 .env
+.venv/
+.colab/
 .ipynb_checkpoints/
 results/live_rerun_raw.json
+results/paired_eval_raw.json
+results/paired_eval_tpm.json
+results/paired_eval_requests.json
+results/paired_eval.STOP
+notebooks/milestone_colab_resume.ipynb
+.milestone-build/
+.pytest_cache/
+notebooks/milestone_colab_ready.ipynb
+notebooks/milestone_colab_cached_video.ipynb
+notebooks/milestone_colab_cached_video_executed.ipynb
