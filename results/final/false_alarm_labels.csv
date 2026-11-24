@@ -1,0 +1,25 @@
+model,cve,vulnerable_flagged,label,note
+Claude Haiku 4.5,CVE-2019-19638,True,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Claude Haiku 4.5,CVE-2020-27777,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Claude Haiku 4.5,CVE-2021-32672,True,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Claude Haiku 4.5,CVE-2016-10195,True,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Claude Haiku 4.5,CVE-2017-9144,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Claude Haiku 4.5,CVE-2018-14362,True,generic_speculative,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Claude Haiku 4.5,CVE-2016-5356,True,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Claude Haiku 4.5,CVE-2018-8786,True,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+GPT-5 Mini,CVE-2016-8658,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+GPT-5 Mini,CVE-2012-5532,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+GPT-5 Mini,CVE-2021-27138,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+GPT-5 Mini,CVE-2016-10154,True,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+GPT-5 Mini,CVE-2016-5116,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+GPT-5 Mini,CVE-2020-20739,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+GPT-5 Mini,CVE-2013-6412,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+GPT-5 Mini,CVE-2017-13001,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Gemini 3 Flash,CVE-2017-12987,True,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Gemini 3 Flash,CVE-2016-5094,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Gemini 3 Flash,CVE-2023-25584,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Gemini 3 Flash,CVE-2012-3400,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm; possibly a real remaining bug (second half of the upstream fix)
+Gemini 3 Flash,CVE-2020-13114,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Gemini 3 Flash,CVE-2015-6031,True,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Gemini 3 Flash,CVE-2016-10088,True,specific_other_code,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm
+Gemini 3 Flash,CVE-2019-15161,False,patched_code_fix_insufficient,random CO false alarm (seed 795); labelled by Claude from the diff and the fixed-version explanation; team to confirm

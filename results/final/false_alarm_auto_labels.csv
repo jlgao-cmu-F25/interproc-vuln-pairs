@@ -1,0 +1,947 @@
+model,cve,vulnerable_flagged,label,label_any_fix,label_first_quote,fix_quotes,other_quotes
+Claude Haiku 4.5,CVE-2009-5147,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2010-3844,True,blames the fix,blames the fix,blames other code,3,2
+Claude Haiku 4.5,CVE-2011-0990,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2011-1078,True,blames other code,blames the fix,blames other code,1,3
+Claude Haiku 4.5,CVE-2011-1180,True,blames other code,blames the fix,blames other code,2,5
+Claude Haiku 4.5,CVE-2011-2517,True,blames other code,blames other code,blames other code,0,11
+Claude Haiku 4.5,CVE-2011-2909,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2011-3209,True,blames other code,blames other code,blames other code,0,12
+Claude Haiku 4.5,CVE-2011-4081,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2011-4087,False,blames other code,blames other code,blames other code,0,6
+Claude Haiku 4.5,CVE-2011-4594,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2011-4914,True,blames other code,blames other code,blames other code,0,13
+Claude Haiku 4.5,CVE-2012-0957,True,blames the fix,blames the fix,blames the fix,18,0
+Claude Haiku 4.5,CVE-2012-2121,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2012-3364,True,blames the fix,blames the fix,blames the fix,7,0
+Claude Haiku 4.5,CVE-2012-3400,True,blames other code,blames other code,blames other code,0,6
+Claude Haiku 4.5,CVE-2012-3430,True,blames the fix,blames the fix,blames other code,8,7
+Claude Haiku 4.5,CVE-2012-4530,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2012-5532,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2012-6542,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2013-0216,True,blames other code,blames other code,blames other code,0,12
+Claude Haiku 4.5,CVE-2013-0349,True,blames the fix,blames the fix,blames the fix,10,0
+Claude Haiku 4.5,CVE-2013-1929,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2013-2546,True,blames the fix,blames the fix,blames the fix,6,0
+Claude Haiku 4.5,CVE-2013-2547,True,blames the fix,blames the fix,blames other code,3,3
+Claude Haiku 4.5,CVE-2013-2548,True,blames the fix,blames the fix,blames the fix,8,0
+Claude Haiku 4.5,CVE-2013-4263,True,blames the fix,blames the fix,blames other code,3,2
+Claude Haiku 4.5,CVE-2013-4350,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2013-4512,True,blames the fix,blames the fix,blames other code,5,2
+Claude Haiku 4.5,CVE-2013-4588,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2013-6401,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2013-6412,True,blames other code,blames the fix,blames the fix,1,6
+Claude Haiku 4.5,CVE-2013-7018,True,blames other code,blames other code,blames other code,0,14
+Claude Haiku 4.5,CVE-2013-7263,True,blames the fix,blames the fix,blames the fix,6,2
+Claude Haiku 4.5,CVE-2013-7265,True,blames other code,blames other code,blames other code,0,12
+Claude Haiku 4.5,CVE-2013-7281,True,blames the fix,blames the fix,blames the fix,6,3
+Claude Haiku 4.5,CVE-2014-0063,True,blames the fix,blames the fix,blames other code,3,2
+Claude Haiku 4.5,CVE-2014-0064,True,blames other code,blames other code,blames other code,0,13
+Claude Haiku 4.5,CVE-2014-0207,True,blames the fix,blames the fix,blames the fix,5,0
+Claude Haiku 4.5,CVE-2014-0238,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2014-1690,True,blames the fix,blames the fix,blames other code,3,2
+Claude Haiku 4.5,CVE-2014-2270,True,blames other code,blames other code,blames other code,0,6
+Claude Haiku 4.5,CVE-2014-2669,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2014-3185,True,blames the fix,blames the fix,blames the fix,11,2
+Claude Haiku 4.5,CVE-2014-3478,True,blames the fix,blames the fix,blames other code,7,4
+Claude Haiku 4.5,CVE-2014-3538,True,blames other code,blames the fix,blames other code,1,17
+Claude Haiku 4.5,CVE-2014-3587,True,blames other code,blames other code,blames other code,0,17
+Claude Haiku 4.5,CVE-2014-3980,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2014-4978,True,blames the fix,blames the fix,blames the fix,6,0
+Claude Haiku 4.5,CVE-2014-6395,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2014-6396,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2014-6410,True,blames other code,blames other code,blames other code,0,12
+Claude Haiku 4.5,CVE-2014-8176,True,blames other code,blames other code,blames other code,0,10
+Claude Haiku 4.5,CVE-2014-8884,True,blames the fix,blames the fix,blames other code,5,2
+Claude Haiku 4.5,CVE-2014-9420,True,blames other code,blames other code,blames other code,0,18
+Claude Haiku 4.5,CVE-2014-9630,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2014-9652,True,blames other code,blames the fix,blames other code,1,4
+Claude Haiku 4.5,CVE-2014-9710,True,blames the fix,blames the fix,blames the fix,2,1
+Claude Haiku 4.5,CVE-2014-9731,True,blames the fix,blames the fix,blames other code,22,1
+Claude Haiku 4.5,CVE-2015-10088,True,blames other code,blames other code,blames other code,0,11
+Claude Haiku 4.5,CVE-2015-1191,True,blames other code,blames the fix,blames other code,4,10
+Claude Haiku 4.5,CVE-2015-1331,True,blames the fix,blames the fix,blames the fix,6,0
+Claude Haiku 4.5,CVE-2015-1789,True,blames other code,blames the fix,blames other code,1,4
+Claude Haiku 4.5,CVE-2015-1792,True,blames the fix,blames the fix,blames the fix,15,3
+Claude Haiku 4.5,CVE-2015-2696,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2015-2831,True,blames other code,blames the fix,blames other code,2,5
+Claude Haiku 4.5,CVE-2015-3150,True,blames other code,blames the fix,blames the fix,6,9
+Claude Haiku 4.5,CVE-2015-3212,True,blames other code,blames the fix,blames other code,5,10
+Claude Haiku 4.5,CVE-2015-3315,True,blames other code,blames the fix,blames the fix,4,10
+Claude Haiku 4.5,CVE-2015-6031,True,blames the fix,blames the fix,blames the fix,7,0
+Claude Haiku 4.5,CVE-2015-6520,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2015-7513,True,blames the fix,blames the fix,blames the fix,7,0
+Claude Haiku 4.5,CVE-2015-7885,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2015-8950,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2015-8955,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2015-8970,True,blames other code,blames other code,blames other code,0,10
+Claude Haiku 4.5,CVE-2015-9542,True,blames the fix,blames the fix,blames the fix,2,2
+Claude Haiku 4.5,CVE-2016-0546,True,blames other code,blames the fix,blames other code,5,6
+Claude Haiku 4.5,CVE-2016-10050,True,blames other code,blames the fix,blames other code,2,15
+Claude Haiku 4.5,CVE-2016-10088,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2016-10154,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2016-10156,True,blames other code,blames other code,blames other code,0,1
+Claude Haiku 4.5,CVE-2016-10190,True,blames other code,blames other code,blames other code,0,11
+Claude Haiku 4.5,CVE-2016-10191,True,blames other code,blames the fix,blames other code,1,15
+Claude Haiku 4.5,CVE-2016-10195,True,blames other code,blames the fix,blames other code,1,8
+Claude Haiku 4.5,CVE-2016-10197,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2016-1246,True,blames other code,blames the fix,blames the fix,2,6
+Claude Haiku 4.5,CVE-2016-1541,True,blames other code,blames the fix,blames other code,2,5
+Claude Haiku 4.5,CVE-2016-2385,True,blames other code,blames the fix,blames other code,3,10
+Claude Haiku 4.5,CVE-2016-2847,True,blames other code,blames other code,blames other code,0,13
+Claude Haiku 4.5,CVE-2016-3178,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2016-3179,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2016-3698,True,blames other code,blames the fix,blames other code,3,15
+Claude Haiku 4.5,CVE-2016-3841,True,blames other code,blames the fix,blames other code,9,12
+Claude Haiku 4.5,CVE-2016-4478,True,blames the fix,blames the fix,blames the fix,7,3
+Claude Haiku 4.5,CVE-2016-4580,True,blames other code,blames the fix,blames other code,1,6
+Claude Haiku 4.5,CVE-2016-5094,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2016-5104,True,blames other code,blames other code,blames other code,0,1
+Claude Haiku 4.5,CVE-2016-5116,True,blames other code,blames the fix,blames the fix,1,3
+Claude Haiku 4.5,CVE-2016-5243,True,blames the fix,blames the fix,blames other code,5,3
+Claude Haiku 4.5,CVE-2016-5355,True,blames other code,blames the fix,blames other code,2,5
+Claude Haiku 4.5,CVE-2016-5356,True,blames other code,blames the fix,blames other code,2,9
+Claude Haiku 4.5,CVE-2016-5357,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2016-5841,True,blames other code,blames the fix,blames other code,2,7
+Claude Haiku 4.5,CVE-2016-5842,True,blames other code,blames the fix,blames other code,1,11
+Claude Haiku 4.5,CVE-2016-6136,False,blames the fix,blames the fix,blames the fix,14,0
+Claude Haiku 4.5,CVE-2016-6271,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2016-6663,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2016-6911,True,blames other code,blames the fix,blames other code,1,4
+Claude Haiku 4.5,CVE-2016-7414,True,blames other code,blames other code,blames other code,0,16
+Claude Haiku 4.5,CVE-2016-7425,True,blames other code,blames other code,blames other code,0,10
+Claude Haiku 4.5,CVE-2016-7798,True,blames other code,blames other code,blames other code,0,6
+Claude Haiku 4.5,CVE-2016-7912,True,blames the fix,blames the fix,blames other code,5,4
+Claude Haiku 4.5,CVE-2016-8649,True,blames other code,blames the fix,blames other code,2,4
+Claude Haiku 4.5,CVE-2016-8658,True,blames other code,blames the fix,blames other code,6,13
+Claude Haiku 4.5,CVE-2016-9756,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2017-10911,False,blames the fix,blames the fix,blames the fix,5,1
+Claude Haiku 4.5,CVE-2017-11399,True,blames other code,blames other code,blames other code,0,20
+Claude Haiku 4.5,CVE-2017-11664,True,blames other code,blames the fix,blames other code,1,15
+Claude Haiku 4.5,CVE-2017-12146,True,blames the fix,blames the fix,blames the fix,7,3
+Claude Haiku 4.5,CVE-2017-12894,True,blames the fix,blames the fix,blames the fix,2,2
+Claude Haiku 4.5,CVE-2017-12902,True,blames other code,blames the fix,blames other code,2,9
+Claude Haiku 4.5,CVE-2017-12987,True,blames the fix,blames the fix,blames the fix,6,2
+Claude Haiku 4.5,CVE-2017-13001,False,blames the fix,blames the fix,blames the fix,20,0
+Claude Haiku 4.5,CVE-2017-13008,True,blames other code,blames the fix,blames other code,5,9
+Claude Haiku 4.5,CVE-2017-13011,True,blames the fix,blames the fix,blames other code,1,1
+Claude Haiku 4.5,CVE-2017-13035,True,blames other code,blames the fix,blames other code,4,5
+Claude Haiku 4.5,CVE-2017-13043,True,blames other code,blames other code,blames other code,0,6
+Claude Haiku 4.5,CVE-2017-13053,True,blames the fix,blames the fix,blames the fix,5,3
+Claude Haiku 4.5,CVE-2017-13083,True,blames other code,blames the fix,blames the fix,1,3
+Claude Haiku 4.5,CVE-2017-14604,True,blames other code,blames the fix,blames the fix,2,8
+Claude Haiku 4.5,CVE-2017-14767,True,blames the fix,blames the fix,blames other code,3,3
+Claude Haiku 4.5,CVE-2017-15265,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2017-15924,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2017-17862,True,blames other code,blames other code,blames other code,0,14
+Claude Haiku 4.5,CVE-2017-18922,True,blames other code,blames the fix,blames other code,1,9
+Claude Haiku 4.5,CVE-2017-2630,True,blames the fix,blames the fix,blames the fix,3,0
+Claude Haiku 4.5,CVE-2017-3733,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2017-5545,True,blames the fix,blames the fix,blames the fix,2,0
+Claude Haiku 4.5,CVE-2017-5847,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2017-5850,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2017-5940,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2017-6308,True,blames the fix,blames the fix,blames the fix,2,1
+Claude Haiku 4.5,CVE-2017-6802,True,blames other code,blames the fix,blames other code,2,6
+Claude Haiku 4.5,CVE-2017-7272,True,blames other code,blames the fix,blames other code,1,2
+Claude Haiku 4.5,CVE-2017-7418,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2017-7501,True,blames other code,blames the fix,blames other code,1,11
+Claude Haiku 4.5,CVE-2017-7875,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2017-8062,True,blames the fix,blames the fix,blames the fix,15,2
+Claude Haiku 4.5,CVE-2017-9075,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2017-9144,True,blames the fix,blames the fix,blames the fix,3,3
+Claude Haiku 4.5,CVE-2018-11593,True,blames the fix,blames the fix,blames the fix,13,0
+Claude Haiku 4.5,CVE-2018-13094,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2018-14354,True,blames the fix,blames the fix,blames the fix,7,0
+Claude Haiku 4.5,CVE-2018-14357,True,blames other code,blames the fix,blames other code,1,7
+Claude Haiku 4.5,CVE-2018-14360,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2018-14362,True,blames the fix,blames the fix,blames the fix,5,5
+Claude Haiku 4.5,CVE-2018-14363,True,blames the fix,blames the fix,blames other code,6,4
+Claude Haiku 4.5,CVE-2018-15501,True,blames other code,blames the fix,blames other code,4,6
+Claude Haiku 4.5,CVE-2018-16276,True,blames other code,blames other code,blames other code,0,19
+Claude Haiku 4.5,CVE-2018-16435,True,blames the fix,blames the fix,blames the fix,5,0
+Claude Haiku 4.5,CVE-2018-16839,True,blames other code,blames the fix,blames the fix,3,5
+Claude Haiku 4.5,CVE-2018-17407,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2018-19044,True,blames other code,blames the fix,blames other code,2,6
+Claude Haiku 4.5,CVE-2018-20457,True,blames other code,blames the fix,blames the fix,2,4
+Claude Haiku 4.5,CVE-2018-20459,True,blames other code,blames the fix,blames the fix,2,4
+Claude Haiku 4.5,CVE-2018-5729,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2018-5730,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2018-6198,True,blames other code,blames the fix,blames other code,1,4
+Claude Haiku 4.5,CVE-2018-6560,True,blames other code,blames the fix,blames other code,2,5
+Claude Haiku 4.5,CVE-2018-7186,True,blames the fix,blames the fix,blames the fix,10,5
+Claude Haiku 4.5,CVE-2018-7247,True,blames other code,blames the fix,blames other code,1,7
+Claude Haiku 4.5,CVE-2018-7648,True,blames other code,blames other code,blames other code,0,10
+Claude Haiku 4.5,CVE-2018-8784,True,blames the fix,blames the fix,blames the fix,5,4
+Claude Haiku 4.5,CVE-2018-8786,True,blames the fix,blames the fix,blames the fix,5,5
+Claude Haiku 4.5,CVE-2018-8788,True,blames the fix,blames the fix,blames the fix,4,2
+Claude Haiku 4.5,CVE-2018-9336,True,blames other code,blames the fix,blames the fix,4,11
+Claude Haiku 4.5,CVE-2019-1010208,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2019-1010283,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2019-1010294,True,blames the fix,blames the fix,blames the fix,2,0
+Claude Haiku 4.5,CVE-2019-1010319,True,blames other code,blames other code,blames other code,0,15
+Claude Haiku 4.5,CVE-2019-11222,True,blames other code,blames the fix,blames other code,1,11
+Claude Haiku 4.5,CVE-2019-11411,True,blames other code,blames the fix,blames other code,1,2
+Claude Haiku 4.5,CVE-2019-11413,True,blames other code,blames other code,blames other code,0,12
+Claude Haiku 4.5,CVE-2019-12730,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2019-12973,True,blames other code,blames other code,blames other code,0,16
+Claude Haiku 4.5,CVE-2019-14323,True,blames other code,blames the fix,blames other code,1,12
+Claude Haiku 4.5,CVE-2019-14763,True,blames other code,blames the fix,blames other code,2,5
+Claude Haiku 4.5,CVE-2019-14814,True,blames other code,blames the fix,blames other code,6,7
+Claude Haiku 4.5,CVE-2019-14815,True,blames the fix,blames the fix,blames the fix,9,5
+Claude Haiku 4.5,CVE-2019-14816,True,blames the fix,blames the fix,blames the fix,4,2
+Claude Haiku 4.5,CVE-2019-15090,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2019-15146,True,blames the fix,blames the fix,blames other code,6,6
+Claude Haiku 4.5,CVE-2019-15147,True,blames other code,blames the fix,blames the fix,5,7
+Claude Haiku 4.5,CVE-2019-15148,True,blames the fix,blames the fix,blames the fix,6,4
+Claude Haiku 4.5,CVE-2019-15161,True,blames the fix,blames the fix,blames the fix,6,2
+Claude Haiku 4.5,CVE-2019-15162,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2019-15163,True,blames the fix,blames the fix,blames the fix,4,4
+Claude Haiku 4.5,CVE-2019-16058,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2019-18224,True,blames the fix,blames the fix,blames the fix,2,1
+Claude Haiku 4.5,CVE-2019-18276,False,blames other code,blames the fix,blames other code,3,7
+Claude Haiku 4.5,CVE-2019-18672,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2019-18808,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2019-19333,True,blames other code,blames the fix,blames other code,1,9
+Claude Haiku 4.5,CVE-2019-19334,True,blames other code,blames the fix,blames other code,1,6
+Claude Haiku 4.5,CVE-2019-19638,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2019-20839,True,blames the fix,blames the fix,blames the fix,1,1
+Claude Haiku 4.5,CVE-2019-25104,True,blames other code,blames other code,blames other code,0,14
+Claude Haiku 4.5,CVE-2019-3817,True,blames other code,blames other code,blames other code,0,12
+Claude Haiku 4.5,CVE-2019-7149,True,blames other code,blames other code,blames other code,0,23
+Claude Haiku 4.5,CVE-2019-9718,True,blames other code,blames other code,blames other code,0,10
+Claude Haiku 4.5,CVE-2020-10001,True,blames other code,blames the fix,blames other code,3,4
+Claude Haiku 4.5,CVE-2020-11042,True,blames the fix,blames the fix,blames other code,4,4
+Claude Haiku 4.5,CVE-2020-11087,True,blames other code,blames the fix,blames other code,2,17
+Claude Haiku 4.5,CVE-2020-11939,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2020-12135,True,blames other code,blames the fix,blames other code,1,2
+Claude Haiku 4.5,CVE-2020-12653,True,blames other code,blames the fix,blames other code,1,3
+Claude Haiku 4.5,CVE-2020-12654,True,blames the fix,blames the fix,blames other code,3,2
+Claude Haiku 4.5,CVE-2020-13114,True,blames the fix,blames the fix,blames the fix,7,5
+Claude Haiku 4.5,CVE-2020-13396,True,blames other code,blames other code,blames other code,0,11
+Claude Haiku 4.5,CVE-2020-13398,True,blames other code,blames the fix,blames the fix,5,6
+Claude Haiku 4.5,CVE-2020-13904,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2020-14396,True,blames other code,blames other code,blames other code,0,1
+Claude Haiku 4.5,CVE-2020-15173,True,blames other code,blames the fix,blames other code,3,8
+Claude Haiku 4.5,CVE-2020-20276,True,blames the fix,blames the fix,blames other code,2,2
+Claude Haiku 4.5,CVE-2020-20277,True,blames other code,blames other code,blames other code,0,6
+Claude Haiku 4.5,CVE-2020-20739,True,blames other code,blames the fix,blames other code,1,6
+Claude Haiku 4.5,CVE-2020-21050,True,blames other code,blames the fix,blames other code,3,12
+Claude Haiku 4.5,CVE-2020-23930,True,blames other code,blames other code,blames other code,0,14
+Claude Haiku 4.5,CVE-2020-25690,True,blames other code,blames the fix,blames other code,3,5
+Claude Haiku 4.5,CVE-2020-26572,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2020-27678,True,blames the fix,blames the fix,blames other code,7,6
+Claude Haiku 4.5,CVE-2020-27777,True,blames other code,blames other code,blames other code,0,11
+Claude Haiku 4.5,CVE-2020-27780,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2020-28374,True,blames other code,blames other code,blames other code,0,12
+Claude Haiku 4.5,CVE-2020-29361,True,blames the fix,blames the fix,blames the fix,9,0
+Claude Haiku 4.5,CVE-2020-36158,True,blames other code,blames other code,blames other code,0,11
+Claude Haiku 4.5,CVE-2020-5204,True,blames other code,blames other code,blames other code,0,1
+Claude Haiku 4.5,CVE-2020-5208,True,blames other code,blames the fix,blames other code,6,7
+Claude Haiku 4.5,CVE-2020-5221,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2020-7042,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2020-7043,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2020-9365,True,blames the fix,blames the fix,blames the fix,8,0
+Claude Haiku 4.5,CVE-2020-9433,True,blames other code,blames the fix,blames other code,1,6
+Claude Haiku 4.5,CVE-2021-20197,True,blames other code,blames other code,blames other code,0,2
+Claude Haiku 4.5,CVE-2021-20240,True,blames other code,blames the fix,blames other code,1,10
+Claude Haiku 4.5,CVE-2021-20266,True,blames other code,blames the fix,blames other code,5,7
+Claude Haiku 4.5,CVE-2021-20294,True,blames other code,blames the fix,blames other code,2,7
+Claude Haiku 4.5,CVE-2021-27138,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2021-30014,True,blames other code,blames other code,blames other code,0,13
+Claude Haiku 4.5,CVE-2021-30020,True,blames other code,blames the fix,blames other code,1,16
+Claude Haiku 4.5,CVE-2021-30022,True,blames other code,blames the fix,blames other code,6,20
+Claude Haiku 4.5,CVE-2021-30145,True,blames the fix,blames the fix,blames other code,7,5
+Claude Haiku 4.5,CVE-2021-32672,True,blames the fix,blames the fix,blames the fix,5,1
+Claude Haiku 4.5,CVE-2021-32845,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2021-3515,True,blames the fix,blames the fix,blames the fix,8,0
+Claude Haiku 4.5,CVE-2021-3517,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2021-35525,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2021-3565,True,blames the fix,blames the fix,blames other code,4,4
+Claude Haiku 4.5,CVE-2021-38383,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2021-3995,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2021-40818,True,blames other code,blames the fix,blames the fix,1,2
+Claude Haiku 4.5,CVE-2021-43267,True,blames the fix,blames the fix,blames other code,7,3
+Claude Haiku 4.5,CVE-2021-43814,True,blames other code,blames the fix,blames the fix,3,10
+Claude Haiku 4.5,CVE-2021-43860,True,blames the fix,blames the fix,blames the fix,2,2
+Claude Haiku 4.5,CVE-2021-44512,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2021-46225,True,blames other code,blames the fix,blames other code,1,8
+Claude Haiku 4.5,CVE-2022-0545,True,blames the fix,blames the fix,blames the fix,15,0
+Claude Haiku 4.5,CVE-2022-0546,True,blames other code,blames the fix,blames other code,4,7
+Claude Haiku 4.5,CVE-2022-0699,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2022-1714,True,blames the fix,blames the fix,blames the fix,4,2
+Claude Haiku 4.5,CVE-2022-1987,True,blames other code,blames the fix,blames other code,2,6
+Claude Haiku 4.5,CVE-2022-23537,True,blames other code,blames the fix,blames the fix,6,7
+Claude Haiku 4.5,CVE-2022-24754,True,blames other code,blames the fix,blames other code,2,9
+Claude Haiku 4.5,CVE-2022-25643,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2022-26490,True,blames other code,blames the fix,blames other code,4,6
+Claude Haiku 4.5,CVE-2022-2652,True,blames other code,blames the fix,blames other code,4,18
+Claude Haiku 4.5,CVE-2022-27240,True,blames other code,blames the fix,blames other code,1,5
+Claude Haiku 4.5,CVE-2022-29242,True,blames other code,blames the fix,blames other code,2,5
+Claude Haiku 4.5,CVE-2022-29859,True,blames the fix,blames the fix,blames the fix,3,1
+Claude Haiku 4.5,CVE-2022-29967,True,blames the fix,blames the fix,blames the fix,10,4
+Claude Haiku 4.5,CVE-2022-30767,True,blames other code,blames other code,blames other code,0,2
+Claude Haiku 4.5,CVE-2022-32200,True,blames other code,blames other code,blames other code,0,9
+Claude Haiku 4.5,CVE-2022-34299,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2022-36021,True,blames other code,blames other code,blames other code,0,1
+Claude Haiku 4.5,CVE-2022-36039,True,blames the fix,blames the fix,blames the fix,3,3
+Claude Haiku 4.5,CVE-2022-37032,True,blames the fix,blames the fix,blames the fix,14,0
+Claude Haiku 4.5,CVE-2022-3786,True,blames other code,blames the fix,blames other code,1,8
+Claude Haiku 4.5,CVE-2022-39316,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2022-39347,True,blames the fix,blames the fix,blames the fix,7,0
+Claude Haiku 4.5,CVE-2022-4254,False,blames the fix,blames the fix,blames the fix,4,0
+Claude Haiku 4.5,CVE-2022-4398,True,blames other code,blames other code,blames other code,0,10
+Claude Haiku 4.5,CVE-2022-4415,True,blames other code,blames the fix,blames other code,2,7
+Claude Haiku 4.5,CVE-2022-47021,True,blames other code,blames other code,blames other code,0,10
+Claude Haiku 4.5,CVE-2022-4744,True,blames other code,blames other code,blames other code,0,7
+Claude Haiku 4.5,CVE-2022-47518,True,blames other code,blames the fix,blames other code,4,7
+Claude Haiku 4.5,CVE-2022-47520,True,blames other code,blames the fix,blames other code,6,12
+Claude Haiku 4.5,CVE-2022-47942,True,blames the fix,blames the fix,blames the fix,6,1
+Claude Haiku 4.5,CVE-2022-4843,True,blames other code,blames other code,blames other code,0,2
+Claude Haiku 4.5,CVE-2023-0266,True,blames other code,blames the fix,blames other code,2,19
+Claude Haiku 4.5,CVE-2023-0302,True,blames the fix,blames the fix,blames the fix,8,6
+Claude Haiku 4.5,CVE-2023-1513,False,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2023-1655,True,blames other code,blames the fix,blames other code,1,9
+Claude Haiku 4.5,CVE-2023-1672,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2023-1801,True,blames other code,blames the fix,blames the fix,2,7
+Claude Haiku 4.5,CVE-2023-22745,True,blames the fix,blames the fix,blames the fix,3,3
+Claude Haiku 4.5,CVE-2023-24805,True,blames the fix,blames the fix,blames the fix,4,0
+Claude Haiku 4.5,CVE-2023-25566,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2023-25584,True,blames other code,blames other code,blames other code,0,13
+Claude Haiku 4.5,CVE-2023-25588,True,blames the fix,blames the fix,blames the fix,7,1
+Claude Haiku 4.5,CVE-2023-2602,True,no code cited,no code cited,no code cited,0,0
+Claude Haiku 4.5,CVE-2023-2603,True,blames other code,blames the fix,blames other code,2,5
+Claude Haiku 4.5,CVE-2023-27590,True,blames other code,blames other code,blames other code,0,5
+Claude Haiku 4.5,CVE-2023-28486,True,blames other code,blames the fix,blames other code,2,14
+Claude Haiku 4.5,CVE-2023-28487,True,blames other code,blames other code,blames other code,0,10
+Claude Haiku 4.5,CVE-2023-29323,True,blames other code,blames other code,blames other code,0,3
+Claude Haiku 4.5,CVE-2023-30775,True,blames other code,blames the fix,blames other code,3,10
+Claude Haiku 4.5,CVE-2023-31147,True,blames the fix,blames the fix,blames the fix,7,0
+Claude Haiku 4.5,CVE-2023-3247,True,blames other code,blames other code,blames other code,0,4
+Claude Haiku 4.5,CVE-2023-3326,True,blames other code,blames the fix,blames other code,8,9
+Claude Haiku 4.5,CVE-2023-34095,True,blames the fix,blames the fix,blames other code,6,4
+Claude Haiku 4.5,CVE-2023-34475,True,blames the fix,blames the fix,blames the fix,2,2
+Claude Haiku 4.5,CVE-2023-3523,True,blames other code,blames other code,blames other code,0,8
+Claude Haiku 4.5,CVE-2023-36326,True,blames other code,blames the fix,blames other code,4,5
+Claude Haiku 4.5,CVE-2023-3824,True,blames the fix,blames the fix,blames the fix,13,0
+Claude Haiku 4.5,CVE-2023-38408,True,blames other code,blames the fix,blames other code,2,20
+Claude Haiku 4.5,CVE-2023-45145,True,blames other code,blames the fix,blames other code,1,2
+Claude Haiku 4.5,CVE-2023-4535,True,blames other code,blames the fix,blames other code,6,7
+Claude Haiku 4.5,CVE-2023-49208,True,blames other code,blames other code,blames other code,0,13
+Claude Haiku 4.5,CVE-2023-5521,True,blames the fix,blames the fix,blames other code,6,5
+Claude Haiku 4.5,CVE-2023-5686,True,blames other code,blames other code,blames other code,0,15
+GPT-5 Mini,CVE-2009-5147,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2010-3844,True,blames the fix,blames the fix,blames the fix,3,1
+GPT-5 Mini,CVE-2011-0990,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2011-1078,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2011-1180,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2011-2517,True,blames other code,blames other code,blames other code,0,14
+GPT-5 Mini,CVE-2011-3209,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2011-4087,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2011-4914,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2012-0957,True,blames the fix,blames the fix,blames the fix,3,0
+GPT-5 Mini,CVE-2012-2121,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2012-3364,True,blames other code,blames other code,blames other code,0,11
+GPT-5 Mini,CVE-2012-3400,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2012-3430,True,blames other code,blames the fix,blames the fix,1,5
+GPT-5 Mini,CVE-2012-4530,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2012-5532,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2012-6542,False,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2013-0349,True,blames the fix,blames the fix,blames the fix,1,0
+GPT-5 Mini,CVE-2013-1929,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2013-2546,True,blames the fix,blames the fix,blames the fix,7,1
+GPT-5 Mini,CVE-2013-2547,False,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2013-2548,True,blames the fix,blames the fix,blames the fix,6,1
+GPT-5 Mini,CVE-2013-4263,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2013-4350,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2013-4512,True,blames the fix,blames the fix,blames the fix,2,2
+GPT-5 Mini,CVE-2013-4588,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2013-6401,True,blames other code,blames the fix,blames the fix,4,7
+GPT-5 Mini,CVE-2013-6412,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2013-7018,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2013-7263,True,blames the fix,blames the fix,blames the fix,2,0
+GPT-5 Mini,CVE-2013-7265,False,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2013-7281,True,blames other code,blames the fix,blames the fix,2,6
+GPT-5 Mini,CVE-2014-0063,True,blames the fix,blames the fix,blames the fix,2,1
+GPT-5 Mini,CVE-2014-0207,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2014-0238,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2014-2270,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2014-2669,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2014-3478,True,blames the fix,blames the fix,blames the fix,4,2
+GPT-5 Mini,CVE-2014-3538,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2014-3587,True,blames other code,blames other code,blames other code,0,9
+GPT-5 Mini,CVE-2014-3980,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2014-4978,True,blames the fix,blames the fix,blames the fix,6,0
+GPT-5 Mini,CVE-2014-6395,True,blames other code,blames the fix,blames the fix,2,9
+GPT-5 Mini,CVE-2014-6396,True,blames other code,blames the fix,blames the fix,2,7
+GPT-5 Mini,CVE-2014-6410,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2014-8176,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2014-9420,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2014-9630,True,blames other code,blames other code,blames other code,0,12
+GPT-5 Mini,CVE-2014-9710,True,blames the fix,blames the fix,blames the fix,3,3
+GPT-5 Mini,CVE-2014-9731,True,blames the fix,blames the fix,blames the fix,4,4
+GPT-5 Mini,CVE-2015-10088,True,blames other code,blames other code,blames other code,0,8
+GPT-5 Mini,CVE-2015-1331,True,blames the fix,blames the fix,blames the fix,3,2
+GPT-5 Mini,CVE-2015-1792,True,blames the fix,blames the fix,blames the fix,4,1
+GPT-5 Mini,CVE-2015-2696,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2015-2831,True,blames the fix,blames the fix,blames the fix,2,2
+GPT-5 Mini,CVE-2015-3151,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2015-3212,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2015-6031,True,blames the fix,blames the fix,blames the fix,3,1
+GPT-5 Mini,CVE-2015-6520,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2015-7550,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2015-7885,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2015-8950,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2015-8970,True,blames the fix,blames the fix,blames the fix,2,1
+GPT-5 Mini,CVE-2015-9542,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2016-0546,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2016-10011,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2016-10050,True,blames other code,blames the fix,blames the fix,2,12
+GPT-5 Mini,CVE-2016-10088,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2016-10154,True,blames the fix,blames the fix,blames the fix,2,0
+GPT-5 Mini,CVE-2016-10156,True,blames the fix,blames the fix,blames the fix,2,1
+GPT-5 Mini,CVE-2016-10190,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2016-10197,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2016-1246,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2016-1541,True,blames other code,blames the fix,blames the fix,1,6
+GPT-5 Mini,CVE-2016-2180,True,blames the fix,blames the fix,blames the fix,2,1
+GPT-5 Mini,CVE-2016-2385,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2016-3698,True,blames the fix,blames the fix,blames the fix,4,0
+GPT-5 Mini,CVE-2016-3841,True,blames the fix,blames the fix,blames the fix,1,0
+GPT-5 Mini,CVE-2016-4478,True,blames the fix,blames the fix,blames the fix,2,0
+GPT-5 Mini,CVE-2016-4580,False,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2016-5116,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2016-5243,True,blames the fix,blames the fix,blames the fix,2,2
+GPT-5 Mini,CVE-2016-5355,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2016-5356,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2016-5357,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2016-5841,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2016-5842,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2016-6136,False,blames the fix,blames the fix,blames the fix,6,0
+GPT-5 Mini,CVE-2016-6271,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2016-6663,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2016-6911,True,blames the fix,blames the fix,blames the fix,2,2
+GPT-5 Mini,CVE-2016-7144,True,blames other code,blames the fix,blames the fix,1,4
+GPT-5 Mini,CVE-2016-7414,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2016-7425,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2016-7798,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2016-7912,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2016-8649,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2016-8658,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2017-10911,True,blames the fix,blames the fix,blames the fix,5,0
+GPT-5 Mini,CVE-2017-11399,True,blames other code,blames the fix,blames the fix,2,6
+GPT-5 Mini,CVE-2017-11664,True,blames other code,blames the fix,blames the fix,1,5
+GPT-5 Mini,CVE-2017-12146,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2017-12894,True,blames the fix,blames the fix,blames the fix,3,0
+GPT-5 Mini,CVE-2017-12987,True,blames the fix,blames the fix,blames the fix,1,1
+GPT-5 Mini,CVE-2017-13001,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2017-13011,True,blames the fix,blames the fix,blames the fix,1,1
+GPT-5 Mini,CVE-2017-13035,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2017-13043,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2017-13053,True,blames the fix,blames the fix,blames the fix,2,0
+GPT-5 Mini,CVE-2017-13083,False,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2017-14604,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2017-14767,True,no code cited,no code cited,no code cited,0,0
+GPT-5 Mini,CVE-2017-15265,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2017-15924,True,blames the fix,blames the fix,blames the fix,2,2
+GPT-5 Mini,CVE-2017-17862,False,blames other code,blames the fix,blames the fix,1,5
+GPT-5 Mini,CVE-2017-18922,True,blames other code,blames other code,blames other code,0,10
+GPT-5 Mini,CVE-2017-2630,True,blames other code,blames the fix,blames the fix,1,4
+GPT-5 Mini,CVE-2017-5545,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2017-5847,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2017-5850,True,blames other code,blames the fix,blames the fix,1,8
+GPT-5 Mini,CVE-2017-5940,True,blames the fix,blames the fix,blames other code,7,3
+GPT-5 Mini,CVE-2017-6308,True,no code cited,no code cited,no code cited,0,0
+GPT-5 Mini,CVE-2017-6802,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2017-7272,True,no code cited,no code cited,no code cited,0,0
+GPT-5 Mini,CVE-2017-7418,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2017-7501,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2017-7875,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2017-8062,True,blames the fix,blames the fix,blames the fix,9,0
+GPT-5 Mini,CVE-2017-8073,True,no code cited,no code cited,no code cited,0,0
+GPT-5 Mini,CVE-2017-8807,False,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2017-9144,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2018-11593,True,blames other code,blames the fix,blames the fix,2,9
+GPT-5 Mini,CVE-2018-13094,True,blames other code,blames other code,blames other code,0,10
+GPT-5 Mini,CVE-2018-14354,False,blames the fix,blames the fix,blames the fix,2,0
+GPT-5 Mini,CVE-2018-14357,False,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2018-14360,True,blames other code,blames the fix,blames the fix,2,3
+GPT-5 Mini,CVE-2018-14362,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2018-14363,False,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2018-15501,True,blames the fix,blames the fix,blames the fix,2,2
+GPT-5 Mini,CVE-2018-16276,True,blames other code,blames the fix,blames the fix,2,3
+GPT-5 Mini,CVE-2018-16435,True,blames the fix,blames the fix,blames the fix,1,0
+GPT-5 Mini,CVE-2018-16839,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2018-17407,True,blames other code,blames the fix,blames the fix,2,4
+GPT-5 Mini,CVE-2018-19044,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2018-20457,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2018-20459,True,blames the fix,blames the fix,blames the fix,1,1
+GPT-5 Mini,CVE-2018-5729,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2018-5730,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2018-6198,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2018-7186,True,blames other code,blames the fix,blames the fix,2,3
+GPT-5 Mini,CVE-2018-7247,True,blames other code,blames other code,blames other code,0,8
+GPT-5 Mini,CVE-2018-7648,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2018-8784,True,blames other code,blames the fix,blames the fix,1,4
+GPT-5 Mini,CVE-2018-8786,True,blames other code,blames the fix,blames the fix,2,4
+GPT-5 Mini,CVE-2018-8788,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2018-9336,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2019-1010208,False,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2019-1010283,True,blames other code,blames other code,blames other code,0,9
+GPT-5 Mini,CVE-2019-1010319,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2019-11222,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2019-11411,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2019-12730,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2019-12973,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2019-14323,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2019-14763,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2019-14814,True,blames other code,blames the fix,blames the fix,2,6
+GPT-5 Mini,CVE-2019-14816,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2019-15146,True,blames other code,blames the fix,blames the fix,2,4
+GPT-5 Mini,CVE-2019-15147,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2019-15148,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2019-15161,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2019-15162,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2019-15163,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2019-16058,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2019-18224,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2019-18276,False,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2019-18672,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2019-18808,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2019-19333,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2019-19334,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2019-19638,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2019-20839,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2019-25104,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2019-3817,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2019-9718,False,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2020-11042,True,blames other code,blames other code,blames other code,0,13
+GPT-5 Mini,CVE-2020-11087,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2020-11939,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2020-12135,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2020-12653,True,no code cited,no code cited,no code cited,0,0
+GPT-5 Mini,CVE-2020-12654,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2020-13114,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2020-13396,True,blames the fix,blames the fix,blames the fix,3,1
+GPT-5 Mini,CVE-2020-13398,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2020-13904,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2020-14396,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2020-20276,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2020-20277,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2020-20739,True,blames other code,blames the fix,blames the fix,1,6
+GPT-5 Mini,CVE-2020-23930,True,blames other code,blames other code,blames other code,0,11
+GPT-5 Mini,CVE-2020-25690,True,blames other code,blames the fix,blames the fix,2,19
+GPT-5 Mini,CVE-2020-26572,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2020-27678,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2020-27777,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2020-27780,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2020-36158,True,blames other code,blames other code,blames other code,0,14
+GPT-5 Mini,CVE-2020-5204,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2020-5208,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2020-5221,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2020-7042,True,blames other code,blames other code,blames other code,0,8
+GPT-5 Mini,CVE-2020-7043,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2020-7247,False,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2020-9365,True,blames the fix,blames the fix,blames the fix,4,0
+GPT-5 Mini,CVE-2020-9433,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2021-20197,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2021-20240,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2021-20266,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2021-20294,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2021-27138,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2021-30014,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2021-30020,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2021-30022,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2021-30145,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2021-32845,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2021-3517,True,blames other code,blames the fix,blames the fix,2,5
+GPT-5 Mini,CVE-2021-3565,True,blames the fix,blames the fix,blames the fix,2,2
+GPT-5 Mini,CVE-2021-38383,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2021-40818,True,blames other code,blames the fix,blames the fix,1,3
+GPT-5 Mini,CVE-2021-43267,True,blames the fix,blames the fix,blames the fix,1,0
+GPT-5 Mini,CVE-2021-43814,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2021-44512,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2021-46225,True,blames other code,blames the fix,blames the fix,2,4
+GPT-5 Mini,CVE-2022-0545,True,blames the fix,blames the fix,blames the fix,11,0
+GPT-5 Mini,CVE-2022-0546,True,blames the fix,blames the fix,blames the fix,3,3
+GPT-5 Mini,CVE-2022-0699,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2022-1987,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2022-23537,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2022-24754,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2022-25643,True,blames other code,blames the fix,blames the fix,2,3
+GPT-5 Mini,CVE-2022-26490,True,blames other code,blames the fix,blames the fix,2,12
+GPT-5 Mini,CVE-2022-2652,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2022-27240,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2022-29242,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2022-29859,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2022-29967,True,blames the fix,blames the fix,blames the fix,2,0
+GPT-5 Mini,CVE-2022-30767,True,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2022-32200,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2022-34299,True,blames other code,blames other code,blames other code,0,6
+GPT-5 Mini,CVE-2022-36021,True,no code cited,no code cited,no code cited,0,0
+GPT-5 Mini,CVE-2022-36039,True,blames other code,blames the fix,blames the fix,1,5
+GPT-5 Mini,CVE-2022-37032,True,blames the fix,blames the fix,blames the fix,3,0
+GPT-5 Mini,CVE-2022-39316,True,blames other code,blames the fix,blames the fix,1,5
+GPT-5 Mini,CVE-2022-39347,True,blames the fix,blames the fix,blames the fix,4,0
+GPT-5 Mini,CVE-2022-4254,True,blames the fix,blames the fix,blames the fix,4,0
+GPT-5 Mini,CVE-2022-4398,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2022-47021,True,no code cited,no code cited,no code cited,0,0
+GPT-5 Mini,CVE-2022-4744,False,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2022-47518,True,blames other code,blames other code,blames other code,0,8
+GPT-5 Mini,CVE-2022-47520,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2022-47942,True,blames other code,blames the fix,blames the fix,2,5
+GPT-5 Mini,CVE-2022-4843,True,blames other code,blames other code,blames other code,0,7
+GPT-5 Mini,CVE-2023-0266,True,blames other code,blames other code,blames other code,0,9
+GPT-5 Mini,CVE-2023-0302,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2023-1655,True,blames other code,blames other code,blames other code,0,9
+GPT-5 Mini,CVE-2023-1672,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2023-1801,True,blames other code,blames other code,blames other code,0,8
+GPT-5 Mini,CVE-2023-22745,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2023-24805,True,blames the fix,blames the fix,blames the fix,3,2
+GPT-5 Mini,CVE-2023-25566,True,blames other code,blames the fix,blames the fix,1,4
+GPT-5 Mini,CVE-2023-25584,True,blames other code,blames other code,blames other code,0,8
+GPT-5 Mini,CVE-2023-25588,True,blames the fix,blames the fix,blames the fix,6,1
+GPT-5 Mini,CVE-2023-27590,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2023-28101,True,blames the fix,blames the fix,blames the fix,2,0
+GPT-5 Mini,CVE-2023-28487,True,blames other code,blames other code,blames other code,0,19
+GPT-5 Mini,CVE-2023-29323,True,blames other code,blames the fix,blames the fix,2,3
+GPT-5 Mini,CVE-2023-30775,True,blames other code,blames other code,blames other code,0,3
+GPT-5 Mini,CVE-2023-31147,True,blames other code,blames the fix,blames the fix,1,2
+GPT-5 Mini,CVE-2023-3247,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2023-3326,False,blames other code,blames other code,blames other code,0,1
+GPT-5 Mini,CVE-2023-34095,True,blames other code,blames the fix,blames the fix,2,3
+GPT-5 Mini,CVE-2023-34475,True,blames the fix,blames the fix,blames the fix,2,2
+GPT-5 Mini,CVE-2023-3523,True,blames other code,blames other code,blames other code,0,2
+GPT-5 Mini,CVE-2023-36326,True,blames the fix,blames the fix,blames the fix,6,0
+GPT-5 Mini,CVE-2023-3824,True,blames the fix,blames the fix,blames the fix,2,1
+GPT-5 Mini,CVE-2023-45145,True,blames the fix,blames the fix,blames the fix,2,0
+GPT-5 Mini,CVE-2023-4535,True,blames other code,blames other code,blames other code,0,4
+GPT-5 Mini,CVE-2023-49208,True,blames other code,blames other code,blames other code,0,5
+GPT-5 Mini,CVE-2023-5521,True,blames other code,blames the fix,blames the fix,2,12
+GPT-5 Mini,CVE-2023-5686,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2009-5147,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2010-3844,True,blames the fix,blames the fix,blames other code,7,1
+Gemini 3 Flash,CVE-2011-0990,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2011-1078,True,blames other code,blames the fix,blames other code,2,4
+Gemini 3 Flash,CVE-2011-1180,True,blames other code,blames the fix,blames other code,1,2
+Gemini 3 Flash,CVE-2011-2517,True,blames other code,blames other code,blames other code,0,13
+Gemini 3 Flash,CVE-2011-2909,True,blames the fix,blames the fix,blames the fix,4,1
+Gemini 3 Flash,CVE-2011-3209,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2011-4081,True,blames other code,blames other code,blames other code,0,18
+Gemini 3 Flash,CVE-2011-4087,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2011-4594,True,blames other code,blames other code,blames other code,0,13
+Gemini 3 Flash,CVE-2011-4914,True,blames other code,blames the fix,blames other code,1,9
+Gemini 3 Flash,CVE-2012-0957,True,blames the fix,blames the fix,blames the fix,19,0
+Gemini 3 Flash,CVE-2012-2121,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2012-3364,True,blames the fix,blames the fix,blames the fix,5,2
+Gemini 3 Flash,CVE-2012-3400,True,blames other code,blames other code,blames other code,0,7
+Gemini 3 Flash,CVE-2012-3430,True,blames the fix,blames the fix,blames the fix,10,1
+Gemini 3 Flash,CVE-2012-4530,True,blames other code,blames other code,blames other code,0,9
+Gemini 3 Flash,CVE-2012-5532,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2012-6542,False,blames other code,blames the fix,blames other code,1,7
+Gemini 3 Flash,CVE-2013-0216,True,blames the fix,blames the fix,blames the fix,5,2
+Gemini 3 Flash,CVE-2013-0349,True,blames other code,blames the fix,blames other code,5,8
+Gemini 3 Flash,CVE-2013-1929,True,blames other code,blames other code,blames other code,0,11
+Gemini 3 Flash,CVE-2013-2546,True,blames other code,blames the fix,blames other code,2,3
+Gemini 3 Flash,CVE-2013-2547,True,blames other code,blames the fix,blames other code,2,3
+Gemini 3 Flash,CVE-2013-2548,True,blames other code,blames the fix,blames other code,2,3
+Gemini 3 Flash,CVE-2013-4263,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2013-4350,True,blames other code,blames the fix,blames other code,3,10
+Gemini 3 Flash,CVE-2013-4512,True,blames the fix,blames the fix,blames other code,7,2
+Gemini 3 Flash,CVE-2013-4588,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2013-6401,True,blames the fix,blames the fix,blames the fix,6,3
+Gemini 3 Flash,CVE-2013-6412,True,blames the fix,blames the fix,blames other code,3,2
+Gemini 3 Flash,CVE-2013-7018,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2013-7263,True,blames other code,blames the fix,blames other code,2,4
+Gemini 3 Flash,CVE-2013-7265,True,no code cited,no code cited,no code cited,0,0
+Gemini 3 Flash,CVE-2013-7281,True,blames the fix,blames the fix,blames other code,5,3
+Gemini 3 Flash,CVE-2014-0063,True,blames the fix,blames the fix,blames other code,1,1
+Gemini 3 Flash,CVE-2014-0064,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2014-0207,True,blames the fix,blames the fix,blames the fix,4,3
+Gemini 3 Flash,CVE-2014-0238,True,blames other code,blames the fix,blames other code,1,4
+Gemini 3 Flash,CVE-2014-1690,True,blames the fix,blames the fix,blames the fix,9,3
+Gemini 3 Flash,CVE-2014-2270,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2014-2669,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2014-3185,True,blames the fix,blames the fix,blames the fix,18,1
+Gemini 3 Flash,CVE-2014-3478,True,blames the fix,blames the fix,blames the fix,8,2
+Gemini 3 Flash,CVE-2014-3538,True,blames the fix,blames the fix,blames other code,2,2
+Gemini 3 Flash,CVE-2014-3587,True,blames other code,blames other code,blames other code,0,11
+Gemini 3 Flash,CVE-2014-3980,True,blames other code,blames other code,blames other code,0,8
+Gemini 3 Flash,CVE-2014-4978,True,blames the fix,blames the fix,blames the fix,5,0
+Gemini 3 Flash,CVE-2014-6395,False,blames the fix,blames the fix,blames other code,6,4
+Gemini 3 Flash,CVE-2014-6396,False,blames the fix,blames the fix,blames other code,6,4
+Gemini 3 Flash,CVE-2014-6410,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2014-8176,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2014-9420,True,blames other code,blames the fix,blames the fix,2,9
+Gemini 3 Flash,CVE-2014-9630,True,blames other code,blames the fix,blames other code,1,4
+Gemini 3 Flash,CVE-2014-9652,True,blames other code,blames the fix,blames other code,1,3
+Gemini 3 Flash,CVE-2014-9710,True,blames the fix,blames the fix,blames the fix,4,0
+Gemini 3 Flash,CVE-2014-9731,True,blames the fix,blames the fix,blames the fix,15,2
+Gemini 3 Flash,CVE-2015-10088,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2015-1191,True,blames other code,blames other code,blames other code,0,9
+Gemini 3 Flash,CVE-2015-1331,True,blames the fix,blames the fix,blames the fix,12,2
+Gemini 3 Flash,CVE-2015-1789,True,blames the fix,blames the fix,blames the fix,13,4
+Gemini 3 Flash,CVE-2015-1792,True,blames the fix,blames the fix,blames other code,5,5
+Gemini 3 Flash,CVE-2015-2696,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2015-2831,True,blames the fix,blames the fix,blames the fix,5,2
+Gemini 3 Flash,CVE-2015-3150,True,blames other code,blames the fix,blames other code,7,11
+Gemini 3 Flash,CVE-2015-3151,True,blames the fix,blames the fix,blames other code,1,1
+Gemini 3 Flash,CVE-2015-3212,True,blames other code,blames the fix,blames the fix,1,2
+Gemini 3 Flash,CVE-2015-6031,True,blames the fix,blames the fix,blames the fix,4,0
+Gemini 3 Flash,CVE-2015-6520,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2015-7513,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2015-7550,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2015-7885,True,blames other code,blames other code,blames other code,0,12
+Gemini 3 Flash,CVE-2015-8950,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2015-8955,True,blames the fix,blames the fix,blames the fix,5,2
+Gemini 3 Flash,CVE-2015-8970,True,blames other code,blames the fix,blames the fix,2,4
+Gemini 3 Flash,CVE-2015-9542,True,blames other code,blames the fix,blames the fix,2,6
+Gemini 3 Flash,CVE-2016-0546,True,blames other code,blames the fix,blames other code,2,4
+Gemini 3 Flash,CVE-2016-10011,True,blames the fix,blames the fix,blames other code,10,2
+Gemini 3 Flash,CVE-2016-10050,True,blames other code,blames the fix,blames other code,1,4
+Gemini 3 Flash,CVE-2016-10088,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2016-10154,True,blames other code,blames the fix,blames the fix,1,3
+Gemini 3 Flash,CVE-2016-10156,True,blames the fix,blames the fix,blames the fix,5,1
+Gemini 3 Flash,CVE-2016-10190,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2016-10191,True,blames other code,blames the fix,blames the fix,4,5
+Gemini 3 Flash,CVE-2016-10195,True,blames other code,blames other code,blames other code,0,15
+Gemini 3 Flash,CVE-2016-10197,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2016-1246,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2016-1541,True,blames the fix,blames the fix,blames the fix,4,4
+Gemini 3 Flash,CVE-2016-2385,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2016-2847,True,blames the fix,blames the fix,blames the fix,6,0
+Gemini 3 Flash,CVE-2016-3178,True,blames other code,blames the fix,blames other code,1,11
+Gemini 3 Flash,CVE-2016-3179,True,blames other code,blames the fix,blames other code,1,13
+Gemini 3 Flash,CVE-2016-3698,True,blames the fix,blames the fix,blames the fix,12,0
+Gemini 3 Flash,CVE-2016-3841,True,blames the fix,blames the fix,blames the fix,8,2
+Gemini 3 Flash,CVE-2016-4478,True,blames the fix,blames the fix,blames the fix,9,1
+Gemini 3 Flash,CVE-2016-4580,True,blames other code,blames the fix,blames other code,1,2
+Gemini 3 Flash,CVE-2016-5094,True,blames other code,blames other code,blames other code,0,13
+Gemini 3 Flash,CVE-2016-5104,True,blames the fix,blames the fix,blames other code,2,1
+Gemini 3 Flash,CVE-2016-5116,True,blames other code,blames the fix,blames other code,1,4
+Gemini 3 Flash,CVE-2016-5243,True,blames the fix,blames the fix,blames the fix,8,0
+Gemini 3 Flash,CVE-2016-5355,True,blames the fix,blames the fix,blames other code,5,5
+Gemini 3 Flash,CVE-2016-5356,True,blames other code,blames the fix,blames other code,1,2
+Gemini 3 Flash,CVE-2016-5357,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2016-5841,True,blames other code,blames other code,blames other code,0,7
+Gemini 3 Flash,CVE-2016-5842,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2016-6136,True,blames the fix,blames the fix,blames the fix,13,0
+Gemini 3 Flash,CVE-2016-6271,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2016-6663,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2016-6911,True,blames the fix,blames the fix,blames the fix,10,5
+Gemini 3 Flash,CVE-2016-7144,False,blames the fix,blames the fix,blames the fix,4,3
+Gemini 3 Flash,CVE-2016-7414,True,blames other code,blames the fix,blames other code,4,5
+Gemini 3 Flash,CVE-2016-7425,True,blames other code,blames other code,blames other code,0,10
+Gemini 3 Flash,CVE-2016-7798,False,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2016-7912,True,blames other code,blames other code,blames other code,0,8
+Gemini 3 Flash,CVE-2016-8658,True,blames other code,blames the fix,blames other code,2,8
+Gemini 3 Flash,CVE-2016-9756,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2017-10911,True,blames the fix,blames the fix,blames the fix,13,0
+Gemini 3 Flash,CVE-2017-11399,True,blames other code,blames other code,blames other code,0,13
+Gemini 3 Flash,CVE-2017-11664,True,blames other code,blames the fix,blames the fix,1,8
+Gemini 3 Flash,CVE-2017-12146,True,blames the fix,blames the fix,blames the fix,12,0
+Gemini 3 Flash,CVE-2017-12894,True,blames other code,blames the fix,blames other code,3,4
+Gemini 3 Flash,CVE-2017-12902,True,blames the fix,blames the fix,blames other code,2,2
+Gemini 3 Flash,CVE-2017-12987,True,blames other code,blames the fix,blames other code,7,16
+Gemini 3 Flash,CVE-2017-13001,True,blames the fix,blames the fix,blames the fix,12,0
+Gemini 3 Flash,CVE-2017-13008,True,blames other code,blames the fix,blames other code,3,12
+Gemini 3 Flash,CVE-2017-13011,True,blames the fix,blames the fix,blames the fix,4,0
+Gemini 3 Flash,CVE-2017-13035,True,blames other code,blames the fix,blames other code,3,4
+Gemini 3 Flash,CVE-2017-13043,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2017-13053,True,blames other code,blames the fix,blames the fix,5,9
+Gemini 3 Flash,CVE-2017-13083,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2017-14106,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2017-14604,True,blames the fix,blames the fix,blames the fix,3,1
+Gemini 3 Flash,CVE-2017-14767,True,blames other code,blames the fix,blames other code,2,9
+Gemini 3 Flash,CVE-2017-15265,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2017-15924,True,blames other code,blames the fix,blames the fix,3,6
+Gemini 3 Flash,CVE-2017-17862,True,blames other code,blames the fix,blames other code,3,8
+Gemini 3 Flash,CVE-2017-18922,True,blames other code,blames other code,blames other code,0,8
+Gemini 3 Flash,CVE-2017-2630,True,blames other code,blames the fix,blames other code,2,5
+Gemini 3 Flash,CVE-2017-3733,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2017-5545,True,blames the fix,blames the fix,blames the fix,2,1
+Gemini 3 Flash,CVE-2017-5847,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2017-5850,False,blames other code,blames the fix,blames other code,1,16
+Gemini 3 Flash,CVE-2017-5940,False,blames the fix,blames the fix,blames the fix,4,1
+Gemini 3 Flash,CVE-2017-6308,True,blames the fix,blames the fix,blames the fix,7,3
+Gemini 3 Flash,CVE-2017-6802,True,blames other code,blames the fix,blames other code,1,10
+Gemini 3 Flash,CVE-2017-7272,True,blames other code,blames the fix,blames other code,4,5
+Gemini 3 Flash,CVE-2017-7418,True,blames the fix,blames the fix,blames the fix,4,1
+Gemini 3 Flash,CVE-2017-7501,True,blames the fix,blames the fix,blames the fix,6,2
+Gemini 3 Flash,CVE-2017-7875,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2017-8062,True,blames the fix,blames the fix,blames other code,14,7
+Gemini 3 Flash,CVE-2017-8807,True,blames other code,blames the fix,blames other code,1,11
+Gemini 3 Flash,CVE-2017-9075,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2017-9144,True,blames the fix,blames the fix,blames the fix,2,2
+Gemini 3 Flash,CVE-2018-10887,True,blames other code,blames the fix,blames the fix,4,5
+Gemini 3 Flash,CVE-2018-11593,True,blames other code,blames the fix,blames other code,3,4
+Gemini 3 Flash,CVE-2018-13094,True,blames other code,blames other code,blames other code,0,7
+Gemini 3 Flash,CVE-2018-14354,True,blames the fix,blames the fix,blames the fix,4,0
+Gemini 3 Flash,CVE-2018-14357,True,blames other code,blames the fix,blames other code,3,5
+Gemini 3 Flash,CVE-2018-14360,True,blames the fix,blames the fix,blames the fix,7,3
+Gemini 3 Flash,CVE-2018-14362,True,blames other code,blames the fix,blames the fix,5,6
+Gemini 3 Flash,CVE-2018-14363,True,blames other code,blames the fix,blames the fix,5,6
+Gemini 3 Flash,CVE-2018-15501,True,blames the fix,blames the fix,blames the fix,7,5
+Gemini 3 Flash,CVE-2018-16276,True,blames other code,blames other code,blames other code,0,8
+Gemini 3 Flash,CVE-2018-16435,True,blames the fix,blames the fix,blames the fix,8,0
+Gemini 3 Flash,CVE-2018-16839,True,blames other code,blames the fix,blames other code,3,7
+Gemini 3 Flash,CVE-2018-17407,True,blames other code,blames the fix,blames other code,1,3
+Gemini 3 Flash,CVE-2018-19044,True,blames other code,blames the fix,blames the fix,4,6
+Gemini 3 Flash,CVE-2018-20457,True,blames the fix,blames the fix,blames other code,2,2
+Gemini 3 Flash,CVE-2018-20459,True,blames the fix,blames the fix,blames other code,1,1
+Gemini 3 Flash,CVE-2018-5729,True,blames other code,blames the fix,blames the fix,1,3
+Gemini 3 Flash,CVE-2018-5730,True,blames other code,blames the fix,blames other code,1,8
+Gemini 3 Flash,CVE-2018-6198,True,blames other code,blames the fix,blames other code,1,2
+Gemini 3 Flash,CVE-2018-6560,True,blames the fix,blames the fix,blames the fix,14,3
+Gemini 3 Flash,CVE-2018-7186,True,blames the fix,blames the fix,blames the fix,2,2
+Gemini 3 Flash,CVE-2018-7247,True,blames other code,blames other code,blames other code,0,8
+Gemini 3 Flash,CVE-2018-7648,True,blames the fix,blames the fix,blames other code,2,1
+Gemini 3 Flash,CVE-2018-8784,True,blames other code,blames the fix,blames other code,1,8
+Gemini 3 Flash,CVE-2018-8786,True,blames the fix,blames the fix,blames the fix,6,2
+Gemini 3 Flash,CVE-2018-8788,True,blames the fix,blames the fix,blames the fix,11,6
+Gemini 3 Flash,CVE-2018-9336,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2019-1010208,False,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2019-1010283,True,blames other code,blames other code,blames other code,0,11
+Gemini 3 Flash,CVE-2019-1010294,True,blames the fix,blames the fix,blames other code,8,1
+Gemini 3 Flash,CVE-2019-1010319,True,blames other code,blames other code,blames other code,0,10
+Gemini 3 Flash,CVE-2019-11222,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2019-11411,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2019-11413,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2019-12730,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2019-12973,True,blames other code,blames other code,blames other code,0,9
+Gemini 3 Flash,CVE-2019-14323,True,blames the fix,blames the fix,blames the fix,8,5
+Gemini 3 Flash,CVE-2019-14763,True,blames the fix,blames the fix,blames other code,1,1
+Gemini 3 Flash,CVE-2019-14814,True,blames the fix,blames the fix,blames other code,7,6
+Gemini 3 Flash,CVE-2019-14815,True,blames the fix,blames the fix,blames other code,7,6
+Gemini 3 Flash,CVE-2019-14816,True,blames other code,blames the fix,blames other code,6,10
+Gemini 3 Flash,CVE-2019-15146,True,blames other code,blames the fix,blames other code,1,8
+Gemini 3 Flash,CVE-2019-15147,True,blames the fix,blames the fix,blames the fix,9,3
+Gemini 3 Flash,CVE-2019-15148,True,blames other code,blames the fix,blames other code,1,8
+Gemini 3 Flash,CVE-2019-15161,False,blames the fix,blames the fix,blames the fix,2,2
+Gemini 3 Flash,CVE-2019-15163,True,blames the fix,blames the fix,blames the fix,3,3
+Gemini 3 Flash,CVE-2019-16058,True,blames the fix,blames the fix,blames the fix,3,3
+Gemini 3 Flash,CVE-2019-18224,True,blames other code,blames the fix,blames other code,2,5
+Gemini 3 Flash,CVE-2019-18276,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2019-18672,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2019-18808,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2019-19333,True,blames other code,blames the fix,blames other code,1,9
+Gemini 3 Flash,CVE-2019-19334,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2019-19638,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2019-20839,True,blames other code,blames the fix,blames the fix,1,3
+Gemini 3 Flash,CVE-2019-25104,True,blames the fix,blames the fix,blames other code,3,1
+Gemini 3 Flash,CVE-2019-3817,True,blames other code,blames other code,blames other code,0,12
+Gemini 3 Flash,CVE-2019-7149,True,blames other code,blames other code,blames other code,0,8
+Gemini 3 Flash,CVE-2019-9718,True,blames other code,blames other code,blames other code,0,12
+Gemini 3 Flash,CVE-2020-10001,True,blames other code,blames the fix,blames other code,2,4
+Gemini 3 Flash,CVE-2020-11939,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2020-12135,True,blames the fix,blames the fix,blames the fix,2,2
+Gemini 3 Flash,CVE-2020-12653,True,blames other code,blames the fix,blames other code,2,5
+Gemini 3 Flash,CVE-2020-12654,True,blames other code,blames the fix,blames other code,1,5
+Gemini 3 Flash,CVE-2020-13114,True,blames the fix,blames the fix,blames the fix,7,6
+Gemini 3 Flash,CVE-2020-13396,True,blames other code,blames the fix,blames other code,2,7
+Gemini 3 Flash,CVE-2020-13398,True,blames the fix,blames the fix,blames the fix,9,5
+Gemini 3 Flash,CVE-2020-13904,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2020-14396,True,blames other code,blames other code,blames other code,0,7
+Gemini 3 Flash,CVE-2020-15173,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2020-20276,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2020-20277,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2020-20739,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2020-21050,True,blames other code,blames the fix,blames other code,1,10
+Gemini 3 Flash,CVE-2020-23930,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2020-25690,True,blames other code,blames the fix,blames other code,5,12
+Gemini 3 Flash,CVE-2020-26572,True,blames other code,blames the fix,blames the fix,3,4
+Gemini 3 Flash,CVE-2020-27678,True,blames the fix,blames the fix,blames the fix,4,1
+Gemini 3 Flash,CVE-2020-27777,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2020-27780,True,blames the fix,blames the fix,blames the fix,5,3
+Gemini 3 Flash,CVE-2020-28374,True,blames the fix,blames the fix,blames the fix,11,1
+Gemini 3 Flash,CVE-2020-29361,True,blames the fix,blames the fix,blames the fix,6,4
+Gemini 3 Flash,CVE-2020-36158,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2020-5204,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2020-5208,True,blames the fix,blames the fix,blames the fix,6,1
+Gemini 3 Flash,CVE-2020-5221,True,blames other code,blames the fix,blames other code,2,4
+Gemini 3 Flash,CVE-2020-7042,True,no code cited,no code cited,no code cited,0,0
+Gemini 3 Flash,CVE-2020-7043,True,blames other code,blames the fix,blames other code,1,2
+Gemini 3 Flash,CVE-2020-9365,True,blames the fix,blames the fix,blames the fix,21,0
+Gemini 3 Flash,CVE-2020-9433,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2021-20197,True,blames the fix,blames the fix,blames the fix,2,0
+Gemini 3 Flash,CVE-2021-20240,True,blames other code,blames the fix,blames other code,2,12
+Gemini 3 Flash,CVE-2021-20266,True,blames other code,blames the fix,blames other code,1,4
+Gemini 3 Flash,CVE-2021-20294,True,blames other code,blames the fix,blames other code,2,8
+Gemini 3 Flash,CVE-2021-27138,True,blames other code,blames the fix,blames other code,1,5
+Gemini 3 Flash,CVE-2021-30014,True,blames other code,blames the fix,blames other code,1,12
+Gemini 3 Flash,CVE-2021-30020,True,blames other code,blames the fix,blames other code,2,19
+Gemini 3 Flash,CVE-2021-30022,True,blames other code,blames the fix,blames other code,2,19
+Gemini 3 Flash,CVE-2021-30145,True,blames the fix,blames the fix,blames the fix,10,3
+Gemini 3 Flash,CVE-2021-32672,True,blames the fix,blames the fix,blames the fix,7,5
+Gemini 3 Flash,CVE-2021-32845,True,blames other code,blames the fix,blames other code,1,4
+Gemini 3 Flash,CVE-2021-3515,True,blames the fix,blames the fix,blames the fix,9,0
+Gemini 3 Flash,CVE-2021-3517,True,blames other code,blames other code,blames other code,0,7
+Gemini 3 Flash,CVE-2021-3565,True,blames the fix,blames the fix,blames other code,2,1
+Gemini 3 Flash,CVE-2021-38383,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2021-3995,True,blames the fix,blames the fix,blames the fix,6,2
+Gemini 3 Flash,CVE-2021-40818,True,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2021-43267,True,blames the fix,blames the fix,blames other code,8,4
+Gemini 3 Flash,CVE-2021-43814,True,blames other code,blames the fix,blames other code,4,7
+Gemini 3 Flash,CVE-2021-43860,True,blames the fix,blames the fix,blames the fix,3,0
+Gemini 3 Flash,CVE-2021-44512,True,blames other code,blames the fix,blames other code,3,4
+Gemini 3 Flash,CVE-2021-46225,True,blames the fix,blames the fix,blames the fix,5,3
+Gemini 3 Flash,CVE-2022-0545,True,blames the fix,blames the fix,blames the fix,20,0
+Gemini 3 Flash,CVE-2022-0546,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2022-0699,True,blames other code,blames other code,blames other code,0,1
+Gemini 3 Flash,CVE-2022-1714,True,blames other code,blames the fix,blames other code,4,7
+Gemini 3 Flash,CVE-2022-1987,True,blames other code,blames the fix,blames other code,2,8
+Gemini 3 Flash,CVE-2022-23537,True,blames other code,blames the fix,blames other code,1,6
+Gemini 3 Flash,CVE-2022-24754,True,blames the fix,blames the fix,blames the fix,7,7
+Gemini 3 Flash,CVE-2022-25643,True,blames other code,blames the fix,blames the fix,1,2
+Gemini 3 Flash,CVE-2022-26490,True,blames other code,blames the fix,blames other code,6,7
+Gemini 3 Flash,CVE-2022-2652,True,blames other code,blames the fix,blames other code,3,4
+Gemini 3 Flash,CVE-2022-27240,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2022-29242,True,blames the fix,blames the fix,blames other code,3,1
+Gemini 3 Flash,CVE-2022-29859,True,blames the fix,blames the fix,blames the fix,13,1
+Gemini 3 Flash,CVE-2022-29967,True,blames the fix,blames the fix,blames the fix,12,2
+Gemini 3 Flash,CVE-2022-30767,True,blames other code,blames the fix,blames other code,1,4
+Gemini 3 Flash,CVE-2022-32200,True,blames other code,blames other code,blames other code,0,12
+Gemini 3 Flash,CVE-2022-34299,True,blames the fix,blames the fix,blames other code,5,2
+Gemini 3 Flash,CVE-2022-36021,True,blames the fix,blames the fix,blames the fix,5,0
+Gemini 3 Flash,CVE-2022-36039,True,blames other code,blames the fix,blames other code,2,5
+Gemini 3 Flash,CVE-2022-37032,True,blames the fix,blames the fix,blames the fix,5,1
+Gemini 3 Flash,CVE-2022-3786,True,blames the fix,blames the fix,blames the fix,11,1
+Gemini 3 Flash,CVE-2022-39316,True,blames the fix,blames the fix,blames the fix,4,3
+Gemini 3 Flash,CVE-2022-39347,True,blames the fix,blames the fix,blames the fix,4,2
+Gemini 3 Flash,CVE-2022-4254,True,blames the fix,blames the fix,blames the fix,2,0
+Gemini 3 Flash,CVE-2022-4398,True,blames other code,blames the fix,blames other code,1,6
+Gemini 3 Flash,CVE-2022-4415,False,blames other code,blames other code,blames other code,0,3
+Gemini 3 Flash,CVE-2022-47021,True,blames other code,blames the fix,blames other code,1,10
+Gemini 3 Flash,CVE-2022-4744,True,blames the fix,blames the fix,blames other code,4,4
+Gemini 3 Flash,CVE-2022-47518,True,blames other code,blames the fix,blames other code,1,5
+Gemini 3 Flash,CVE-2022-47520,True,blames other code,blames the fix,blames other code,2,5
+Gemini 3 Flash,CVE-2022-47942,True,blames other code,blames the fix,blames other code,3,6
+Gemini 3 Flash,CVE-2022-4843,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2023-0266,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2023-0302,True,blames other code,blames the fix,blames the fix,2,3
+Gemini 3 Flash,CVE-2023-1655,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2023-1668,True,blames other code,blames other code,blames other code,0,5
+Gemini 3 Flash,CVE-2023-1801,True,blames the fix,blames the fix,blames the fix,2,0
+Gemini 3 Flash,CVE-2023-22745,True,blames other code,blames other code,blames other code,0,2
+Gemini 3 Flash,CVE-2023-24805,True,blames the fix,blames the fix,blames the fix,5,0
+Gemini 3 Flash,CVE-2023-25566,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2023-25584,True,blames other code,blames the fix,blames other code,1,12
+Gemini 3 Flash,CVE-2023-25588,True,blames the fix,blames the fix,blames the fix,7,1
+Gemini 3 Flash,CVE-2023-2602,True,blames other code,blames other code,blames other code,0,4
+Gemini 3 Flash,CVE-2023-2603,True,blames other code,blames the fix,blames the fix,3,5
+Gemini 3 Flash,CVE-2023-27590,True,blames the fix,blames the fix,blames other code,2,2
+Gemini 3 Flash,CVE-2023-29323,True,blames other code,blames the fix,blames other code,1,3
+Gemini 3 Flash,CVE-2023-30775,True,blames other code,blames the fix,blames other code,1,7
+Gemini 3 Flash,CVE-2023-31147,True,blames other code,blames other code,blames other code,0,11
+Gemini 3 Flash,CVE-2023-3247,True,blames other code,blames other code,blames other code,0,6
+Gemini 3 Flash,CVE-2023-3326,True,blames the fix,blames the fix,blames the fix,6,5
+Gemini 3 Flash,CVE-2023-34095,True,blames the fix,blames the fix,blames other code,6,1
+Gemini 3 Flash,CVE-2023-34475,True,blames the fix,blames the fix,blames other code,2,1
+Gemini 3 Flash,CVE-2023-3523,True,blames other code,blames other code,blames other code,0,13
+Gemini 3 Flash,CVE-2023-36326,True,blames the fix,blames the fix,blames the fix,18,2
+Gemini 3 Flash,CVE-2023-3824,True,blames the fix,blames the fix,blames the fix,11,0
+Gemini 3 Flash,CVE-2023-45145,True,blames the fix,blames the fix,blames the fix,5,1
+Gemini 3 Flash,CVE-2023-4535,True,blames other code,blames other code,blames other code,0,9
+Gemini 3 Flash,CVE-2023-49208,True,no code cited,no code cited,no code cited,0,0
+Gemini 3 Flash,CVE-2023-5521,True,blames other code,blames the fix,blames the fix,3,7
+Gemini 3 Flash,CVE-2023-5686,True,blames other code,blames the fix,blames other code,2,10

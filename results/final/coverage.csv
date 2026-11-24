@@ -1,0 +1,4 @@
+model,answered_prompts,expected_prompts,pairs,unparsed_answers,calls,list_price_cost_usd
+GPT-5 Mini,1436,1436,718,45,1535,9.2272
+Claude Haiku 4.5,1436,1436,718,1,1438,11.6449
+Gemini 3 Flash,1436,1436,718,47,1499,8.1211

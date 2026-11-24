@@ -104,8 +104,8 @@ CVE-2016-5104,C,2,2,"CO,CC",socket_create | socket_accept,0
 CVE-2016-5116,C,2,2,CO,gdCtxPrintf | gdImageXbmCtx,0
 CVE-2016-5243,C,1,1,"CO,CC",tipc_nl_compat_link_dump,0
 CVE-2016-5355,C,1,1,"CO,CC,CK",parse_toshiba_packet,0
-CVE-2016-5356,C,4,4,"CO,CC,CK",cosine_read | cosine_seek_read | parse_cosine_rec_hdr | parse_cosine_hex_dump,0
-CVE-2016-5357,C,4,4,"CO,CC,CK",netscreen_read | netscreen_seek_read | parse_netscreen_rec_hdr | parse_netscreen_hex_dump,0
+CVE-2016-5356,C,1,1,"CO,CC,CK",parse_cosine_packet,0
+CVE-2016-5357,C,1,1,"CO,CC,CK",parse_netscreen_packet,0
 CVE-2016-5841,C,12,15,"CO,CC,CK",unnamed_function | unnamed_function | ReadProfileShort | ReadProfileLong | SyncExifProfile | ReadPropertyMSBLong | ReadPropertyMSBShort | ReadPropertySignedLong | ReadPropertyUnsignedLong | ReadPropertySignedShort | ReadPropertyUnsignedShort | GetEXIFProperty,0
 CVE-2016-5842,C,12,15,"CO,CC,CK",unnamed_function | unnamed_function | ReadProfileShort | ReadProfileLong | SyncExifProfile | ReadPropertyMSBLong | ReadPropertyMSBShort | ReadPropertySignedLong | ReadPropertyUnsignedLong | ReadPropertySignedShort | ReadPropertyUnsignedShort | GetEXIFProperty,0
 CVE-2016-6136,C,2,4,"CO,CK",audit_log_single_execve_arg | audit_log_execve_info,0

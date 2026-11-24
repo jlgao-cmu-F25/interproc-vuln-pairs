@@ -22,11 +22,42 @@ SEED = 795
 N_SPOTCHECK = 30
 
 
+# raw_cves holds duplicate records for a few CVEs (CVE-x.json and CVE-x_2.json).
+# The original Colab run kept whichever file the filesystem listed last, so the
+# choice could differ between machines. These are the files whose content
+# reproduces every fixed-prompt SHA-256 of the completed GPT-4.1-mini run
+# (audited in results/paired_cached_analysis.json, duplicate_raw_record_resolution).
+RAW_RECORD_RESOLUTION = {
+    "CVE-2015-3151": "CVE-2015-3151_2.json",
+    "CVE-2015-3315": "CVE-2015-3315_2.json",
+    "CVE-2016-5104": "CVE-2016-5104.json",
+    "CVE-2016-5355": "CVE-2016-5355_2.json",
+    "CVE-2016-5356": "CVE-2016-5356.json",
+    "CVE-2016-5357": "CVE-2016-5357.json",
+    "CVE-2017-11399": "CVE-2017-11399.json",
+    "CVE-2021-30145": "CVE-2021-30145.json",
+    "CVE-2023-24805": "CVE-2023-24805.json",
+}
+
+
 def _load_raw():
-    records = {}
-    for path in RAW_CVES.glob("*.json"):
+    """Load one record per CVE, deterministically on every platform."""
+    candidates = {}
+    for path in sorted(RAW_CVES.glob("*.json")):
         row = json.loads(path.read_text(encoding="utf-8"))
-        records[row.get("cve_id", path.stem)] = row
+        candidates.setdefault(row.get("cve_id", path.stem), []).append((path.name, row))
+    records = {}
+    for cve, options in candidates.items():
+        if len(options) == 1:
+            records[cve] = options[0][1]
+            continue
+        by_name = dict(options)
+        # Unaudited duplicates (none are in the C paired set) use the last file
+        # in sorted order, so the choice is at least the same on every machine.
+        chosen = RAW_RECORD_RESOLUTION.get(cve, options[-1][0])
+        if chosen not in by_name:
+            raise RuntimeError(f"{cve}: frozen raw record {chosen} not found in {sorted(by_name)}.")
+        records[cve] = by_name[chosen]
     return records
 
 
@@ -161,11 +192,11 @@ def build():
     rows.sort(key=lambda row: (row["language"], row["cve"]))
     review_sample = random.Random(SEED).sample(pair_reviews, min(N_SPOTCHECK, len(pair_reviews)))
     with (RESULTS_DIR / "pair_manifest.csv").open("w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0]) if rows else [])
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]) if rows else [], lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     with (RESULTS_DIR / "pair_spotcheck_30.csv").open("w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=list(review_sample[0]) if review_sample else [])
+        writer = csv.DictWriter(f, fieldnames=list(review_sample[0]) if review_sample else [], lineterminator="\n")
         writer.writeheader()
         writer.writerows(review_sample)
 

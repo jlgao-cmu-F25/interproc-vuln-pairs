@@ -2,7 +2,7 @@
   "source_commit": "46796d168daf865331b1ca15d763d2e6746bf5a5",
   "seed": 795,
   "cve_pairs": 429,
-  "changed_function_pairs": 916,
+  "changed_function_pairs": 910,
   "pairs_by_language": {
     "C": 343,
     "C++": 18,
