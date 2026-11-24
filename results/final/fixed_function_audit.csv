@@ -1,0 +1,344 @@
+cve,status,target_functions,unrecovered,patch_lines_in_shown_functions,patch_lines_elsewhere,coverage,reversed_lines,test_file_lines,fixed_prompt_has_fixed_code,vuln_prompt_has_vuln_code,removed_lines_left_in_fixed_prompt,outside_examples,fix_commit_url
+CVE-2009-5147,mostly inside shown functions,3,0,6,1,0.857,0,0,True,True,0,"ext/dl/handle.c: +#define SafeStringValuePtr(v) (rb_string_value(&v), rb_check_safe_obj(",https://github.com/ruby/ruby/commit/4600cf725a86ce31266153647ae5aa1197b1215b
+CVE-2010-3844,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/Ettercap/ettercap/commit/4ef3ede30181eca9add74305ad26dbcb0c3686a0
+CVE-2011-0990,complete,1,0,9,0,1.0,0,0,True,True,0,,https://github.com/mono/mono/commit/2f00e4bbb2137130845afb1b2a1e678552fc8e5c
+CVE-2011-1078,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/c4c896e1471aec3b004a693c689f60be3b17ac86
+CVE-2011-1180,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/d370af0ef7951188daeb15bae75db7ba57c67846
+CVE-2011-2517,complete,2,0,4,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/208c72f4fe44fe09577e7975ba0e7fa0278f3d03
+CVE-2011-2909,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/819cbb120eaec7e014e5abd029260db1ca8c5735
+CVE-2011-3209,mostly inside shown functions,1,0,7,1,0.875,0,0,True,True,0,mm/slub.c: +#include <linux/math64.h>,https://github.com/torvalds/linux/commit/f8bd2258e2d520dff28c855658bd24bdafb5102d
+CVE-2011-4081,complete,2,0,4,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/7ed47b7d142ec99ad6880bbbec51e9f12b3af74c
+CVE-2011-4087,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/f8e9881c2aef1e982e5abc25c046820cd0b7cf64
+CVE-2011-4594,complete,1,0,10,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/bc909d9ddbf7778371e36a651d6e4194b1cc7d4c
+CVE-2011-4914,complete,6,0,91,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/e0bccd315db0c2f919e7fcf9cb60db21d9986f52
+CVE-2012-0957,complete,1,0,12,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/2702b1526c7278c4d65d78de209a465d4de2885e
+CVE-2012-2121,mostly inside shown functions,2,0,2,2,0.5,0,0,True,True,0,"virt/kvm/iommu.c: +void kvm_iommu_unmap_pages(struct kvm *kvm, struct kvm_memory_slot *sl | virt/kvm/iommu.c: +kvm_iommu_put_pages(kvm, slot->base_gfn, slot->npages);",https://github.com/torvalds/linux/commit/09ca8e1173bcb12e2a449698c9ae3b86a8a10195
+CVE-2012-3364,complete,4,0,10,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/67de956ff5dc1d4f321e16cfbd63f5be3b691b43
+CVE-2012-3400,mostly inside shown functions,2,0,39,30,0.565,4,0,True,True,0,"fs/udf/super.c: +#include <linux/log2.h> | fs/udf/super.c: +static int udf_load_sparable_map(struct super_block *sb, | fs/udf/super.c: +struct udf_part_map *map,",https://github.com/torvalds/linux/commit/1df2ae31c724e57be9d7ac00d78db8a5dabdd050
+CVE-2012-3430,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/06b6a1cf6e776426766298d055bb3991957d90a7
+CVE-2012-4530,complete,2,0,8,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/b66c5984017533316fd1951770302649baf1aa33
+CVE-2012-5532,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/95a69adab9acfc3981c504737a2b6578e4d846ef
+CVE-2012-6542,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/3592aaeb80290bda0f2cf0b5456c97bfc638b192
+CVE-2013-0216,complete,5,0,45,3,0.938,0,0,True,True,0,"drivers/net/xen-netback/netback.c: +static void netbk_fatal_tx_err(struct xenvif *vif) | drivers/net/xen-netback/netback.c: +netdev_err(vif->dev, ""fatal error; disabling device\n""); | drivers/net/xen-netback/netback.c: +xenvif_carrier_off(vif);",https://github.com/torvalds/linux/commit/48856286b64e4b66ec62b94e504d0b29c1ade664
+CVE-2013-0349,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/0a9ab9bdb3e891762553f667066190c1d22ad62b
+CVE-2013-1929,complete,1,0,7,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/715230a44310a8cf66fbfb5a46f9a62a9b2de424
+CVE-2013-2546,complete,3,0,18,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/9a5467bf7b6e9e02ec9c3da4e23747c05faeaac6
+CVE-2013-2547,complete,3,0,18,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/9a5467bf7b6e9e02ec9c3da4e23747c05faeaac6
+CVE-2013-2548,complete,3,0,18,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/9a5467bf7b6e9e02ec9c3da4e23747c05faeaac6
+CVE-2013-4263,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/FFmpeg/FFmpeg/commit/e43a0a232dbf6d3c161823c2e07c52e76227a1bc
+CVE-2013-4350,complete,3,0,30,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/95ee62083cb6453e056562d91f597552021e6ae7
+CVE-2013-4512,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/201f99f170df14ba52ea4c52847779042b7a623b
+CVE-2013-4588,complete,2,0,12,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/04bcef2a83f40c6db24222b27a52892cba39dffb
+CVE-2013-6401,no code lines in patch,3,0,0,0,,0,12,True,True,0,,https://github.com/akheron/jansson/commit/8f80c2d83808150724d31793e6ade92749b1faa4
+CVE-2013-6412,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/hercules-team/augeas/commit/f5b4fc0ceb0e5a2be5f3a19f63ad936897a3ac26
+CVE-2013-7018,complete,2,0,5,0,1.0,0,0,True,True,0,,https://github.com/FFmpeg/FFmpeg/commit/9a271a9368eaabf99e6c2046103acb33957e63b7
+CVE-2013-7263,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/bceaa90240b6019ed73b49965eac7d167610be69
+CVE-2013-7265,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/bceaa90240b6019ed73b49965eac7d167610be69
+CVE-2013-7281,complete,4,0,8,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/bceaa90240b6019ed73b49965eac7d167610be69
+CVE-2014-0063,complete,6,0,30,0,1.0,0,0,True,True,0,,https://github.com/postgres/postgres/commit/4318daecc959886d001a6e79c6ea853e8b1dfb4b
+CVE-2014-0064,complete,4,0,15,0,1.0,0,0,True,True,0,,https://github.com/postgres/postgres/commit/31400a673325147e1205326008e32135a78b4d8a
+CVE-2014-0207,mostly inside shown functions,1,0,4,2,0.667,0,0,True,True,0,"src/cdf.c: +FILE_RCSID(""@(#)$File: cdf.c,v 1.55 2014/02/27 23:26:17 christos Exp $ | src/cdf.c: -FILE_RCSID(""@(#)$File: cdf.c,v 1.54 2014/02/25 20:52:02 christos Exp $",https://github.com/file/file/commit/6d209c1c489457397a5763bca4b28e43aac90391
+CVE-2014-0238,mostly inside shown functions,1,0,6,2,0.75,0,0,True,True,0,"src/cdf.c: +FILE_RCSID(""@(#)$File: cdf.c,v 1.59 2014/05/14 23:22:48 christos Exp $ | src/cdf.c: -FILE_RCSID(""@(#)$File: cdf.c,v 1.58 2014/05/13 16:41:06 christos Exp $",https://github.com/file/file/commit/f97486ef5dc3e8735440edc4fc8808c63e1a3ef0
+CVE-2014-1690,complete,2,0,15,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/2690d97ade05c5325cbf7c72b94b90d265659886
+CVE-2014-2270,complete,1,0,32,3,0.914,0,0,True,True,0,"src/softmagic.c: +FILE_RCSID(""@(#)$File: softmagic.c,v 1.171 2014/01/08 22:02:06 christo | src/softmagic.c: +#define OFFSET_OOB(n, o, i) ((n) < (o) || (i) >= ((n) - (o))) | src/softmagic.c: -FILE_RCSID(""@(#)$File: softmagic.c,v 1.170 2014/01/06 02:25:32 christo",https://github.com/file/file/commit/447558595a3650db2886cd2f416ad0beba965801
+CVE-2014-2669,complete,4,0,15,0,1.0,0,0,True,True,0,,https://github.com/postgres/postgres/commit/31400a673325147e1205326008e32135a78b4d8a
+CVE-2014-3185,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/6817ae225cd650fb1c3295d769298c38b1eba818
+CVE-2014-3478,mostly inside shown functions,1,0,7,2,0.778,0,0,True,True,0,"src/softmagic.c: +FILE_RCSID(""@(#)$File: softmagic.c,v 1.190 2014/06/03 19:01:34 christo | src/softmagic.c: -FILE_RCSID(""@(#)$File: softmagic.c,v 1.189 2014/05/30 16:47:44 christo",https://github.com/file/file/commit/27a14bc7ba285a0a5ebfdb55e54001aa11932b08
+CVE-2014-3538,complete,5,0,61,4,0.938,0,0,True,True,0,"src/softmagic.c: +FILE_RCSID(""@(#)$File: softmagic.c,v 1.189 2014/05/30 16:47:44 christo | src/softmagic.c: +const unsigned char *, uint32_t, size_t, struct magic *); | src/softmagic.c: -FILE_RCSID(""@(#)$File: softmagic.c,v 1.188 2014/05/14 23:15:42 christo",https://github.com/file/file/commit/4a284c89d6ef11aca34da65da7d673050a5ea320
+CVE-2014-3587,mostly inside shown functions,1,0,3,2,0.6,0,0,True,True,0,"src/cdf.c: +FILE_RCSID(""@(#)$File: cdf.c,v 1.64 2014/07/24 19:35:39 christos Exp $ | src/cdf.c: -FILE_RCSID(""@(#)$File: cdf.c,v 1.63 2014/06/09 13:04:37 christos Exp $",https://github.com/file/file/commit/0641e56be1af003aa02c7c6b0184466540637233
+CVE-2014-3980,complete,2,0,9,0,1.0,0,0,True,True,0,,https://github.com/ueno/libfep/commit/293d9d3f7565f01a9dc40b53259886832eaa2ace
+CVE-2014-4978,complete,1,0,17,0,1.0,0,0,True,True,0,,https://github.com/rawstudio/rawstudio/commit/9c2cd3c93c05d009a91d84eedbb85873b0cb505d
+CVE-2014-6395,mostly inside shown functions,1,0,7,2,0.778,0,0,True,True,0,src/dissectors/ec_postgresql.c: +u_char password[66]; | src/dissectors/ec_postgresql.c: -u_char password[65];,https://github.com/Ettercap/ettercap/commit/e3abe7d7585ecc420a7cab73313216613aadad5a
+CVE-2014-6396,mostly inside shown functions,1,0,7,2,0.778,0,0,True,True,0,src/dissectors/ec_postgresql.c: +u_char password[66]; | src/dissectors/ec_postgresql.c: -u_char password[65];,https://github.com/Ettercap/ettercap/commit/e3abe7d7585ecc420a7cab73313216613aadad5a
+CVE-2014-6410,complete,2,0,28,1,0.966,0,0,True,True,0,fs/udf/inode.c: +#define UDF_MAX_ICB_NESTING 1024,https://github.com/torvalds/linux/commit/c03aa9f6e1f938618e6db2e23afef0574efeeb65
+CVE-2014-8176,complete,1,0,7,0,1.0,0,0,True,True,0,,https://github.com/openssl/openssl/commit/470990fee0182566d439ef7e82d1abf18b7085d7
+CVE-2014-8884,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/f2e323ec96077642d397bb1c355def536d489d16
+CVE-2014-9420,mostly inside shown functions,2,0,2,2,0.5,0,0,True,True,0,fs/isofs/rock.c: +int cont_loops; | fs/isofs/rock.c: +#define RR_MAX_CE_ENTRIES 32,https://github.com/torvalds/linux/commit/f54e18f1b831c92f6512d2eedb224cd63d607d3d
+CVE-2014-9630,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/videolan/vlc/commit/204291467724867b79735c0ee3aeb0dbc2200f97
+CVE-2014-9652,mostly inside shown functions,1,0,5,2,0.714,0,0,True,True,0,"src/softmagic.c: +FILE_RCSID(""@(#)$File: softmagic.c,v 1.196 2014/11/07 15:24:14 christo | src/softmagic.c: -FILE_RCSID(""@(#)$File: softmagic.c,v 1.195 2014/09/24 19:49:07 christo",https://github.com/file/file/commit/59e63838913eee47f5c120a6c53d4565af638158
+CVE-2014-9710,complete,2,0,104,1,0.99,0,0,True,True,0,"fs/btrfs/xattr.c: +#include ""locking.h""",https://github.com/torvalds/linux/commit/5f5bc6b1e2d5a6f827bc860ef2dc5b6f365d1339
+CVE-2014-9731,complete,6,0,53,4,0.93,0,0,True,True,0,"fs/udf/unicode.c: +static int udf_translate_to_linux(uint8_t *, int, uint8_t *, int, uint | fs/udf/unicode.c: +int); | fs/udf/unicode.c: +#define CRC_LEN 5",https://github.com/torvalds/linux/commit/0e5cc9a40ada6046e6bc3bdfcd0c0d7e4b706b14
+CVE-2015-10088,complete,1,0,16,0,1.0,0,0,True,True,0,,https://github.com/ayttm/ayttm/commit/40e04680018614a7d2b68566b261b061a0597046
+CVE-2015-1191,complete,1,0,27,0,1.0,0,0,True,True,0,,https://github.com/madler/pigz/commit/fdad1406b3ec809f4954ff7cdf9e99eb18c2458f
+CVE-2015-1331,complete,1,0,31,0,1.0,0,0,True,True,0,,https://github.com/lxc/lxc/commit/72cf81f6a3404e35028567db2c99a90406e9c6e6
+CVE-2015-1789,complete,1,0,35,0,1.0,0,0,True,True,0,,https://github.com/openssl/openssl/commit/f48b83b4fb7d6689584cf25f61ca63a4891f5b11
+CVE-2015-1792,mostly inside shown functions,3,0,54,7,0.885,0,0,True,True,0,"crypto/cms/cms_smime.c: +static BIO *cms_get_text_bio(BIO *out, unsigned int flags) | crypto/cms/cms_smime.c: +BIO *rbio; | crypto/cms/cms_smime.c: +rbio = BIO_new(BIO_s_null());",https://github.com/openssl/openssl/commit/cd30f03ac5bf2962f44bd02ae8d88245dff2f12c
+CVE-2015-2696,fix mostly outside shown functions,2,0,4,87,0.044,0,0,True,True,0,"src/lib/gssapi/krb5/gssapi_krb5.c: +static struct gss_config iakerb_mechanism = { | src/lib/gssapi/krb5/gssapi_krb5.c: +{ GSS_MECH_KRB5_OID_LENGTH, GSS_MECH_KRB5_OID }, | src/lib/gssapi/krb5/gssapi_krb5.c: +NULL,",https://github.com/krb5/krb5/commit/e04f0283516e80d2f93366e0d479d13c9b5c8c2a
+CVE-2015-2831,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/kmatheussen/das_watchdog/commit/bd20bb02e75e2c0483832b52f2577253febfb690
+CVE-2015-3150,mostly inside shown functions,29,0,261,41,0.864,4,0,True,True,0,"src/lib/dump_dir.c: +static char *load_text_file_at(int dir_fd, const char *name, unsigned  | src/lib/dump_dir.c: +static time_t parse_time_file_at(int dir_fd, const char *filename) | src/lib/dump_dir.c: +int fd = secure_openat_read(dir_fd, filename);",https://github.com/abrt/libreport/commit/1951e7282043dfe1268d492aea056b554baedb75
+CVE-2015-3151,complete,6,0,14,0,1.0,0,0,True,True,0,,https://github.com/abrt/libreport/commit/239c4f7d1f47265526b39ad70106767d00805277
+CVE-2015-3212,mostly inside shown functions,6,0,17,8,0.68,0,0,True,True,0,"net/sctp/socket.c: +static inline void sctp_copy_descendant(struct sock *sk_to, | net/sctp/socket.c: +const struct sock *sk_from) | net/sctp/socket.c: +int ancestor_size = sizeof(struct inet_sock) +",https://github.com/torvalds/linux/commit/2d45a02d0166caf2627fe91897c6ffc3b19514c4
+CVE-2015-3315,complete,3,0,20,0,1.0,0,0,True,True,0,,https://github.com/abrt/abrt/commit/80408e9e24a1c10f85fd969e1853e0f192157f92
+CVE-2015-6031,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/miniupnp/miniupnp/commit/79cca974a4c2ab1199786732a67ff6d898051b78
+CVE-2015-6520,mostly inside shown functions,3,0,41,39,0.512,1,0,True,True,0,src/tcp.c: +#include <sys/time.h> | src/tcp.c: +#include <sys/types.h> | src/tcp.c: +#include <unistd.h>,https://github.com/tillkamppeter/ippusbxd/commit/46844402bca7a38fc224483ba6f0a93c4613203f
+CVE-2015-7513,complete,2,0,8,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/0185604c2d82c560dab2f2933a18f797e74ab5a8
+CVE-2015-7550,complete,1,0,12,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/b4a1b4f5047e4f54e194681125c74c0aa64d637d
+CVE-2015-7885,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/4b6184336ebb5c8dc1eae7f7ab46ee608a748b05
+CVE-2015-8950,complete,2,0,6,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/6829e274a623187c24f7cfc0e3d35f25d087fcc5
+CVE-2015-8955,complete,3,0,15,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/8fff105e13041e49b82f92eef034f363a6b1c071
+CVE-2015-8970,complete,5,0,35,2,0.946,0,0,True,True,0,crypto/algif_skcipher.c: +struct skcipher_tfm { | crypto/algif_skcipher.c: +bool has_key;,https://github.com/torvalds/linux/commit/dd504589577d8e8e70f51f997ad487a4cb6c026f
+CVE-2015-9542,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/FreeRADIUS/pam_radius/commit/01173ec2426627dbb1e0d96c06c3ffa0b14d36d0
+CVE-2016-0546,fix mostly outside shown functions,5,0,10,52,0.161,0,0,True,True,0,"client/mysql_plugin.c: +Copyright (c) 2011, 2015, Oracle and/or its affiliates. All rights res | client/mysql_plugin.c: -Copyright (c) 2011, 2013, Oracle and/or its affiliates. All rights res | client/mysqlshow.c: +char query[NAME_LEN + 100];",https://github.com/mysql/mysql-server/commit/0dbd5a8797ed4bd18e8b883988fb62177eb0f73f
+CVE-2016-10011,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/openbsd/src/commit/ac8147a06ed2e2403fb6b9a0c03e618a9333c0e9
+CVE-2016-10050,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/ImageMagick/ImageMagick/commit/139d4323c40d7363bfdd2382c3821a6f76d69430
+CVE-2016-10088,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/128394eff343fc6d2f32172f03e24829539c5835
+CVE-2016-10154,complete,2,0,32,2,0.941,0,0,True,True,0,fs/cifs/smbencrypt.c: +#include <linux/crypto.h> | fs/cifs/smbencrypt.c: -#include <crypto/skcipher.h>,https://github.com/torvalds/linux/commit/06deeec77a5a689cc94b21a8a91a76e42176685d
+CVE-2016-10156,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/systemd/systemd/commit/06eeacb6fe029804f296b065b3ce91e796e1cd0e
+CVE-2016-10190,mostly inside shown functions,9,0,61,8,0.884,0,0,True,True,0,"libavformat/http.c: +uint64_t chunksize; | libavformat/http.c: +uint64_t off, end_off, filesize; | libavformat/http.c: +uint64_t icy_data_read;",https://github.com/FFmpeg/FFmpeg/commit/2a05c8f813de6f2278827734bf8102291e7484aa
+CVE-2016-10191,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/FFmpeg/FFmpeg/commit/7d57ca4d9a75562fa32e40766211de150f8b3ee7
+CVE-2016-10195,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/libevent/libevent/commit/96f64a022014a208105ead6c8a7066018449d86d
+CVE-2016-10197,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/libevent/libevent/commit/ec65c42052d95d2c23d1d837136d1cf1d9ecef9e
+CVE-2016-1246,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/perl5-dbi/DBD-mysql/commit/7c164a0c86cec6ee95df1d141e67b0e85dfdefd2
+CVE-2016-1541,complete,1,0,11,0,1.0,0,0,True,True,0,,https://github.com/libarchive/libarchive/commit/d0331e8e5b05b475f20b1f3101fe1ad772d7e7e7
+CVE-2016-2180,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/openssl/openssl/commit/0ed26acce328ec16a3aa635f1ca37365e8c7403a
+CVE-2016-2385,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/kamailio/kamailio/commit/f50c9c853e7809810099c970780c30b0765b0643
+CVE-2016-2847,fix mostly outside shown functions,5,0,13,18,0.419,0,0,True,True,0,fs/pipe.c: +unsigned long pipe_user_pages_hard; | fs/pipe.c: +unsigned long pipe_user_pages_soft = PIPE_DEF_BUFFERS * INR_OPEN_CUR; | fs/pipe.c: +static bool too_many_pipe_buffers_soft(struct user_struct *user),https://github.com/torvalds/linux/commit/759c01142a5d0f364a462346168a56de28a80f52
+CVE-2016-3178,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/miniupnp/miniupnp/commit/b238cade9a173c6f751a34acf8ccff838a62aa47
+CVE-2016-3179,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/miniupnp/miniupnp/commit/140ee8d2204b383279f854802b27bdb41c1d5d1a
+CVE-2016-3698,complete,4,0,37,1,0.974,0,0,True,True,0,libndp/libndp.c: +int hoplimit;,https://github.com/jpirko/libndp/commit/a4892df306e0532487f1634ba6d4c6d4bb381c7f
+CVE-2016-3841,complete,9,0,45,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/45f6fad84cc305103b28d73482b344d7f5b76f39
+CVE-2016-4478,complete,2,0,3,0,1.0,0,0,True,True,0,,https://github.com/atheme/atheme/commit/87580d767868360d2fed503980129504da84b63e
+CVE-2016-4580,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/79e48650320e6fba48369fccf13fd045315b19b8
+CVE-2016-5094,complete,14,0,9,0,1.0,0,0,True,True,0,,https://github.com/php/php-src/commit/0da8b8b801f9276359262f1ef8274c7812d3dfda
+CVE-2016-5104,complete,2,0,4,0,1.0,0,0,True,True,0,,https://github.com/libimobiledevice/libimobiledevice/commit/df1f5c4d70d0c19ad40072f5246ca457e7f9849e
+CVE-2016-5116,complete,2,0,22,1,0.957,0,0,True,True,0,"src/gd_xbm.c: +#define gdCtxPuts(out, s) out->putBuf(out, s, strlen(s))",https://github.com/libgd/libgd/commit/4dc1a2d7931017d3625f2d7cff70a17ce58b53b4
+CVE-2016-5243,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/5d2be1422e02ccd697ccfcd45c85b4a26e6178e2
+CVE-2016-5355,complete,1,0,7,0,1.0,0,0,True,True,0,,https://github.com/wireshark/wireshark/commit/3270dfac43da861c714df76513456b46765ff47f
+CVE-2016-5356,complete,1,0,9,0,1.0,0,0,True,True,0,,https://github.com/wireshark/wireshark/commit/a66628e425db725df1ac52a3c573a03357060ddd
+CVE-2016-5357,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/wireshark/wireshark/commit/11edc83b98a61e890d7bb01855389d40e984ea82
+CVE-2016-5841,complete,15,0,108,1,0.991,0,0,True,True,0,"MagickCore/profile.c: -}static inline void WriteResourceLong(unsigned char *p,",https://github.com/ImageMagick/ImageMagick/commit/d8ab7f046587f2e9f734b687ba7e6e10147c294b
+CVE-2016-5842,complete,15,0,108,1,0.991,0,0,True,True,0,"MagickCore/profile.c: -}static inline void WriteResourceLong(unsigned char *p,",https://github.com/ImageMagick/ImageMagick/commit/d8ab7f046587f2e9f734b687ba7e6e10147c294b
+CVE-2016-6136,complete,4,0,199,1,0.995,0,0,True,True,0,kernel/auditsc.c: +#include <linux/uaccess.h>,https://github.com/torvalds/linux/commit/43761473c254b45883a64441dd0bc85a42f3645c
+CVE-2016-6271,complete,2,0,11,0,1.0,0,27,True,True,0,,https://github.com/BelledonneCommunications/bzrtp/commit/bbb1e6e2f467ee4bd7b9a8c800e4f07343d7d99b
+CVE-2016-6663,mostly inside shown functions,1,0,5,2,0.714,0,0,True,True,0,"mysys/my_redel.c: +if MY_REDEL_NO_COPY_STAT is given, stats are not copied | mysys/my_redel.c: +from org_name to tmp_name.",https://github.com/mysql/mysql-server/commit/4e5473862e6852b0f3802b0cd0c6fa10b5253291
+CVE-2016-6911,complete,2,0,6,0,1.0,0,0,True,True,0,,https://github.com/libgd/libgd/commit/4859d69e07504d4b0a4bdf9bcb4d9e3769ca35ae
+CVE-2016-7144,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/unrealircd/unrealircd/commit/f473e355e1dc422c4f019dbf86bc50ba1a34a766
+CVE-2016-7414,complete,2,0,18,0,1.0,0,0,True,True,0,,https://github.com/php/php-src/commit/0bfb970f43acd1e81d11be1154805f86655f15d5
+CVE-2016-7425,complete,1,0,7,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/7bc2b55a5c030685b399bb65b6baa9ccc3d1f167
+CVE-2016-7798,mostly inside shown functions,7,0,10,2,0.833,0,0,True,True,0,"ext/openssl/ossl_cipher.c: +static ID id_auth_tag_len, id_key_set; | ext/openssl/ossl_cipher.c: -static ID id_auth_tag_len;",https://github.com/ruby/openssl/commit/8108e0a6db133f3375608303fdd2083eb5115062
+CVE-2016-7912,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/38740a5b87d53ceb89eb2c970150f6e94e00373a
+CVE-2016-8649,complete,4,0,119,12,0.908,0,0,True,True,0,"src/lxc/attach.c: +#include ""af_unix.h"" | src/lxc/attach.c: +static int lsm_openat(int procfd, pid_t pid, int on_exec) | src/lxc/attach.c: +int ret = -1;",https://github.com/lxc/lxc/commit/81f466d05f2a89cb4f122ef7f593ff3f279b165c
+CVE-2016-8658,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/ded89912156b1a47d940a0c954c43afbabd0c42c
+CVE-2016-9756,complete,4,0,26,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/2117d5398c81554fbf803f5fd1dc55eb78216c0c
+CVE-2017-10911,complete,1,0,20,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/089bc0143f489bd3a4578bdff5f4ca68fb26f341
+CVE-2017-11399,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/FFmpeg/FFmpeg/commit/ba4beaf6149f7241c8bd85fe853318c2f6837ad0
+CVE-2017-11664,complete,2,0,81,0,1.0,0,0,True,True,0,,https://github.com/Mindwerks/wildmidi/commit/ad6d7cf88d6673167ca1f517248af9409a9f1be1
+CVE-2017-12146,complete,2,0,11,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/6265539776a0810b7ce6398c27866ddb9c6bd154
+CVE-2017-12894,mostly inside shown functions,4,0,58,11,0.841,0,0,True,True,0,addrtoname.c: +size_t e_namelen; /* for bytestringtable */ | addrtoname.c: +struct bsnamemem { | addrtoname.c: +u_short bs_addr0;,https://github.com/the-tcpdump-group/tcpdump/commit/730fc35968c5433b9e2a829779057f4f9495dc51
+CVE-2017-12902,complete,3,0,27,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/tcpdump/commit/d17507ffa3e9742199b02a66aa940e79ababfa30
+CVE-2017-12987,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/tcpdump/commit/99798bd9a41bd3d03fdc1e949810a38967f20ed3
+CVE-2017-13001,complete,1,0,10,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/tcpdump/commit/7a923447fd49a069a0fd3b6c3547438ab5ee2123
+CVE-2017-13008,complete,1,0,14,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/tcpdump/commit/5edf405d7ed9fc92f4f43e8a3d44baa4c6387562
+CVE-2017-13011,complete,1,0,23,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/tcpdump/commit/9f0730bee3eb65d07b49fd468bc2f269173352fe
+CVE-2017-13035,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/tcpdump/commit/571a6f33f47e7a2394fa08f925e534135c29cf1e
+CVE-2017-13043,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/tcpdump/commit/d515b4b4a300479cdf1a6e0d1bb95bc1f9fee514
+CVE-2017-13053,complete,1,0,9,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/tcpdump/commit/bd4e697ebd6c8457efa8f28f6831fc929b88a014
+CVE-2017-13083,mostly inside shown functions,2,0,17,4,0.81,0,0,True,True,0,"src/stdlg.c: +if (ValidateSignature(hDlg, filepath) != NO_ERROR) { | src/stdlg.c: +_unlinkU(filepath); | src/stdlg.c: +EnableWindow(GetDlgItem(hDlg, IDC_DOWNLOAD), FALSE);",https://github.com/pbatard/rufus/commit/c3c39f7f8a11f612c4ebf7affce25ec6928eb1cb
+CVE-2017-14106,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/499350a5a6e7512d9ed369ed63a4244b6536f4f8
+CVE-2017-14604,complete,8,0,116,2,0.983,0,0,True,True,0,src/nautilus-file-operations.c: +gboolean interactive); | src/nautilus-file-operations.c: -gboolean interactive);,https://github.com/GNOME/nautilus/commit/1630f53481f445ada0a455e9979236d31a8d3bb0
+CVE-2017-14767,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/FFmpeg/FFmpeg/commit/c42a1388a6d1bfd8001bf6a4241d8ca27e49326d
+CVE-2017-15265,complete,2,0,3,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/71105998845fb012937332fe2e806d443c09e026
+CVE-2017-15924,complete,3,0,30,0,1.0,0,0,True,True,0,,https://github.com/shadowsocks/shadowsocks-libev/commit/c67d275803dc6ea22c558d06b1f7ba9f94cd8de3
+CVE-2017-17862,mostly inside shown functions,5,0,10,7,0.588,0,0,True,True,0,"kernel/bpf/verifier.c: +static void sanitize_dead_code(struct bpf_verifier_env *env) | kernel/bpf/verifier.c: +struct bpf_insn_aux_data *aux_data = env->insn_aux_data; | kernel/bpf/verifier.c: +struct bpf_insn nop = BPF_MOV64_REG(BPF_REG_0, BPF_REG_0);",https://github.com/torvalds/linux/commit/c131187db2d3fa2f8bf32fdf4e9a4ef805168467
+CVE-2017-18922,fix mostly outside shown functions,7,0,148,199,0.427,10,0,True,True,0,libvncserver/websockets.c: +#define WS_HYBI_MASK_LEN 4 | libvncserver/websockets.c: +#define ARRAYSIZE(a) ((sizeof(a) / sizeof((a[0]))) / (size_t)(!(sizeof | libvncserver/websockets.c: +enum {,https://github.com/LibVNC/libvncserver/commit/aac95a9dcf4bbba87b76c72706c3221a842ca433
+CVE-2017-2630,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/qemu/qemu/commit/2563c9c6b8670400c48e562034b321a7cf3d9a85
+CVE-2017-3733,complete,8,0,28,0,1.0,0,0,True,True,0,,https://github.com/openssl/openssl/commit/4ad93618d26a3ea23d36ad5498ff4f59eff3a4d2
+CVE-2017-5545,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/libimobiledevice/libplist/commit/7391a506352c009fe044dead7baad9e22dd279ee
+CVE-2017-5847,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/GStreamer/gst-plugins-ugly/commit/d21017b52a585f145e8d62781bcc1c5fefc7ee37
+CVE-2017-5850,some fixed code not recovered,6,1,118,7,0.944,0,0,True,True,0,"usr.sbin/httpd/server_file.c: +int parse_ranges(struct client *, char *, size_t); | usr.sbin/httpd/server_file.c: -#define MAX_RANGES 4 | usr.sbin/httpd/server_file.c: -struct range {",https://github.com/openbsd/src/commit/142cfc82b932bc211218fbd7bdda8c7ce83f19df
+CVE-2017-5940,complete,5,0,146,0,1.0,0,0,True,True,0,,https://github.com/netblue30/firejail/commit/903fd8a0789ca3cc3c21d84cd0282481515592ef
+CVE-2017-6308,mostly inside shown functions,7,0,39,5,0.886,0,0,True,True,0,"src/alloc.c: +check_mul_overflow(size_t a, size_t b, size_t* res) | src/alloc.c: +size_t tmp = a * b; | src/alloc.c: +if (a != 0 && tmp / a != b) return 1;",https://github.com/verdammelt/tnef/commit/c5044689e50039635e7700fe2472fd632ac77176
+CVE-2017-6802,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/Yeraze/ytnef/commit/22f8346c8d4f0020a40d9f258fdb3bfc097359cc
+CVE-2017-7272,complete,2,0,15,0,1.0,0,0,True,True,0,,https://github.com/php/php-src/commit/bab0b99f376dac9170ac81382a5ed526938d595a
+CVE-2017-7418,mostly inside shown functions,2,0,28,21,0.571,6,0,True,True,0,"modules/mod_auth.c: +static int is_symlink_path(pool *p, const char *path, size_t pathlen)  | modules/mod_auth.c: +int res, xerrno = 0; | modules/mod_auth.c: +char *ptr;",https://github.com/proftpd/proftpd/commit/ecff21e0d0e84f35c299ef91d7fda088e516d4ed
+CVE-2017-7501,mostly inside shown functions,4,0,15,6,0.714,0,0,True,True,0,"lib/fsm.c: +static int linkSane(FD_t wfd, const char *dest) | lib/fsm.c: +struct stat sb, lsb; | lib/fsm.c: +return (fstat(Fileno(wfd), &sb) == 0 && sb.st_size == 0 &&",https://github.com/rpm-software-management/rpm/commit/404ef011c300207cdb1e531670384564aae04bdc
+CVE-2017-7875,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/derf/feh/commit/f7a547b7ef8fc8ebdeaa4c28515c9d72e592fb6d
+CVE-2017-8062,complete,8,0,224,1,0.996,0,0,True,True,0,drivers/media/usb/dvb-usb/dw2102.c: +u8 data[MAX_XFER_SIZE + 4];,https://github.com/torvalds/linux/commit/606142af57dad981b78707234cfbd15f9f7b7125
+CVE-2017-8073,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/weechat/weechat/commit/2fb346f25f79e412cf0ed314fdf791763c19b70b
+CVE-2017-8807,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/varnishcache/varnish-cache/commit/176f8a075a963ffbfa56f1c460c15f6a1a6af5a7
+CVE-2017-9075,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/fdcee2cbb8438702ea1b328fb6e0ac5e9a40c7f8
+CVE-2017-9144,complete,1,0,71,0,1.0,0,0,True,True,0,,https://github.com/ImageMagick/ImageMagick/commit/f6240ee77847787f6d7618b669d3a2040a2d6d40
+CVE-2018-10887,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/libgit2/libgit2/commit/c1577110467b701dcbcf9439ac225ea851b47d22
+CVE-2018-11593,complete,3,0,26,0,1.0,0,0,True,True,0,,https://github.com/espruino/Espruino/commit/bed844f109b6c222816740555068de2e101e8018
+CVE-2018-13094,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/bb3d48dcf86a97dc25fe9fc2c11938e19cb4399a
+CVE-2018-14354,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/neomutt/neomutt/commit/95e80bf9ff10f68cb6443f760b85df4117cb15eb
+CVE-2018-14357,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/neomutt/neomutt/commit/e52393740334443ae0206cab2d7caef381646725
+CVE-2018-14360,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/neomutt/neomutt/commit/6296f7153f0c9d5e5cd3aaf08f9731e56621bdd3
+CVE-2018-14362,mostly inside shown functions,4,0,12,5,0.706,0,0,True,True,0,"pop.c: +static const char *cache_id(const char *id) | pop.c: +static char clean[SHORT_STRING]; | pop.c: +mutt_str_strfcpy(clean, id, sizeof(clean));",https://github.com/neomutt/neomutt/commit/9bfab35522301794483f8f9ed60820bdec9be59e
+CVE-2018-14363,mostly inside shown functions,4,0,12,5,0.706,0,0,True,True,0,"pop.c: +static const char *cache_id(const char *id) | pop.c: +static char clean[SHORT_STRING]; | pop.c: +mutt_str_strfcpy(clean, id, sizeof(clean));",https://github.com/neomutt/neomutt/commit/9bfab35522301794483f8f9ed60820bdec9be59e
+CVE-2018-15501,complete,1,0,10,0,1.0,0,0,True,True,0,,https://github.com/libgit2/libgit2/commit/1f9a8510e1d2f20ed7334eeeddb92c4dd8e7c649
+CVE-2018-16276,complete,2,0,16,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/f1e255d60ae66a9f672ff9a207ee6cd8e33d2679
+CVE-2018-16435,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/mm2/Little-CMS/commit/768f70ca405cd3159d990e962d54456773bb8cf8
+CVE-2018-16839,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/curl/curl/commit/f3a24d7916b9173c69a3e0ee790102993833d6c5
+CVE-2018-17407,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/TeX-Live/texlive-source/commit/6ed0077520e2b0da1fd060c7f88db7b2e6068e4c
+CVE-2018-19044,mostly inside shown functions,10,0,32,27,0.542,0,0,True,True,0,"keepalived/vrrp/vrrp_json.c: +#include ""utils.h"" | keepalived/vrrp/vrrp_print.c: +#include ""utils.h"" | keepalived/vrrp/vrrp_scheduler.c: +fp = fopen_safe(file_name, ""a"");",https://github.com/acassen/keepalived/commit/04f2d32871bb3b11d7dc024039952f2fe2750306
+CVE-2018-20457,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/radareorg/radare2/commit/e5c14c167b0dcf0a53d76bd50bacbbcc0dfc1ae7
+CVE-2018-20459,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/radareorg/radare2/commit/e5c14c167b0dcf0a53d76bd50bacbbcc0dfc1ae7
+CVE-2018-5729,mostly inside shown functions,2,0,61,55,0.526,2,0,True,True,0,"src/plugins/kdb/ldap/libkdb_ldap/ldap_principal2.c: +check_dn_in_container(krb5_context context, const char *dn, | src/plugins/kdb/ldap/libkdb_ldap/ldap_principal2.c: +char *const *subtrees, unsigned int ntrees) | src/plugins/kdb/ldap/libkdb_ldap/ldap_principal2.c: +unsigned int i;",https://github.com/krb5/krb5/commit/e1caf6fb74981da62039846931ebdffed71309d1
+CVE-2018-5730,mostly inside shown functions,2,0,61,55,0.526,2,0,True,True,0,"src/plugins/kdb/ldap/libkdb_ldap/ldap_principal2.c: +check_dn_in_container(krb5_context context, const char *dn, | src/plugins/kdb/ldap/libkdb_ldap/ldap_principal2.c: +char *const *subtrees, unsigned int ntrees) | src/plugins/kdb/ldap/libkdb_ldap/ldap_principal2.c: +unsigned int i;",https://github.com/krb5/krb5/commit/e1caf6fb74981da62039846931ebdffed71309d1
+CVE-2018-6198,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/tats/w3m/commit/18dcbadf2771cdb0c18509b14e4e73505b242753
+CVE-2018-6560,mostly inside shown functions,5,0,49,33,0.598,0,0,True,True,0,"dbus-proxy/flatpak-proxy.c: +#define FIND_AUTH_END_CONTINUE -1 | dbus-proxy/flatpak-proxy.c: +#define FIND_AUTH_END_ABORT -2 | dbus-proxy/flatpak-proxy.c: +#define AUTH_LINE_SENTINEL ""\r\n""",https://github.com/flatpak/flatpak/commit/52346bf187b5a7f1c0fe9075b328b7ad6abe78f6
+CVE-2018-7186,complete,9,0,98,6,0.942,0,0,True,True,0,prog/xtractprotos.c: +static const l_int32 L_BUFSIZE = 512; /* hardcoded below in sscanf() * | prog/xtractprotos.c: -static const l_int32 L_BUF_SIZE = 512; | src/gplot.c: +static const l_int32 L_BUFSIZE = 512; /* hardcoded below in fscanf */,https://github.com/DanBloomberg/leptonica/commit/ee301cb2029db8a6289c5295daa42bba7715e99a
+CVE-2018-7247,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/DanBloomberg/leptonica/commit/c1079bb8e77cdd426759e466729917ca37a3ed9f
+CVE-2018-7648,complete,1,0,9,0,1.0,0,0,True,True,0,,https://github.com/uclouvain/openjpeg/commit/cc3824767bde397fedb8a1ae4786a222ba860c8d
+CVE-2018-8784,complete,3,0,17,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/17c363a5162fd4dc77b1df54e48d7bd9bf6b3be7
+CVE-2018-8786,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/445a5a42c500ceb80f8fa7f2c11f3682538033f3
+CVE-2018-8788,complete,5,0,66,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/d1112c279bd1a327e8e4d0b5f371458bf2579659
+CVE-2018-9336,complete,2,0,23,0,1.0,0,0,True,True,0,,https://github.com/OpenVPN/openvpn/commit/1394192b210cb3c6624a7419bcf3ff966742e79b
+CVE-2019-1010208,complete,1,0,87,0,1.0,0,0,True,True,0,,https://github.com/veracrypt/VeraCrypt/commit/f30f9339c9a0b9bbcc6f5ad38804af39db1f479e
+CVE-2019-1010283,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/univention/univention-corporate-server/commit/a28053045bd2e778c50ed1acaf4e52e1e34f6e34
+CVE-2019-1010294,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/OP-TEE/optee_os/commit/7e768f8a473409215fe3fff8f6e31f8a3a0103c6
+CVE-2019-1010319,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/dbry/WavPack/commit/33a0025d1d63ccd05d9dbaa6923d52b1446a62fe
+CVE-2019-11222,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/gpac/gpac/commit/f3698bb1bce62402805c3fda96551a23101a32f9
+CVE-2019-11411,complete,2,0,5,0,1.0,0,0,True,True,0,,https://github.com/ccxvii/mujs/commit/da632ca08f240590d2dec786722ed08486ce1be6
+CVE-2019-11413,complete,5,0,17,0,1.0,0,0,True,True,0,,https://github.com/ccxvii/mujs/commit/00d4606c3baf813b7b1c176823b2729bf51002a2
+CVE-2019-12730,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/FFmpeg/FFmpeg/commit/ed188f6dcdf0935c939ed813cf8745d50742014b
+CVE-2019-12973,complete,2,0,9,0,1.0,0,0,True,True,0,,https://github.com/uclouvain/openjpeg/commit/8ee335227bbcaf1614124046aa25e53d67b11ec3
+CVE-2019-14323,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/troglobit/ssdp-responder/commit/ce04b1f29a137198182f60bbb628d5ceb8171765
+CVE-2019-14763,mostly inside shown functions,3,0,11,5,0.688,3,0,True,True,0,"drivers/usb/dwc3/gadget.c: +void dwc3_gadget_del_and_unmap_request(struct dwc3_ep *dep, | drivers/usb/dwc3/gadget.c: +struct dwc3_request *req, int status)",https://github.com/torvalds/linux/commit/c91815b596245fd7da349ecc43c8def670d2269e
+CVE-2019-14814,complete,3,0,8,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/7caac62ed598a196d6ddf8d9c121e12e082cac3a
+CVE-2019-14815,complete,3,0,8,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/7caac62ed598a196d6ddf8d9c121e12e082cac3a
+CVE-2019-14816,complete,3,0,8,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/7caac62ed598a196d6ddf8d9c121e12e082cac3a
+CVE-2019-15090,complete,4,0,28,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/c09581a52765a85f19fc35340127396d5e3379cc
+CVE-2019-15146,complete,11,0,572,9,0.985,0,0,True,True,0,demo/GPMF_mp4reader.c: +#include <sys/types.h> | demo/GPMF_mp4reader.c: +#include <sys/stat.h> | demo/GPMF_mp4reader.c: +#define LONGSEEK _fseeki64,https://github.com/gopro/gpmf-parser/commit/341f12cd5b97ab419e53853ca00176457c9f1681
+CVE-2019-15147,complete,11,0,572,9,0.985,0,0,True,True,0,demo/GPMF_mp4reader.c: +#include <sys/types.h> | demo/GPMF_mp4reader.c: +#include <sys/stat.h> | demo/GPMF_mp4reader.c: +#define LONGSEEK _fseeki64,https://github.com/gopro/gpmf-parser/commit/341f12cd5b97ab419e53853ca00176457c9f1681
+CVE-2019-15148,complete,11,0,572,9,0.985,0,0,True,True,0,demo/GPMF_mp4reader.c: +#include <sys/types.h> | demo/GPMF_mp4reader.c: +#include <sys/stat.h> | demo/GPMF_mp4reader.c: +#define LONGSEEK _fseeki64,https://github.com/gopro/gpmf-parser/commit/341f12cd5b97ab419e53853ca00176457c9f1681
+CVE-2019-15161,complete,1,0,12,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/libpcap/commit/617b12c0339db4891d117b661982126c495439ea
+CVE-2019-15162,complete,1,0,36,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/libpcap/commit/484d60cbf7ca4ec758c3cbb8a82d68b244a78d58
+CVE-2019-15163,complete,1,0,7,0,1.0,0,0,True,True,0,,https://github.com/the-tcpdump-group/libpcap/commit/437b273761adedcbd880f714bfa44afeec186a31
+CVE-2019-16058,complete,1,0,13,1,0.929,0,0,True,True,0,src/pam_p11.c: +#include <stdlib.h>,https://github.com/OpenSC/pam_p11/commit/d150b60e1e14c261b113f55681419ad1dfa8a76c
+CVE-2019-18224,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/libidn/libidn2/commit/e4d1558aa2c1c04a05066ee8600f37603890ba8c
+CVE-2019-18276,mostly inside shown functions,1,0,8,3,0.727,0,0,True,True,0,"pathexp.c: +This is supposed to be called when pathname expansion is performed, so | pathexp.c: +it implements the rules in Posix 2.13.3, specifically that an unquoted | pathexp.c: +slash cannot appear in a bracket expression. */",https://github.com/bminor/bash/commit/951bdaad7a18cc0dc1036bba86b18b90874d39ff
+CVE-2019-18672,complete,7,0,19,1,0.95,0,0,True,True,0,lib/firmware/recovery_cipher.c: +static bool recovery_started = false;,https://github.com/keepkey/keepkey-firmware/commit/769714fcb569e7a4faff9530a2d9ac1f9d6e5680
+CVE-2019-18808,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/128c66429247add5128c03dc1e144ca56f05a4e2
+CVE-2019-19333,complete,3,0,63,0,1.0,0,0,True,True,0,,https://github.com/CESNET/libyang/commit/f6d684ade99dd37b21babaa8a856f64faa1e2e0d
+CVE-2019-19334,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/CESNET/libyang/commit/6980afae2ff9fcd6d67508b0a3f694d75fd059d6
+CVE-2019-19638,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/saitoha/libsixel/commit/e17c0765ed708186865f0f8badfed44181063776
+CVE-2019-20839,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/LibVNC/libvncserver/commit/3fd03977c9b35800d73a865f167338cb4d05b0c1
+CVE-2019-25104,complete,2,0,8,0,1.0,0,0,True,True,0,,https://github.com/rtcwcoop/rtcwcoop/commit/f2cd18bc2e1cbca8c4b78bee9c392272bd5f42ac
+CVE-2019-3817,complete,2,0,4,0,1.0,0,0,True,True,0,,https://github.com/rpm-software-management/libcomps/commit/e3a5d056633677959ad924a51758876d415e7046
+CVE-2019-7149,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/qunixorg/elfutils/commit/2562759d6fe5b364fe224852e64e8bda39eb2e35
+CVE-2019-9718,fix mostly outside shown functions,2,0,6,10,0.375,0,0,True,True,0,"libavcodec/htmlsubtitles.c: +static int scantag(const char* in, char* buffer, int* lenp) { | libavcodec/htmlsubtitles.c: +int len; | libavcodec/htmlsubtitles.c: +for (len = 0; len < 128; len++) {",https://github.com/FFmpeg/FFmpeg/commit/23ccf3cabb4baf6e8af4b1af3fcc59c904736f21
+CVE-2020-10001,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/OpenPrinting/cups/commit/efbea1742bd30f842fbbfb87a473e5c84f4162f9
+CVE-2020-11042,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/6b2bc41935e53b0034fe5948aeeab4f32e80f30f
+CVE-2020-11087,complete,1,0,91,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/8241ab42fdf0cc89cf69fc574bf6360c9977a0d4
+CVE-2020-11939,complete,1,0,52,0,1.0,0,0,True,True,0,,https://github.com/ntop/nDPI/commit/7ce478a58b4dd29a8d1e6f4e9df2f778613d9202
+CVE-2020-12135,complete,39,0,80,3,0.964,0,0,True,True,0,"src/bson.c: +static void bson_append32_as_int( bson *b, int data ) { | src/bson.c: +bson_little_endian32( b->cur, &data ); | src/bson.c: +void *bson_realloc( void *ptr, size_t size ) {",https://github.com/10gen-archive/mongo-c-driver-legacy/commit/1a1f5e26a4309480d88598913f9eebf9e9cba8ca
+CVE-2020-12653,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/b70261a288ea4d2f4ac7cd04be08a9f0f2de4f4d
+CVE-2020-12654,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/3a9b153c5591548612c3955c9600a98150c81875
+CVE-2020-13114,mostly inside shown functions,2,0,7,1,0.875,0,0,True,True,0,libexif/canon/exif-mnote-data-canon.c: +#define FAILSAFE_SIZE_MAX 1000000L,https://github.com/libexif/libexif/commit/e6a38a1a23ba94d139b1fa2cd4519fdcfe3c9bab
+CVE-2020-13396,complete,2,0,67,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/48361c411e50826cb602c7aab773a8a20e1da6bc
+CVE-2020-13398,complete,1,0,37,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/8305349a943c68b1bc8c158f431dc607655aadea
+CVE-2020-13904,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/FFmpeg/FFmpeg/commit/6959358683c7533f586c07a766acc5fe9544d8b2
+CVE-2020-14396,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/LibVNC/libvncserver/commit/33441d90a506d5f3ae9388f2752901227e430553
+CVE-2020-15173,complete,5,0,173,0,1.0,0,0,True,True,0,,https://github.com/accel-ppp/accel-ppp/commit/2324bcd5ba12cf28f47357a8f03cd41b7c04c52b
+CVE-2020-20276,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/troglobit/uftpd/commit/0fb2c031ce0ace07cc19cd2cb2143c4b5a63c9dd
+CVE-2020-20277,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/troglobit/uftpd/commit/455b47d3756aed162d2d0ef7f40b549f3b5b30fe
+CVE-2020-20739,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/libvips/libvips/commit/2ab5aa7bf515135c2b02d42e9a72e4c98e17031a
+CVE-2020-21050,mostly inside shown functions,1,0,7,4,0.636,0,0,True,True,0,src/fromgif.c: +enum { | src/fromgif.c: +gif_lzw_max_code_size = 12 | src/fromgif.c: +gif_lzw codes[1 << gif_lzw_max_code_size];,https://github.com/saitoha/libsixel/commit/7808a06b88c11dbc502318cdd51fa374f8cd47ee
+CVE-2020-23930,complete,1,0,3,0,1.0,0,0,True,True,0,,https://github.com/gpac/gpac/commit/9eeac00b38348c664dfeae2525bba0cf1bc32349
+CVE-2020-25690,mostly inside shown functions,3,0,17,2,0.895,0,0,True,True,0,fontforge/sfd1.c: +if ( sf->sf.uni_interp==ui_unset && sf->sf.map!=NULL ) | fontforge/sfd1.c: -if ( sf->sf.uni_interp==ui_unset ),https://github.com/fontforge/fontforge/commit/048a91e2682c1a8936ae34dbc7bd70291ec05410
+CVE-2020-26572,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/OpenSC/OpenSC/commit/9d294de90d1cc66956389856e60b6944b27b4817
+CVE-2020-27678,complete,1,0,7,0,1.0,0,0,True,True,0,,https://github.com/illumos/illumos-gate/commit/1d276e0b382cf066dae93640746d8b4c54d15452
+CVE-2020-27777,fix mostly outside shown functions,3,0,8,88,0.083,0,0,True,True,0,arch/powerpc/kernel/rtas.c: +struct rtas_filter { | arch/powerpc/kernel/rtas.c: +const char *name; | arch/powerpc/kernel/rtas.c: +int token;,https://github.com/gregkh/linux/commit/bd59380c5ba4147dcbaad3e582b55ccfd120b764
+CVE-2020-27780,complete,2,0,30,0,1.0,0,0,True,True,0,,https://github.com/linux-pam/linux-pam/commit/30fdfb90d9864bcc254a62760aaa149d373fd4eb
+CVE-2020-28374,complete,7,0,87,3,0.967,0,0,True,True,0,drivers/target/target_core_xcopy.c: -struct xcopy_dev_search_info { | drivers/target/target_core_xcopy.c: -const unsigned char *dev_wwn; | drivers/target/target_core_xcopy.c: -struct se_device *found_dev;,https://github.com/torvalds/linux/commit/2896c93811e39d63a4d9b63ccf12a8fbc226e5e4
+CVE-2020-29361,complete,5,0,10,0,1.0,0,0,True,True,0,,https://github.com/p11-glue/p11-kit/commit/5307a1d21a50cacd06f471a873a018d23ba4b963
+CVE-2020-36158,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/5c455c5ab332773464d02ba17015acdca198f03d
+CVE-2020-5204,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/troglobit/uftpd/commit/0fb2c031ce0ace07cc19cd2cb2143c4b5a63c9dd
+CVE-2020-5208,some fixed code not recovered,2,1,26,1,0.963,0,0,True,True,0,"lib/ipmi_fru.c: +uint32_t tmp, finish;",https://github.com/ipmitool/ipmitool/commit/e824c23316ae50beb7f7488f2055ac65e8b341f2
+CVE-2020-5221,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/troglobit/uftpd/commit/455b47d3756aed162d2d0ef7f40b549f3b5b30fe
+CVE-2020-7042,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/adrienverge/openfortivpn/commit/9eee997d599a89492281fc7ffdd79d88cd61afc3
+CVE-2020-7043,mostly inside shown functions,1,0,9,2,0.818,0,0,True,True,0,"src/tunnel.c: +#ifndef HAVE_X509_CHECK_HOST | src/tunnel.c: +#include ""openssl_hostname_validation.h""",https://github.com/adrienverge/openfortivpn/commit/6328a070ddaab16faaf008cb9a8a62439c30f2a8
+CVE-2020-7247,complete,2,0,18,0,1.0,0,0,True,True,0,,https://github.com/openbsd/src/commit/9dcfda045474d8903224d175907bfc29761dcb45
+CVE-2020-9365,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/jedisct1/pure-ftpd/commit/bf6fcd4935e95128cf22af5924cdc8fe5c0579da
+CVE-2020-9433,fix mostly outside shown functions,2,0,10,75,0.118,2,0,True,True,0,"src/x509.c: +The functions return 1 for a successful match, 0 for a failed match an | src/x509.c: +an internal error: typically a memory allocation failure or an ASN.1 d | src/x509.c: +error.",https://github.com/zhaozg/lua-openssl/commit/a6dc186dd4b6b9e329a93cca3e7e3cfccfdf3cca
+CVE-2021-20197,mostly inside shown functions,1,0,8,1,0.889,0,0,True,True,0,"binutils/ar.c: +#include ""libbfd.h""",https://github.com/bminor/binutils-gdb/commit/365f5fb6d0f0da83817431a275e99e6f6babbe04
+CVE-2021-20240,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/GNOME/gdk-pixbuf/commit/086e8adf4cc352cd11572f96066b001b545f354e
+CVE-2021-20266,mostly inside shown functions,3,0,21,14,0.6,4,0,True,True,0,"lib/header.c: +#include <inttypes.h> | lib/header.c: +static rpmRC hdrblobVerifyLengths(rpmTagVal regionTag, uint32_t il, ui | lib/header.c: +char **emsg) {",https://github.com/rpm-software-management/rpm/commit/8f4b3c3cab8922a2022b9e47c71f1ecf906077ef
+CVE-2021-20294,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/bminor/binutils-gdb/commit/ddb43bab174c50656331e5460b18bd8e8be5f522
+CVE-2021-27138,complete,3,0,11,0,1.0,0,0,True,True,0,,https://github.com/u-boot/u-boot/commit/79af75f7776fc20b0d7eb6afe1e27c00fdb4b9b4
+CVE-2021-30014,mostly inside shown functions,4,0,19,7,0.731,0,0,True,True,0,src/media_tools/av_parsers.c: +if ((sps_id < 0) || (sps_id >= 32)) { | src/media_tools/av_parsers.c: +if ((pps_id<0) || (pps_id >= 255)) { | src/media_tools/av_parsers.c: +if ((pps->sps_id<0) || (pps->sps_id >= 32)) {,https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788
+CVE-2021-30020,mostly inside shown functions,4,0,19,7,0.731,0,0,True,True,0,src/media_tools/av_parsers.c: +if ((sps_id < 0) || (sps_id >= 32)) { | src/media_tools/av_parsers.c: +if ((pps_id<0) || (pps_id >= 255)) { | src/media_tools/av_parsers.c: +if ((pps->sps_id<0) || (pps->sps_id >= 32)) {,https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788
+CVE-2021-30022,mostly inside shown functions,4,0,19,7,0.731,0,0,True,True,0,src/media_tools/av_parsers.c: +if ((sps_id < 0) || (sps_id >= 32)) { | src/media_tools/av_parsers.c: +if ((pps_id<0) || (pps_id >= 255)) { | src/media_tools/av_parsers.c: +if ((pps->sps_id<0) || (pps->sps_id >= 32)) {,https://github.com/gpac/gpac/commit/51cdb67ff7c5f1242ac58c5aa603ceaf1793b788
+CVE-2021-30145,complete,1,0,23,0,1.0,0,0,True,True,0,,https://github.com/mpv-player/mpv/commit/cb3fa04bcb2ba9e0d25788480359157208c13e0b
+CVE-2021-32672,complete,2,0,21,0,1.0,0,0,True,True,0,,https://github.com/redis/redis/commit/6ac3c0b7abd35f37201ed2d6298ecef4ea1ae1dd
+CVE-2021-32845,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/moby/hyperkit/commit/41272a980197917df8e58ff90642d14dec8fe948
+CVE-2021-3515,mostly inside shown functions,2,0,113,24,0.825,0,0,True,True,0,pglogical_sync.c: +#ifdef WIN32 | pglogical_sync.c: +#include <process.h> | pglogical_sync.c: +#include <sys/wait.h>,https://github.com/2ndQuadrant/pglogical/commit/95c0e8981485e09efab6821cf55a4e27b086efe5
+CVE-2021-3517,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/GNOME/libxml2/commit/bf22713507fe1fc3a2c4b525cf0a88c2dc87a3a2
+CVE-2021-35525,complete,1,0,51,0,1.0,0,0,True,True,0,,https://github.com/roehling/postsrsd/commit/077be98d8c8a9847e4ae0c7dc09e7474cbe27db2
+CVE-2021-3565,complete,1,0,8,0,1.0,0,0,True,True,0,,https://github.com/tpm2-software/tpm2-tools/commit/c069e4f179d5e6653a84fb236816c375dca82515
+CVE-2021-38383,complete,1,0,13,0,1.0,0,0,True,True,0,,https://github.com/owntone/owntone-server/commit/246d8ae0cef27377e5dfe9ee3ad87e864d6b6266
+CVE-2021-3995,complete,1,0,12,0,1.0,0,0,True,True,0,,https://github.com/util-linux/util-linux/commit/57202f5713afa2af20ffbb6ab5331481d0396f8d
+CVE-2021-40818,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/babelouest/glewlwyd/commit/0efd112bb62f566877750ad62ee828bff579b4e2
+CVE-2021-43267,complete,1,0,22,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/fa40d9734a57bcbfa79a280189799f76c88f7bb0
+CVE-2021-43814,complete,2,0,35,0,1.0,0,0,True,True,0,,https://github.com/rizinorg/rizin/commit/aa6917772d2f32e5a7daab25a46c72df0b5ea406
+CVE-2021-43860,complete,5,0,8,0,1.0,0,0,True,True,0,,https://github.com/flatpak/flatpak/commit/ba818f504c926baaf6e362be8159cfacf994310e
+CVE-2021-44512,mostly inside shown functions,2,0,14,10,0.583,0,0,True,True,0,"tmate-main.c: +static int check_owned_directory_mode(const char *path, mode_t expecte | tmate-main.c: +struct stat stat; | tmate-main.c: +if (lstat(path, &stat))",https://github.com/tmate-io/tmate-ssh-server/commit/1c020d1f5ca462f5b150b46a027aaa1bbe3c9596
+CVE-2021-46225,complete,2,0,6,0,1.0,0,0,True,True,0,,https://github.com/LoicMarechal/libMeshb/commit/8cd68c54e0647c0030ae4506a225ad4a2655c316
+CVE-2022-0545,complete,2,0,60,0,1.0,0,0,True,True,0,,https://github.com/blender/blender/commit/82858ca3f4e6dc6f840af9306c350900abd491fc
+CVE-2022-0546,complete,2,0,19,0,1.0,0,0,True,True,0,,https://github.com/blender/blender/commit/77616082f44da5258faf9ec0d53618c721b88c62
+CVE-2022-0699,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/OSGeo/shapelib/commit/c75b9281a5b9452d92e1682bdfe6019a13ed819f
+CVE-2022-1714,complete,2,0,10,0,1.0,0,0,True,True,0,,https://github.com/radareorg/radare2/commit/3ecdbf8e21186a9c5a4d3cfa3b1e9fd27045340e
+CVE-2022-1987,fix mostly outside shown functions,3,0,5,8,0.385,0,0,True,True,0,"src/index.c: +@param[in,out] output Output buffer (INDX_LABEL_SIZEMAX + 1 bytes) | src/index.c: +@return Length of output string (without null terminator), on error bu | src/index.c: +@param[in,out] output Output buffer (INDX_LABEL_SIZEMAX + 1 bytes)",https://github.com/bfabiszewski/libmobi/commit/612562bc1ea38f1708b044e7a079c47a05b1291d
+CVE-2022-23537,mostly inside shown functions,2,0,8,2,0.8,0,0,True,True,0,pjnath/src/pjnath/stun_msg.c: +#define ATTR_HDR_LEN sizeof(pj_stun_attr_hdr) | pjnath/src/pjnath/stun_msg.c: -#define ATTR_HDR_LEN 4,https://github.com/pjsip/pjproject/commit/d8440f4d711a654b511f50f79c0445b26f9dd1e1
+CVE-2022-24754,complete,3,0,63,0,1.0,0,0,True,True,0,,https://github.com/pjsip/pjproject/commit/d27f79da11df7bc8bb56c2f291d71e54df8d2c47
+CVE-2022-25643,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/kennylevinsen/seatd/commit/615c10c75d2cc4696141b333515fec9161fb2330
+CVE-2022-26490,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/4fbcc1a4cb20fe26ad0225679c536c80f1648221
+CVE-2022-2652,mostly inside shown functions,1,0,2,2,0.5,0,0,True,True,0,"v4l2loopback.c: +snprintf(cap->card, labellen, ""%s"", dev->card_label); | v4l2loopback.c: -snprintf(cap->card, labellen, dev->card_label);",https://github.com/umlaeute/v4l2loopback/commit/e4cd225557486c420f6a34411f98c575effd43dd
+CVE-2022-27240,complete,1,0,10,0,1.0,0,0,True,True,0,,https://github.com/babelouest/glewlwyd/commit/4c5597c155bfbaf6491cf6b83479d241ae66940a
+CVE-2022-29242,complete,1,0,14,0,1.0,0,0,True,True,0,,https://github.com/gost-engine/engine/commit/7df766124f87768b43b9e8947c5a01e17545772c
+CVE-2022-29859,mostly inside shown functions,9,0,212,112,0.654,7,0,True,True,0,"component/common/network/dhcp/dhcps.c: +#include ""wifi_constants.h"" | component/common/network/dhcp/dhcps.c: +extern rtw_mode_t wifi_mode; | component/common/network/dhcp/dhcps.c: +static struct udp_pcb *dns_server_pcb;",https://github.com/ambiot/amb1_sdk/commit/4b73f58f32914d0081d79a79e53a3215c8c1ea56
+CVE-2022-29967,complete,2,0,190,2,0.99,0,0,True,True,0,src/static_compressed_inmemory_website_callback.c: +#include <limits.h> | src/static_compressed_inmemory_website_callback.c: +#include <stdlib.h>,https://github.com/babelouest/glewlwyd/commit/e3f7245c33897bf9b3a75acfcdb8b7b93974bf11
+CVE-2022-30767,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/u-boot/u-boot/commit/5d14ee4e53a81055d34ba280cb8fd90330f22a96
+CVE-2022-32200,mostly inside shown functions,2,0,41,16,0.719,0,0,True,True,0,"src/lib/libdwarf/dwarf_global.c: +#if 0 | src/lib/libdwarf/dwarf_global.c: +debug_print_range(const char *msg, | src/lib/libdwarf/dwarf_global.c: +int lineno,",https://github.com/davea42/libdwarf-code/commit/8151575a6ace77d005ca5bb5d71c1bfdba3f7069
+CVE-2022-34299,complete,2,0,6,0,1.0,0,0,True,True,0,,https://github.com/davea42/libdwarf-code/commit/7ef09e1fc9ba07653dd078edb2408631c7969162
+CVE-2022-36021,mostly inside shown functions,2,0,8,6,0.571,1,0,True,True,0,"src/util.c: +static int stringmatchlen_impl(const char *pattern, int patternLen, | src/util.c: +const char *string, int stringLen, int nocase, int *skipLongerMatches) | src/util.c: +if (stringmatchlen_impl(pattern+1, patternLen-1,",https://github.com/redis/redis/commit/dcbfcb916ca1a269b3feef86ee86835294758f84
+CVE-2022-36039,complete,3,0,5,0,1.0,0,0,True,True,0,,https://github.com/rizinorg/rizin/commit/1524f85211445e41506f98180f8f69f7bf115406
+CVE-2022-37032,mostly inside shown functions,7,0,381,133,0.741,43,0,True,True,0,"bgpd/bgp_open.c: +#include ""memory.h"" | bgpd/bgp_open.c: +bgp_capability_mp_data (struct stream *s, struct capability_mp_data *m | bgpd/bgp_open.c: +mpc->afi = stream_getw (s);",https://github.com/FRRouting/frr/commit/6d58272b4cf96f0daa846210dd2104877900f921
+CVE-2022-3786,complete,3,0,47,0,1.0,0,0,True,True,0,,https://github.com/openssl/openssl/commit/c42165b5706e42f67ef8ef4c351a9a4c5d21639a
+CVE-2022-39316,complete,1,0,10,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/e865c24efc40ebc52e75979c94cdd4ee2c1495b0
+CVE-2022-39347,complete,7,0,92,0,1.0,0,0,True,True,0,,https://github.com/FreeRDP/FreeRDP/commit/027424c2c6c0991cb9c22f9511478229c9b17e5d
+CVE-2022-4254,complete,4,0,62,0,1.0,0,0,True,True,0,,https://github.com/SSSD/sssd/commit/a2b9a84460429181f2a4fa7e2bb5ab49fd561274
+CVE-2022-4398,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/radareorg/radare2/commit/b53a1583d05c3a5bfe5fa60da133fe59dfbb02b8
+CVE-2022-4415,fix mostly outside shown functions,11,0,73,120,0.378,0,0,True,True,0,"src/coredump/coredump.c: +#include <sys/auxv.h> | src/coredump/coredump.c: +META_PROC_AUXV, | src/coredump/coredump.c: +[META_ARGV_PID] = ""COREDUMP_PID="",",https://github.com/systemd/systemd/commit/b7641425659243c09473cd8fb3aef2c0d4a3eb9c
+CVE-2022-47021,complete,2,0,2,0,1.0,0,0,True,True,0,,https://github.com/xiph/opusfile/commit/0a4cd796df5b030cb866f3f4a5e41a4b92caddf5
+CVE-2022-4744,complete,8,0,77,7,0.917,0,0,True,True,0,drivers/net/tun.c: +struct file *file; | drivers/net/tun.c: +struct ifreq *ifr; | drivers/net/tun.c: +static void tun_flow_init(struct tun_struct *tun);,https://github.com/gregkh/linux/commit/158b515f703e75e7d68289bf4d98c664e1d632df
+CVE-2022-47518,complete,1,0,15,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/0cdfa9e6f0915e3d243e2393bfa8a22e12d553b0
+CVE-2022-47520,complete,1,0,14,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/cd21d99e595ec1d8721e1058dcdd4f1f7de1d793
+CVE-2022-47942,complete,4,0,106,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/8f0541186e9ad1b62accc9519cc2b7a7240272a7
+CVE-2022-4843,complete,2,0,4,0,1.0,0,0,True,True,0,,https://github.com/radareorg/radare2/commit/842f809d4ec6a12af2906f948657281c9ebc8a24
+CVE-2023-0266,complete,2,0,22,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/56b88b50565cd8b946a2d00b0c83927b7ebb055e
+CVE-2023-0302,complete,5,0,48,0,1.0,0,0,True,True,0,,https://github.com/radareorg/radare2/commit/961f0e723903011d4f54c2396e44efa91fcc74ce
+CVE-2023-1513,complete,2,0,3,0,1.0,0,0,True,True,0,,https://github.com/torvalds/linux/commit/2c10b61421a28e95a46ab489fd56c0f442ff6952
+CVE-2023-1655,complete,1,0,11,0,1.0,0,0,True,True,0,,https://github.com/gpac/gpac/commit/e7f96c2d3774e4ea25f952bcdf55af1dd6e919f4
+CVE-2023-1668,complete,2,0,8,0,1.0,0,0,True,True,0,,https://github.com/openvswitch/ovs/commit/7fa0106e8594c34f9e16efd87a58e38a947c6c5b
+CVE-2023-1672,complete,1,0,1,0,1.0,0,0,True,True,0,,https://github.com/latchset/tang/commit/8dbbed10870378f1b2c3cf3df2ea7edca7617096
+CVE-2023-1801,mostly inside shown functions,4,0,31,9,0.775,0,0,True,True,0,"print-arista.c: -#include ""addrtoname.h"" | print-rx.c: +#define DATEOUT() { time_t _t; char str[256]; \ | print-rx.c: +ND_PRINT("" %s"", \",https://github.com/the-tcpdump-group/tcpdump/commit/03c037bbd75588beba3ee09f26d17783d21e30bc
+CVE-2023-22745,mostly inside shown functions,2,0,17,5,0.773,0,0,True,True,0,"src/tss2-rc/tss2_rc.c: +#ifdef HAVE_CONFIG_H | src/tss2-rc/tss2_rc.c: +#include ""config.h"" | src/tss2-rc/tss2_rc.c: +#include <assert.h>",https://github.com/tpm2-software/tpm2-tss/commit/306490c8d848c367faa2d9df81f5e69dab46ffb5
+CVE-2023-24805,complete,2,0,80,3,0.964,0,0,True,True,0,backend/beh.c: +#include <sys/wait.h> | backend/beh.c: +static volatile int job_canceled = 0; // Set to 1 on SIGTERM | backend/beh.c: -static int job_canceled = 0; // Set to 1 on SIGTERM,https://github.com/OpenPrinting/cups-filters/commit/8f274035756c04efeb77eb654e9d4c4447287d65
+CVE-2023-25566,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/gssapi/gss-ntlmssp/commit/8660fb16474054e692a596e9c79670cd4d3954f4
+CVE-2023-25584,complete,2,0,131,0,1.0,0,0,True,True,0,,https://github.com/bminor/binutils-gdb/commit/77c225bdeb410cf60da804879ad41622f5f1aa44
+CVE-2023-25588,complete,1,0,57,0,1.0,0,0,True,True,0,,https://github.com/bminor/binutils-gdb/commit/d12f8998d2d086f0a6606589e5aedb7147e6f2f1
+CVE-2023-2602,complete,1,0,2,0,1.0,0,0,True,True,0,,https://github.com/AndrewGMorgan/libcap_mirror/commit/bc6b36682f188020ee4770fae1d41bde5b2c97bb
+CVE-2023-2603,complete,1,0,9,0,1.0,0,0,True,True,0,,https://github.com/AndrewGMorgan/libcap_mirror/commit/422bec25ae4a1ab03fd4d6f728695ed279173b18
+CVE-2023-27590,mostly inside shown functions,2,0,6,3,0.667,0,0,True,True,0,librz/reg/profile.c: +#define GDB_NAME_SZ 16 | librz/reg/profile.c: +#define GDB_TYPE_SZ 16 | librz/reg/profile.c: +#define GDB_GROUPS_SZ 128,https://github.com/rizinorg/rizin/commit/d6196703d89c84467b600ba2692534579dc25ed4
+CVE-2023-28101,complete,1,0,12,0,1.0,0,0,True,True,0,,https://github.com/flatpak/flatpak/commit/6cac99dafe6003c8a4bd5666341c217876536869
+CVE-2023-28486,mostly inside shown functions,7,0,243,39,0.862,0,0,True,True,0,"lib/eventlog/eventlog.c: +#include ""sudo_lbuf.h"" | lib/eventlog/eventlog.c: -#define LL_HOST_STR ""HOST="" | lib/eventlog/eventlog.c: -#define LL_TTY_STR ""TTY=""",https://github.com/sudo-project/sudo/commit/334daf92b31b79ce68ed75e2ee14fca265f029ca
+CVE-2023-28487,mostly inside shown functions,7,0,243,39,0.862,0,0,True,True,0,"lib/eventlog/eventlog.c: +#include ""sudo_lbuf.h"" | lib/eventlog/eventlog.c: -#define LL_HOST_STR ""HOST="" | lib/eventlog/eventlog.c: -#define LL_TTY_STR ""TTY=""",https://github.com/sudo-project/sudo/commit/334daf92b31b79ce68ed75e2ee14fca265f029ca
+CVE-2023-29323,complete,1,0,18,0,1.0,0,0,True,True,0,,https://github.com/openbsd/src/commit/f748277ed1fc7065ae8998d61ed78b9ab1e55fae
+CVE-2023-30775,complete,23,0,190,7,0.964,0,0,True,True,0,"tools/tiffcrop.c: +static char tiffcrop_version_id[] = ""2.5.4""; | tools/tiffcrop.c: +static char tiffcrop_rev_date[] = ""27-08-2022""; | tools/tiffcrop.c: +#define NUM_BUFF_OVERSIZE_BYTES 3",https://github.com/libsdl-org/libtiff/commit/afd7086090dafd3949afd172822cbcec4ed17d56
+CVE-2023-31147,mostly inside shown functions,5,0,55,7,0.887,0,0,True,True,0,"src/lib/ares_init.c: -#ifdef _WIN32 | src/lib/ares_init.c: -BOOLEAN WINAPI SystemFunction036(PVOID RandomBuffer, ULONG RandomBuffe | src/lib/ares_init.c: -# ifndef RtlGenRandom",https://github.com/c-ares/c-ares/commit/823df3b989e59465d17b0a2eb1239a5fc048b4e5
+CVE-2023-3247,complete,1,0,20,0,1.0,0,0,True,True,0,,https://github.com/php/php-src/commit/ac4254ad764c70cb1f05c9270d8d12689fc3aeb6
+CVE-2023-3326,mostly inside shown functions,2,0,86,19,0.819,1,0,True,True,0,"lib/libpam/modules/pam_krb5/pam_krb5.c: +__RCSID(""$NetBSD: pam_krb5.c,v 1.31 2023/06/20 22:17:18 riastradh Exp  | lib/libpam/modules/pam_krb5/pam_krb5.c: +static int verify_krb_v5_tgt_begin(krb5_context, char *, int, | lib/libpam/modules/pam_krb5/pam_krb5.c: +const char **, krb5_principal *, char[static BUFSIZ], struct syslog_da",https://github.com/NetBSD/src/commit/7d9a085c9de2fb26f7660369a74e423a0f136d0c
+CVE-2023-34095,complete,2,0,56,0,1.0,0,0,True,True,0,,https://github.com/OpenPrinting/cpdb-libs/commit/f181bd1f14757c2ae0f17cc76dc20421a40f30b7
+CVE-2023-34475,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/ImageMagick/ImageMagick/commit/1061db7f80fdc9ef572ac60b55f408f7bab6e1b0
+CVE-2023-3523,complete,1,0,5,0,1.0,0,0,True,True,0,,https://github.com/gpac/gpac/commit/64201a26476c12a7dbd7ffb5757743af6954db96
+CVE-2023-36326,mostly inside shown functions,5,0,115,18,0.865,0,2,True,True,0,"src/epx/relic_ep2_map.c: +#define EP2_MAP_COPY_COND(O, I, C) \ | src/epx/relic_ep2_map.c: +dv_copy_cond(O[0], I[0], RLC_FP_DIGS, C); \ | src/epx/relic_ep2_map.c: +dv_copy_cond(O[1], I[1], RLC_FP_DIGS, C); \",https://github.com/relic-toolkit/relic/commit/34580d840469361ba9b5f001361cad659687b9ab
+CVE-2023-3824,complete,1,0,12,0,1.0,0,0,True,True,0,,https://github.com/php/php-src/commit/80316123f3e9dcce8ac419bd9dd43546e2ccb5ef
+CVE-2023-38408,mostly inside shown functions,2,0,10,4,0.714,0,0,True,True,0,"usr.bin/ssh/ssh-agent.c: +static int remote_add_provider; | usr.bin/ssh/ssh-agent.c: +verbose(""failed PKCS#11 add of \""%.100s\"": remote addition of "" | usr.bin/ssh/ssh-agent.c: +""providers is disabled"", provider);",https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
+CVE-2023-45145,complete,4,0,10,0,1.0,0,0,True,True,0,,https://github.com/redis/redis/commit/03345ddc7faf7af079485f2cbe5d17a1611cbce1
+CVE-2023-4535,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/OpenSC/OpenSC/commit/f1993dc4e0b33050b8f72a3558ee88b24c4063b2
+CVE-2023-49208,complete,1,0,4,0,1.0,0,0,True,True,0,,https://github.com/babelouest/glewlwyd/commit/f9d8c06aae8dfe17e761b18b577ff169e059e812
+CVE-2023-5521,fix mostly outside shown functions,1,0,62,84,0.425,0,0,True,True,0,"kernel/apk_sign.c: +#include ""linux/err.h"" | kernel/apk_sign.c: +#include ""linux/gfp.h"" | kernel/apk_sign.c: +#include ""linux/kernel.h""",https://github.com/tiann/KernelSU/commit/a22959beae1aad96b1f72710a5daadf529c41bda
+CVE-2023-5686,complete,1,0,6,0,1.0,0,0,True,True,0,,https://github.com/radareorg/radare2/commit/1bdda93e348c160c84e30da3637acef26d0348de

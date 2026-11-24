@@ -1,0 +1,7 @@
+model,version,answers,answers_citing_a_cve_id,citing_the_correct_cve
+Claude Haiku 4.5,vulnerable,718,0,0
+Claude Haiku 4.5,fixed,718,0,0
+Gemini 3 Flash,vulnerable,718,62,7
+Gemini 3 Flash,fixed,718,92,10
+GPT-5 Mini,vulnerable,718,1,0
+GPT-5 Mini,fixed,718,0,0

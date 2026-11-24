@@ -1,0 +1,29 @@
+cve,verdict,reason
+CVE-2013-6401,not a valid pair,commit only changes a test program (test/bin/json_process.c); the library fix is elsewhere
+CVE-2015-2696,not a valid pair,shown functions only lose a 'static' qualifier; the real fix is in the IAKERB mechanism table
+CVE-2020-27777,not a valid pair,shown function only initialises the new RTAS filter; the blocking check is in code not shown
+CVE-2020-5208,partially fixed,"fixed code of read_fru_area_section not recovered, so the fixed prompt keeps that vulnerable function"
+CVE-2020-9433,not a valid pair,functions misaligned (already found in the 30-pair spot check)
+CVE-2012-3400,partially fixed,second half of the upstream fix is a separate commit (already noted in the spot check)
+CVE-2015-3151,possibly partial,CVE has a second fix commit in the dataset; only one is applied
+CVE-2015-3315,possibly partial,CVE has a second fix commit in the dataset; only one is applied
+CVE-2016-5104,possibly partial,CVE has a second fix commit in the dataset; only one is applied
+CVE-2016-5355,possibly partial,CVE has a second fix commit in the dataset; only one is applied
+CVE-2016-5356,possibly partial,CVE has a second fix commit in the dataset; only one is applied
+CVE-2016-5357,possibly partial,CVE has a second fix commit in the dataset; only one is applied
+CVE-2017-11399,possibly partial,CVE has a second fix commit in the dataset; only one is applied
+CVE-2021-30145,possibly partial,CVE has a second fix commit in the dataset; only one is applied
+CVE-2016-2847,valid with caveat,fixed functions call new accounting helpers that are not shown
+CVE-2017-18922,valid with caveat,main rewrite shown; new macros and helpers not shown
+CVE-2017-5850,valid with caveat,main fix shown; one function the fix deletes stays in its old form
+CVE-2019-9718,valid with caveat,sscanf replaced by a call to a new helper that is not shown
+CVE-2022-4415,valid with caveat,fixed functions call a new permission helper that is not shown
+CVE-2014-6395,valid with caveat,buffer size change is in a declaration outside the shown functions
+CVE-2014-6396,valid with caveat,buffer size change is in a declaration outside the shown functions
+CVE-2021-30014,valid with caveat,some of the bounds checks are in functions not shown
+CVE-2021-30020,valid with caveat,some of the bounds checks are in functions not shown
+CVE-2021-30022,valid with caveat,some of the bounds checks are in functions not shown
+CVE-2022-2652,valid with caveat,one format-string fix is in a function not shown
+CVE-2016-0546,valid,fixes are in the shown functions; outside lines are copyright notices and other files' fixes
+CVE-2022-1987,valid,array-size fix is in the shown function; outside lines are doc comments
+CVE-2023-5521,valid,main fix shown; outside lines are #includes

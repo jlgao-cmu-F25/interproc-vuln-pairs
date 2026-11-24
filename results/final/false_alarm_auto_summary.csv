@@ -1,0 +1,10 @@
+model,rule,false_alarms,blames the fix,blames other code,no code cited,blames the fix %,blames other code %,no code cited %
+Claude Haiku 4.5,label,331,92,238,1,27.8,71.9,0.3
+Claude Haiku 4.5,label_any_fix,331,192,138,1,58.0,41.7,0.3
+Claude Haiku 4.5,label_first_quote,331,84,246,1,25.4,74.3,0.3
+Gemini 3 Flash,label,326,116,207,3,35.6,63.5,0.9
+Gemini 3 Flash,label_any_fix,326,216,107,3,66.3,32.8,0.9
+Gemini 3 Flash,label_first_quote,326,105,218,3,32.2,66.9,0.9
+GPT-5 Mini,label,289,55,227,7,19.0,78.5,2.4
+GPT-5 Mini,label_any_fix,289,112,170,7,38.8,58.8,2.4
+GPT-5 Mini,label_first_quote,289,111,171,7,38.4,59.2,2.4

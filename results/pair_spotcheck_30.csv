@@ -1761,14 +1761,6 @@ CVE-2016-5104,C,2,socket_create | socket_accept,"int socket_create(uint16_t port
 		return -1;
 	}
 
-#ifdef SO_NOSIGPIPE
-	if (setsockopt(sfd, SOL_SOCKET, SO_NOSIGPIPE, (void*)&yes, sizeof(int)) == -1) {
-		perror(""setsockopt()"");
-		socket_close(sfd);
-		return -1;
-	}
-#endif
-
 	memset((void *) &saddr, 0, sizeof(saddr));
 	saddr.sin_family = AF_INET;
 	saddr.sin_addr.s_addr = htonl(INADDR_ANY);
@@ -1836,14 +1828,6 @@ int socket_accept(int fd, uint16_t port)
 		socket_close(sfd);
 		return -1;
 	}
-
-#ifdef SO_NOSIGPIPE
-	if (setsockopt(sfd, SOL_SOCKET, SO_NOSIGPIPE, (void*)&yes, sizeof(int)) == -1) {
-		perror(""setsockopt()"");
-		socket_close(sfd);
-		return -1;
-	}
-#endif
 
 	memset((void *) &saddr, 0, sizeof(saddr));
 	saddr.sin_family = AF_INET;

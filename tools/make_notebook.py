@@ -241,6 +241,191 @@ if paired_summary:
     display(pd.DataFrame(paired_summary["context_metrics"]).T)
 """)
 
+md("""
+## Step 5: Paired run for the other three models
+
+`repro/multi_eval.py` sends the same 1,436 paired C prompts to GPT-5 Mini, Claude Haiku 4.5 and Gemini 3 Flash.
+Generation settings follow the authors' runners (`run_openai.py`, `run_anthropic.py`, `run_gemini.py`), with two
+deviations we could not avoid:
+
+| Model | Paper | Our run | Why |
+|---|---|---|---|
+| Claude Haiku 4.5 | temperature 0 | API default | the Messages API now rejects `temperature` for this model |
+| Gemini 3 Flash | default thinking, 4,096 tokens | thinking `low`, 4,096 tokens | with default thinking, 5 of 7 pilot answers ran out of tokens before giving a label |
+
+Every response is appended to `MyDrive/14795-interproc-vuln-pairs/multi_eval/<model>/responses.jsonl`, so the run
+resumes after an interruption. An answer with no `CLASSIFICATION` line is retried once; if it is still unparsed it
+counts as an error. The run is complete, so this cell only prints the plan unless `RUN_MULTI` is set.
+""")
+
+code("""
+RUN_MULTI = False   # the completed run cost ~$29 at list prices; set True only to resume or repeat it
+from repro import multi_eval
+multi_eval.main(["--dry-run"])
+if RUN_MULTI:
+    import os
+    os.environ.setdefault("MULTI_CHECKPOINT_DIR", "/content/drive/MyDrive/14795-interproc-vuln-pairs/multi_eval")
+    multi_eval.main(["--models", "all", "--workers", "8"])
+""")
+
+md("""
+## Step 6: Analysis: RQ1, RQ2 and the false alarms
+
+Unit of analysis: one CVE × context **pair**, asked once as the vulnerable version and once as the fixed version
+(343 CO, 196 CC, 179 CK pairs; 718 in total). The tables come from `python -m repro.rq_analysis`, which reads the
+saved responses and makes no API calls. The committed copies in `results/final/` are used below, so this section
+runs without credentials. Set `RECOMPUTE = True` to rebuild them from the Drive checkpoints.
+
+Terms: **recall** = vulnerable version flagged; **FPR** = fixed version flagged (a false alarm); **P-C** = both
+versions right; **P-V** = both flagged; **P-B** = both cleared; **P-R** = both wrong. CIs are 2,000-sample bootstraps
+over pairs. GPT-4.1 Mini comes from the milestone run (aggregates only, so it has no CIs or pair-level tests).
+""")
+
+code("""
+from pathlib import Path
+import pandas as pd
+from IPython.display import Image, Markdown, display
+pd.set_option("display.width", 200, "display.max_columns", 40)
+
+RECOMPUTE = False
+CK = Path("/content/drive/MyDrive/14795-interproc-vuln-pairs/multi_eval")
+if RECOMPUTE and CK.exists():
+    !{sys.executable} -m repro.rq_analysis --multi {CK} --out results/final
+
+F = Path("results/final")
+rq1 = pd.read_csv(F / "rq1_paired_metrics.csv")
+rq2 = pd.read_csv(F / "rq2_context_tests.csv")
+from repro.figures import build, load_rq1
+build()   # charts in results/final/figures/
+display(pd.read_csv(F / "coverage.csv"))
+""")
+
+md("### 6.1 RQ1: how many false alarms once the fixed version is added?")
+
+code("""
+rows = load_rq1()
+order = ["Claude Haiku 4.5", "Gemini 3 Flash", "GPT-5 Mini", "GPT-4.1 Mini"]
+# RQ1 headline table: code-only context, every flagged fixed function counted as a false positive.
+headline = pd.DataFrame([{
+    "model": m, "TP": int(rows[m, "CO"]["TP"]), "FN": int(rows[m, "CO"]["FN"]),
+    "FP (fixed flagged)": int(rows[m, "CO"]["FP"]), "TN": int(rows[m, "CO"]["TN"]),
+    "recall": rows[m, "CO"]["recall"], "precision": rows[m, "CO"]["precision"],
+    "paired F1": rows[m, "CO"]["F1_paired"],
+} for m in order])
+display(headline.round(3))
+print("Reference: answering 'vulnerable' to every sample gives recall 1.0, precision 0.5, paired F1 0.667.")
+
+# Full detail for all contexts.
+table = pd.DataFrame([{
+    "model": m, "context": c, "pairs": int(rows[m, c]["pairs"]),
+    "paper F1 (C, vuln-only)": rows[m, c]["paper_C_F1"],
+    "recall": rows[m, c]["recall"], "precision": rows[m, c]["precision"],
+    "FPR on fixed": rows[m, c]["fpr"],
+    "FPR 95% CI": (f"{rows[m, c]['fpr_lo']:.3f}–{rows[m, c]['fpr_hi']:.3f}" if "fpr_lo" in rows[m, c] else "—"),
+    "MCC": rows[m, c].get("MCC", float("nan")),
+    "both right (P-C)": rows[m, c]["P-C_rate"], "both flagged (P-V)": rows[m, c]["P-V_rate"],
+} for m in order for c in ("CO", "CC", "CK")])
+display(table.round(3))
+display(Image(str(F / "figures" / "rq1_headline_co.png"), width=900))
+display(Image(str(F / "figures" / "pair_outcomes_co.png"), width=900))
+""")
+
+md("""
+**H1 holds for every model.** Precision on vulnerable+fixed pairs is 0.49–0.57 and MCC is near zero, so the models
+flag fixed code almost as often as vulnerable code.
+
+* Claude Haiku 4.5 and Gemini 3 Flash reproduce the paper's near-perfect vulnerable-only F1 (0.985 vs 0.990 and
+  0.975 vs 0.997). Yet they flag **96.5%** and **97.4%** of the fixed functions (CO) and get both versions right for
+  only 2.6% and 1.5% of CVEs.
+* GPT-5 Mini flags 87.2% of fixed functions (CO).
+* The ranking flips: GPT-4.1 Mini, the paper's weakest model, has the lowest false-alarm rate (55.7%) and the
+  highest both-right rate (19.0%).
+* Paired F1 (fixed code included, every flagged fixed function a false positive) is 0.661, 0.650 and 0.648 for
+  Haiku, Gemini and GPT-5 Mini, essentially the 0.667 that "always vulnerable" scores. GPT-4.1 Mini's paired F1
+  is the lowest (0.593) even though it flags the fewest fixed functions: its recall is 0.656. On paired data F1
+  rewards answering "vulnerable", so FPR, MCC and the both-right rate are the metrics that separate the models.
+* The paper's high F1 therefore mostly measures a tendency to answer "vulnerable": with only vulnerable samples,
+  precision is 1 by construction.
+""")
+
+md("### 6.2 RQ2: does interprocedural context reduce false alarms?")
+
+code("""
+display(Image(str(F / "figures" / "rq2_fpr_by_context.png"), width=900))
+cols = ["model", "metric", "comparison", "N", "first_rate", "second_rate", "diff", "diff_lo", "diff_hi", "p_exact", "p_holm", "significant_005"]
+display(rq2[cols].round(4))
+print("Holm correction covers the 9 tests within each model. Matched CVEs only, exact McNemar.")
+""")
+
+md("""
+**H2 holds only partly, and only for GPT-5 Mini.**
+
+* **GPT-5 Mini:** caller context (CK) cuts false alarms on fixed code from 85.5% to 70.4% on the same 179 CVEs
+  (−15.1 pp, 95% CI −22.9 to −7.3, Holm p = 0.002). Recall on vulnerable code also falls (significantly from CO to
+  CC), and both-right pairs rise from 10.1% to 17.9% without reaching significance. So context mostly makes the
+  model answer "safe" more often, with a modest gain in discrimination (MCC 0.04 → 0.12).
+* **Claude Haiku 4.5 and Gemini 3 Flash:** no context effect. False alarms stay at 94–98%.
+* **GPT-4.1 Mini:** its aggregate false-alarm rate also drops (55.7% → 45%), but this can't be tested pair by pair
+  without the milestone's `paired_eval_raw.json`.
+""")
+
+md("### 6.3 What do the false alarms look like?")
+
+code("""
+labels = pd.read_csv(F / "false_alarm_labels.csv")
+display(pd.crosstab(labels.model, labels.label))
+display(Image(str(F / "figures" / "false_alarm_labels.png"), width=900))
+display(pd.read_csv(F / "cve_id_citations.csv"))
+mem = pd.read_csv(F / "memorisation_by_year.csv")
+display(mem[mem.year_bin.str.startswith("spearman")][["model", "pairs", "P-V_rate"]].rename(columns={"P-V_rate": "Spearman rho (year, both flagged)"}))
+""")
+
+md("""
+**Manual labels** (8 random CO false alarms per model, seed 795; labelled from the patch diff and the explanation
+for the fixed version; to be confirmed by a team member):
+
+* **Haiku** mostly re-reads the fix as the bug (5/8). For example, for CVE-2018-8786 it quotes the new
+  `UINT32 count` line and still calls it an integer overflow.
+* **GPT-5 Mini** mostly accepts the patch and finds a different, plausible-sounding issue elsewhere (7/8).
+* **Gemini** sits in between (3/8 and 5/8). One of its cases (CVE-2012-3400) may be a genuine remaining bug: it is
+  the second half of that CVE's upstream fix.
+
+**Memorisation:**
+
+* Haiku and GPT-5 Mini essentially never cite CVE IDs.
+* Gemini cites one in 154 of 1,436 answers and names the correct CVE 17 times, 10 of them for the *fixed* code.
+  That is about 1% of its answers, far too few to explain a 97% false-alarm rate.
+* No model's both-flagged rate trends with CVE year.
+""")
+
+md("### 6.4 Are the negatives valid?")
+
+code("""
+spot = pd.read_csv(F / "pair_spotcheck_30_reviewed.csv")
+display(spot.verdict.value_counts())
+mis = pd.read_csv(F / "misaligned_cves.csv")
+print(f"{len(mis)} C CVEs have a 'fixed' function whose name differs from the vulnerable one:", ", ".join(mis.cve))
+aligned = pd.read_csv(F / "rq1_paired_metrics_aligned_only.csv")
+sens = rq1[["model", "context", "fpr", "cc_fpr", "MCC", "cc_MCC"]].merge(
+    aligned[["model", "context", "fpr", "MCC"]].rename(columns={"fpr": "aligned_fpr", "MCC": "aligned_MCC"}), on=["model", "context"])
+display(sens.round(3))
+""")
+
+md("""
+* The 30-pair spot check found 28 valid negatives, 1 valid with a caveat and 1 misaligned pair (CVE-2020-9433). This
+  was an assisted review and should be confirmed by a team member.
+* Excluding the 17 name-mismatched CVEs, or scoring only pairs where both answers parsed, moves no false-alarm rate by
+  more than about 2 points and changes no conclusion.
+
+### 6.5 Summary
+
+1. Adding the fixed version exposes what vulnerable-only scoring hides. Every model's precision is ~0.5, and the two
+   models with the best published F1 flag over 96% of patched functions.
+2. Callers/callees reduce false alarms only for GPT-5 Mini, and mostly by making it more conservative overall.
+3. Most false alarms either re-read the patch as the bug or move to a different, unverified concern. Memorisation is
+   rare.
+""")
+
 code("""
 !{sys.executable} -m pytest -q
 """)

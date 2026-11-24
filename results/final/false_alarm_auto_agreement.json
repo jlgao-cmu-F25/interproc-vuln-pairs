@@ -1,0 +1,41 @@
+{
+  "label": {
+    "n": 24,
+    "agree": 17,
+    "disagreements": [
+      "Claude Haiku 4.5|CVE-2019-19638: hand=blames the fix auto=blames other code",
+      "Claude Haiku 4.5|CVE-2016-10195: hand=blames the fix auto=blames other code",
+      "Claude Haiku 4.5|CVE-2017-9144: hand=blames other code auto=blames the fix",
+      "Claude Haiku 4.5|CVE-2018-14362: hand=no code cited auto=blames the fix",
+      "Claude Haiku 4.5|CVE-2016-5356: hand=blames the fix auto=blames other code",
+      "Gemini 3 Flash|CVE-2017-12987: hand=blames the fix auto=blames other code",
+      "Gemini 3 Flash|CVE-2020-13114: hand=blames other code auto=blames the fix"
+    ]
+  },
+  "label_any_fix": {
+    "n": 24,
+    "agree": 18,
+    "disagreements": [
+      "Claude Haiku 4.5|CVE-2019-19638: hand=blames the fix auto=blames other code",
+      "Claude Haiku 4.5|CVE-2017-9144: hand=blames other code auto=blames the fix",
+      "Claude Haiku 4.5|CVE-2018-14362: hand=no code cited auto=blames the fix",
+      "GPT-5 Mini|CVE-2020-20739: hand=blames other code auto=blames the fix",
+      "Gemini 3 Flash|CVE-2023-25584: hand=blames other code auto=blames the fix",
+      "Gemini 3 Flash|CVE-2020-13114: hand=blames other code auto=blames the fix"
+    ]
+  },
+  "label_first_quote": {
+    "n": 24,
+    "agree": 16,
+    "disagreements": [
+      "Claude Haiku 4.5|CVE-2019-19638: hand=blames the fix auto=blames other code",
+      "Claude Haiku 4.5|CVE-2016-10195: hand=blames the fix auto=blames other code",
+      "Claude Haiku 4.5|CVE-2017-9144: hand=blames other code auto=blames the fix",
+      "Claude Haiku 4.5|CVE-2018-14362: hand=no code cited auto=blames the fix",
+      "Claude Haiku 4.5|CVE-2016-5356: hand=blames the fix auto=blames other code",
+      "GPT-5 Mini|CVE-2020-20739: hand=blames other code auto=blames the fix",
+      "Gemini 3 Flash|CVE-2017-12987: hand=blames the fix auto=blames other code",
+      "Gemini 3 Flash|CVE-2020-13114: hand=blames other code auto=blames the fix"
+    ]
+  }
+}

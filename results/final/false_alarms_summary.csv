@@ -1,0 +1,4 @@
+model,fixed_alerts,share_mentioning_changed_code,share_mentioning_diff_only_identifier,alerts_with_vulnerable_also_flagged,answers_citing_cwe_in_both_versions,share_same_cwe_when_both_cite_one,median_identifier_jaccard_vs_vulnerable
+Claude Haiku 4.5,691,0.9015918958031838,0.8827785817655571,673,0,,0.22748815165876776
+Gemini 3 Flash,666,0.9099099099099099,0.8918918918918919,638,0,,0.24096385542168675
+GPT-5 Mini,551,0.9056261343012704,0.8911070780399274,507,0,,0.22404371584699453
